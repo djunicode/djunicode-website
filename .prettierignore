@@ -1,0 +1,8 @@
+# gatsby default
+node_modules/
+.cache/
+public
+
+# additional
+package.json
+package-lock.json
