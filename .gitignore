@@ -1,0 +1,4 @@
+# gatsby default
+node_modules/
+.cache/
+public
