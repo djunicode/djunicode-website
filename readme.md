@@ -1,3 +1,10 @@
-# DJ Unicode Website v2
+<p align="center">
+  <a href="https://www.djunicode.in/">
+    <img alt="D. J. Unicode" src="src\images\unicode-logo.svg" width="180" />
+  </a>
+</p>
+<h1 align="center">
+  D. J. Unicode Website
+</h1>
 
-A new and improved website for Unicode
+Work-in-progress.
