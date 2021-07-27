@@ -1,0 +1,13 @@
+@import "../variables.scss";
+
+.splide {
+	&__pagination__page {
+		&.is-active {
+			background-color: $secondary !important;
+		}
+	}
+
+	&__arrow {
+		background-color: $primary;
+	}
+}

@@ -6,6 +6,7 @@ module.exports = {
 			"Official site for Unicode, a student coding club of Dwarkadas J. Sanghvi College of Engineering.",
 	},
 	plugins: [
+		"gatsby-plugin-sass",
 		"gatsby-plugin-image",
 		"gatsby-plugin-react-helmet",
 		"gatsby-plugin-sitemap",
