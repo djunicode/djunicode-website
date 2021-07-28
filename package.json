@@ -17,6 +17,8 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@material-ui/core": "^4.12.2",
+    "@material-ui/icons": "^4.11.2",
     "@splidejs/react-splide": "^0.4.4",
     "gatsby": "^3.10.1",
     "gatsby-plugin-image": "^1.10.1",
