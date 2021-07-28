@@ -1,0 +1,16 @@
+@import "../variables.scss";
+
+.grid {
+	&-button {
+		color: $black;
+		padding: 12px;
+		background: linear-gradient(
+			to right,
+			rgba(119, 206, 144, 25) 0%,
+			rgba(63, 199, 180, 60) 50%,
+			rgba(9, 193, 215, 50) 80%
+		);
+		border-radius: 4px;
+		box-shadow: $boxShadowButton;
+	}
+}
