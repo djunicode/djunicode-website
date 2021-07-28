@@ -1,5 +1,6 @@
 import React from "react";
 import GridItem from "../../components/GridItem";
+import Layout from "../../components/Layout";
 
 const data = [
 	{
@@ -42,40 +43,8 @@ const data = [
 
 export default function Project() {
 	return (
-		<GridItem data={data} />
-		// <div className={classes.root}>
-		// 	<Container fixed>
-		// 		<Grid
-		// 			container
-		// 			spacing={5}
-		// 			direction="row"
-		// 			justifyContent="center"
-		// 			alignItems="center"
-		// 		>
-		// 			<Grid
-		// 				item
-		// 				justifyContent="center"
-		// 				alignItems="center"
-		// 				xs={12}
-		// 				sm={12}
-		// 			>
-		// 				<Typography variant="h4" className={classes.heading}>
-		// 					Projects
-		// 				</Typography>
-		// 			</Grid>
-		// 			{data.map((item) => (
-		// 				<Grid
-		// 					item
-		// 					spacing={5}
-		// 					key={item.key}
-		// 					justifyContent="center"
-		// 					alignItems="center"
-		// 				>
-		// 					<CardItem data={item} key={item.key} />
-		// 				</Grid>
-		// 			))}
-		// 		</Grid>
-		// 	</Container>
-		// </div>
+		<Layout>
+			<GridItem data={data} />
+		</Layout>
 	);
 }

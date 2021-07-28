@@ -1,0 +1,32 @@
+@import "../variables.scss";
+
+.navbar {
+	background-color: $white !important;
+
+	&-container {
+		justify-content: space-between;
+	}
+
+	&-logo {
+		max-width: 200px;
+	}
+
+	&-navigations {
+		& > a {
+			text-decoration: none;
+			color: $black;
+		}
+	}
+
+	&-buttons {
+		margin-right: $extraspacing;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	&-list-item {
+		justify-content: center !important;
+	}
+}
