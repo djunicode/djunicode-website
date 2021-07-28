@@ -59,7 +59,7 @@ export default function GridItem({ data }) {
 						</Grid>
 					))}
 
-					{location.includes(projects) ? null : (
+					{location.includes("projects") ? null : (
 						<Grid
 							item
 							spacing={2}
