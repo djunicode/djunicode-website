@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
 export default function GridItem({ data }) {
 	const classes = useStyles();
 
-	//const location = window.location.href;
+	const location = window.location.href;
 	return (
 		<div className={classes.root}>
 			<Container fixed>
@@ -59,18 +59,20 @@ export default function GridItem({ data }) {
 						</Grid>
 					))}
 
-					<Grid
-						item
-						spacing={2}
-						direction="row"
-						justifyContent="flex-end"
-						xs={12}
-						sm={12}
-					>
-						<Link className={styles?.gridButton}>
-							<Button color="inherit">View all</Button>
-						</Link>
-					</Grid>
+					{location.includes(projects) ? null : (
+						<Grid
+							item
+							spacing={2}
+							direction="row"
+							justifyContent="flex-end"
+							xs={12}
+							sm={12}
+						>
+							<Link className={styles?.gridButton}>
+								<Button color="inherit">View all</Button>
+							</Link>
+						</Grid>
+					)}
 				</Grid>
 			</Container>
 		</div>
