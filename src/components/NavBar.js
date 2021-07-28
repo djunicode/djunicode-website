@@ -38,7 +38,9 @@ function NavBar() {
 	return (
 		<AppBar color="inherit" position="sticky" className={styles?.navbar}>
 			<Toolbar className={styles?.navbarContainer}>
-				<img className={styles?.navbarLogo} src={logoDataUri} alt="Unicode" />
+				<Link to="/">
+					<img className={styles?.navbarLogo} src={logoDataUri} alt="Unicode" />
+				</Link>
 				<div className={styles?.navbarNavigations}>
 					{navbarBreakpoint ? (
 						<React.Fragment>
