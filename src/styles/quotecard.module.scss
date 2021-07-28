@@ -1,0 +1,39 @@
+@import './variables.scss';
+
+$imgWidth: 80px;
+$bottomOffset: 35px;
+$topMargin: 60px; 
+//topMargin = (imgWidth/imgHeight) - bottomOffset + extra
+.card {
+    box-shadow: $boxShadowCard;
+    border-radius: $standardspacing;
+    margin: $standardspacing;
+    margin-top: $topMargin;
+    margin-bottom: 0px;
+}
+
+.cardLayer {
+    position: relative;
+    bottom: $bottomOffset;
+}
+.imgContainer {
+    width: $imgWidth;
+    height: 100%;
+    margin: 0 auto;
+    height: $imgWidth;
+    img {
+        display: block;
+        border-radius: 50%;
+        box-shadow: $boxShadowCard;
+        height: 100%;
+        width: 100%
+    }
+}
+
+.content {
+    padding: $extraspacing;
+    text-align: center;
+}
+.header {
+    text-align: center;
+}
