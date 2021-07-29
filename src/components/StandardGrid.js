@@ -9,7 +9,7 @@ import { Grid } from "@material-ui/core";
 
 function StandardGrid({children}) {
     return (
-        <Grid container justifyContent="space-evenly">
+        <Grid container item justifyContent="space-evenly">
             {children}
             {/* <TechStack imgUrl={logo} title="Django"/> */}
             {/* <QuoteCard quote="Lorem Ipsum..." name="Joe" avatar={url} */}
