@@ -1,5 +1,30 @@
 {
 	"events": {
-		// same as projects
+		"event1": {
+			"description": "about the event",
+			"links": [
+				"www.google.com",
+				"www.abcd.com"
+			],
+			"contributors": {
+				"Externals": [
+					{"name": "xyz", "profile_img": "url"},
+					{"name": "xyz", "profile_img": "url"},
+					{"name": "xyz", "profile_img": "url"}
+				],
+				"TEmentors": [
+					{
+						"name": "Mentors name",
+						"profile_img": "url"
+					}
+				],
+				"SEmentees": [
+					{
+						"name": "Jinay",
+						"profile_img": "url"
+					}
+				]
+			}
+		}
 	}
 }

@@ -14,7 +14,7 @@
 				"TEmentors": [
 					{
 						"name": "Mentors name",
-						"profile_img": "url" // if required
+						"profile_img": "url"
 					}
 				],
 				"SEmentees": [
@@ -26,7 +26,29 @@
 			}
 		},
 		"title2": {
-			"...": "...."
+			"description": "about the project",
+			"stack": [
+				"Django",
+				"ReactJs"
+			],
+			"links": [
+				"www.google.com",
+				"www.abcd.com"
+			],
+			"contributors": {
+				"TEmentors": [
+					{
+						"name": "Mentors name",
+						"profile_img": "url"
+					}
+				],
+				"SEmentees": [
+					{
+						"name": "Jinay",
+						"profile_img": "url"
+					}
+				]
+			}
 		}
 	},
 	"featured_keys": [
