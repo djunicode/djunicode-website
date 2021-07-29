@@ -10,8 +10,29 @@
 		position: absolute;
 		top: 30%;
 		left: 38%;
-		font-size: 2.5rem;
+		font-size: 2.8rem;
 		font-weight: 900;
+
+		@media (max-width: $breakpoint-phone) {
+			top: 27%;
+			left: 20%;
+			font-size: 1.8rem;
+			font-weight: 900;
+		}
+
+		@media (min-width: $breakpoint-phone) and (max-width: $breakpoint-tablet) {
+			top: 30%;
+			left: 30%;
+			font-size: 2.3rem;
+			font-weight: 900;
+		}
+
+		@media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
+			top: 30%;
+			left: 35%;
+			font-size: 2.6rem;
+			font-weight: 900;
+		}
 	}
 	&-animated {
 		display: flex;
