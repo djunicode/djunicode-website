@@ -1,0 +1,12 @@
+{
+	"about": [
+		{
+			"title": "Django",
+			"image": "url"
+		},
+		{
+			"title": "NodeJs",
+			"image": "url"
+		}
+	]
+}
