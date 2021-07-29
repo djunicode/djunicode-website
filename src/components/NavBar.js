@@ -50,7 +50,7 @@ function NavBar() {
 									key={index}
 									className={styles?.navbarButtons}
 								>
-									<Button size="large" color="inherit">
+									<Button tabIndex={-1} size="large" color="inherit">
 										{page.name}
 									</Button>
 								</Link>

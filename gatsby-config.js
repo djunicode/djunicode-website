@@ -14,6 +14,9 @@ module.exports = {
 		{
 			resolve: "gatsby-plugin-manifest",
 			options: {
+				name: `D. J. Unicode`,
+				short_name: `Unicode`,
+				start_url: `/`,
 				icon: "src/images/unicode-icon.svg",
 			},
 		},
