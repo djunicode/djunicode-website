@@ -3,6 +3,7 @@ import Typewriter from "typewriter-effect";
 import * as styles from "../styles/components/text.module.scss";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
+import img2 from "../images/django.svg";
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -64,6 +65,14 @@ const useStyles = makeStyles((theme) => ({
 		opacity: "20%",
 	},
 
+	image: {
+		position: "absolute",
+		top: "70%",
+		right: "9%",
+		width: "5%",
+		transform: "rotate(-3deg)",
+	},
+
 	"@keyframes mover": {
 		"0%": "transform: translateY(0) ",
 		"100%": "transform: translateY(-10px)",
@@ -113,6 +122,8 @@ export default function MainText() {
 				<Paper elevation={0} className={classes.greensmallPaper}>
 					Hello
 				</Paper>
+
+				<img src={img2} alt="logo" className={classes.image} />
 			</div>
 		</div>
 	);
