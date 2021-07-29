@@ -10,7 +10,7 @@ function Layout({ children }) {
 	return (
 		<React.Fragment>
 			<NavBar />
-			{children}
+			<div className="fixedcontainer">{children}</div>
 		</React.Fragment>
 	);
 }

@@ -37,7 +37,7 @@ function NavBar() {
 
 	return (
 		<AppBar color="inherit" position="sticky" className={styles?.navbar}>
-			<Toolbar className={styles?.navbarContainer}>
+			<Toolbar className={styles?.navbarContainer + " fixedcontainer"}>
 				<Link to="/">
 					<img className={styles?.navbarLogo} src={logoDataUri} alt="Unicode" />
 				</Link>
