@@ -19,4 +19,11 @@ export const theme = createTheme({
 	typography: {
 		fontFamily: ["Manrope", "sans-serif"].join(","),
 	},
+	overrides: {
+		MuiOutlinedInput: {
+			root: {
+				borderRadius: "20px",
+			},
+		},
+	},
 });
