@@ -15,4 +15,9 @@ body {
 .fixedcontainer {
 	max-width: 1400px;
 	margin: 0 auto;
+	padding: 0 2 * $standardspacing;
+
+	@media screen and (max-width: 657px) {
+		padding: 0 $standardspacing;
+	}
 }
