@@ -1,11 +1,12 @@
 import * as React from "react";
 
 import Layout from "../components/Layout";
+import MainText from "../components/MainText";
 
 const IndexPage = () => {
 	return (
 		<Layout>
-			<h1>Unicode</h1>
+			<MainText />
 		</Layout>
 	);
 };

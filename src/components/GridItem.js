@@ -18,6 +18,7 @@ const useStyles = makeStyles((theme) => ({
 	heading: {
 		marginTop: 24,
 		textAlign: "center",
+		color: "#09c1d7",
 	},
 }));
 
@@ -44,7 +45,7 @@ export default function GridItem({ data }) {
 						className={classes.gridHead}
 					>
 						<Typography variant="h4" className={classes.heading}>
-							Projects
+							{location.includes("projects") ? "Projects" : "Events"}
 						</Typography>
 					</Grid>
 					{data.map((item) => (
@@ -59,7 +60,8 @@ export default function GridItem({ data }) {
 						</Grid>
 					))}
 
-					{location.includes("projects") ? null : (
+					{location.includes("projects") ||
+					location.includes("events") ? null : (
 						<Grid
 							item
 							spacing={2}
