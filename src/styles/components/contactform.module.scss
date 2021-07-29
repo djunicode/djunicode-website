@@ -1,0 +1,9 @@
+@import "../variables.scss";
+
+.button {
+	color: $white !important;
+	border-radius: 25px !important;
+	font-weight: 600 !important;
+	padding: $standardspacing 2 * $extraspacing !important;
+	letter-spacing: 1.5px;
+}
