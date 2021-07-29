@@ -8,11 +8,7 @@ export const navbarNavigations = [
 		url: "/events",
 	},
 	{
-		name: "About",
-		url: "/about",
-	},
-	{
-		name: "Contact",
+		name: "Contact Us",
 		url: "/contact",
 	},
 ];
