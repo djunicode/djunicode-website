@@ -4,6 +4,7 @@ module.exports = {
 		title: "D. J. Unicode",
 		description:
 			"Official site for Unicode, a student coding club of Dwarkadas J. Sanghvi College of Engineering.",
+		author: "D. J. Unicode",
 	},
 	plugins: [
 		"gatsby-plugin-sass",
