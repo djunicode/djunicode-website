@@ -1,0 +1,21 @@
+@import "../variables.scss";
+
+.contact {
+	&-container {
+		margin-top: 5 * $extraspacing;
+	}
+
+	&-title {
+		font-size: 1rem;
+		color: $secondary;
+	}
+
+	&-subtitle {
+		font-size: 3rem;
+		margin: $extraspacing 0;
+
+		@media screen and (max-width: 657px) {
+			font-size: 2rem;
+		}
+	}
+}

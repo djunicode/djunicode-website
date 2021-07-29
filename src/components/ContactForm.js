@@ -109,7 +109,7 @@ function ContactForm() {
 							type="submit"
 							size="large"
 							variant="contained"
-							color="primary"
+							color="secondary"
 							className={styles.button}
 						>
 							Send Message
