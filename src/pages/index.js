@@ -9,7 +9,7 @@ const IndexPage = () => {
 	return (
 		<Layout>
 			<SEO title="Home" />
-			{/* <MainText /> */}
+			<MainText />
 			<ProjectDetails />
 		</Layout>
 	);

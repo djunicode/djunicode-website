@@ -1,31 +1,83 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import * as styles from "../styles/components/text.module.scss";
+import { makeStyles } from "@material-ui/core/styles";
+import Paper from "@material-ui/core/Paper";
+
+const useStyles = makeStyles((theme) => ({
+	root: {
+		"& > *": {
+			margin: theme.spacing(1),
+			width: theme.spacing(32),
+			height: theme.spacing(16),
+		},
+	},
+	bluePaper: {
+		backgroundColor: "#09c1d7",
+		width: theme.spacing(36),
+		height: theme.spacing(20),
+		color: "#ffffff",
+		borderRadius: "8px",
+		position: "absolute",
+		top: "20%",
+		left: "8%",
+		transform: "rotate(7deg)",
+		boxShadow: "-1px 3px 24px 14px rgba(9, 193, 215, 0.12)",
+		animation: `$mover 1000ms  ${theme.transitions.easing.easeInOut}`,
+	},
+
+	greensmallPaper: {
+		backgroundColor: "#77ce90",
+		width: theme.spacing(30),
+		height: theme.spacing(14),
+		color: "#ffffff",
+		borderRadius: "6px",
+		position: "absolute",
+		top: "70%",
+		left: "6%",
+		transform: "rotate(-4deg)",
+		boxShadow: "-1px 3px 24px 14px rgba(119, 206, 144, 0.19)",
+		animation: `$mover 1000ms  ${theme.transitions.easing.easeInOut}`,
+	},
+
+	greenPaper: {
+		backgroundColor: "#77ce90",
+		width: theme.spacing(42),
+		height: theme.spacing(8),
+		color: "#ffffff",
+		borderRadius: "8px",
+		position: "absolute",
+		top: "40%",
+		right: "8%",
+		transform: "rotate(-6deg)",
+	},
+
+	greenbgPaper: {
+		backgroundColor: "#77ce90",
+		width: theme.spacing(42),
+		height: theme.spacing(8),
+		color: "#ffffff",
+		borderRadius: "8px",
+		position: "absolute",
+		top: "45%",
+		right: "12%",
+		opacity: "20%",
+	},
+
+	"@keyframes mover": {
+		"0%": "transform: translateY(0) ",
+		"100%": "transform: translateY(-10px)",
+	},
+}));
 
 export default function MainText() {
-	// var app = document.getElementById("app");
-
-	// var typewriter = new Typewriter(app, {
-	// 	loop: true,
-	// 	delay: 75,
-	// });
-
-	// typewriter
-	// 	.pauseFor(2500)
-	// 	.typeString("A simple yet powerful native javascript")
-	// 	.pauseFor(300)
-	// 	.deleteChars(10)
-	// 	.typeString("<strong>JS</strong> plugin for a cool typewriter effect and ")
-	// 	.typeString(
-	// 		'<strong>only <span style="color: #27ae60;">5kb</span> Gzipped!</strong>'
-	// 	)
-	// 	.pauseFor(1000)
-	// 	.start();
+	const classes = useStyles();
 	return (
 		<div className={styles?.textContainer}>
 			<p className={styles?.textMain}>
 				Build blazing fast <br />
 				landing pages for
+				<br />
 				<span className={styles?.textAnimated}>
 					<Typewriter
 						options={{
@@ -43,6 +95,25 @@ export default function MainText() {
 					service
 				</span>
 			</p>
+
+			<p className={styles?.textSub}>
+				Launch your site in style with Fastland, a modern collection of <br />
+				crafted Gatsby JS pages and modular components.
+			</p>
+
+			<div>
+				<Paper elevation={0} className={classes.bluePaper}>
+					Hello
+				</Paper>
+				<Paper elevation={0} className={classes.greenbgPaper} />
+				<Paper elevation={0} className={classes.greenPaper}>
+					Hello
+				</Paper>
+
+				<Paper elevation={0} className={classes.greensmallPaper}>
+					Hello
+				</Paper>
+			</div>
 		</div>
 	);
 }
