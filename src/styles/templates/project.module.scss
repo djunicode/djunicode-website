@@ -1,9 +1,23 @@
 @import "../variables.scss";
 
 .pt {
-    padding-top: $standardspacing;
+    padding-top: $extraspacing;
+}
+.mb {
+    margin-bottom: $extraspacing;
+}
+.mt {
+    margin-top: $extraspacing;
 }
 .img {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
 }
+.imgContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+// .rightPane {
+//     border-left: 1px solid $primary;
+//     padding-left: $extraspacing;
+// }
