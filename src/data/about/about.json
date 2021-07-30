@@ -1,10 +1,22 @@
 [
 	{
 		"title": "Django",
-		"image": "url"
+		"image": "src/data/about/django.svg"
 	},
 	{
-		"title": "NodeJs",
-		"image": "url"
+		"title": "React",
+		"image": "src/data/about/React-icon.svg"
+	},
+	{
+		"title": "React Native",
+		"image": "src/data/about/React-icon.svg"
+	},
+	{
+		"title": "Node",
+		"image": "src/data/about/nodejs-1-logo.svg"
+	},
+	{
+		"title": "Flutter",
+		"image": "src/data/about/Flutter.svg"
 	}
 ]
