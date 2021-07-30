@@ -6,6 +6,7 @@
 			"www.google.com",
 			"www.abcd.com"
 		],
+		"images": ["img1", "img2"],
 		"contributors": {
 			"Externals": [
 				{
@@ -42,6 +43,7 @@
 			"www.google.com",
 			"www.abcd.com"
 		],
+		"images": ["img1", "img2"],
 		"contributors": {
 			"Externals": [
 				{

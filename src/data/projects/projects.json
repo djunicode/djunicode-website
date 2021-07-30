@@ -3,9 +3,10 @@
         "title": "Canteen Automation Web",
         "description": "DJ Canteen is a zomato-like application for DJSCE which allows users to place orders using an android app and the canteen manager gets real-time updates about orders in the queue. The motivation of the app was to reduce the queues at the canteen and allow people to order from anywhere in college.",
         "stack": [
-            "ReactJs",
-            "DjangoRestFramework"
+            ["Django Rest Framework", "django-rest-img"],
+            ["ReactJs", "react-img"]
         ],
+        "images": ["img1", "img2"],
         "links": [
             "https://github.com/djunicode/canteen-automation-web"
         ],
@@ -68,9 +69,10 @@
         "title": "test",
         "description": "about the project",
         "stack": [
-            "Django",
-            "ReactJs"
+            ["Django", "django-img"],
+            ["ReactJs", "react-img"]
         ],
+        "images": ["img1", "img2"],
         "links": [
             "www.google.com",
             "www.abcd.com"
