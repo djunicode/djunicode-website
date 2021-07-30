@@ -20,8 +20,6 @@ function TechStack({ imgUrl, title }) {
 		<Grid item container xs={5} sm={3} className={styles.container}>
 			<Grid item xs={12}>
 				<img src={imgUrl} alt={title + " logo"} className={styles.img} />
-			</Grid>
-			<Grid item xs={12}>
 				<h4> {title} </h4>
 			</Grid>
 		</Grid>
