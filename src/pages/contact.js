@@ -5,14 +5,14 @@ import Grid from "@material-ui/core/Grid";
 import ContactCard from "../components/ContactCard";
 import ContactForm from "../components/ContactForm";
 import Layout from "../components/Layout";
-import SEO from "../components/SEO";
+import Seo from "../components/SEO";
 
 import * as styles from "../styles/pages/contact.module.scss";
 
 function ContactPage() {
 	return (
 		<Layout>
-			<SEO title="Contact Us" />
+			<Seo title="Contact" />
 			<div className={styles.contactContainer}>
 				<Grid container spacing={8}>
 					<Grid item sm={12} md={7}>

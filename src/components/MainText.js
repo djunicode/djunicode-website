@@ -82,6 +82,10 @@ const useStyles = makeStyles((theme) => ({
 		transform: "rotate(3deg)",
 	},
 
+	grid: {
+		marginTop: "20px",
+	},
+
 	"@keyframes mover": {
 		"0%": "transform: translateY(0) ",
 		"100%": "transform: translateY(-10px)",
@@ -119,29 +123,41 @@ export default function MainText() {
 				crafted Gatsby JS pages and modular components.
 			</p>
 
-			<div className={classes.root}>
-				<Paper elevation={0} className={classes.bluePaper}>
-					<Grid xs={12} spacing={3}>
-						<Grid>Hello</Grid>
-						<Grid>heelo</Grid>
-						<Grid>hello</Grid>
-					</Grid>
-				</Paper>
-				<Paper elevation={0} className={classes.greenbgPaper} />
-				<Paper elevation={0} className={classes.greenPaper}>
-					<Grid xs={12} spacing={3} direction="row">
-						<Grid item>Hello</Grid>
-						<Grid item>hello</Grid>
-					</Grid>
-				</Paper>
+			{window.innerWidth > 968 && (
+				<div className={classes.root}>
+					<Paper elevation={0} className={classes.bluePaper}>
+						<Grid xs={12} spacing={3}>
+							<Grid>Hello</Grid>
+							<Grid>heelo</Grid>
+							<Grid>hello</Grid>
+						</Grid>
+					</Paper>
+					<Paper elevation={0} className={classes.greenbgPaper} />
+					<Paper elevation={0} className={classes.greenPaper}>
+						<Grid
+							className={classes.grid}
+							container
+							direction="row"
+							alignContent="center"
+							alignItems="center"
+							justifyContent="center"
+							wrap="wrap"
+							spacing={1}
+						>
+							<Grid xs={4}>hello</Grid>
+							<Grid xs={4}>hello</Grid>
+							<Grid xs={4}>hello</Grid>
+						</Grid>
+					</Paper>
 
-				<Paper elevation={0} className={classes.greensmallPaper}>
-					Hello
-				</Paper>
+					<Paper elevation={0} className={classes.greensmallPaper}>
+						Hello
+					</Paper>
 
-				<img src={img2} alt="logo" className={classes.image} />
-				<img src={img2} alt="logo" className={classes.image2} />
-			</div>
+					<img src={img2} alt="logo" className={classes.image} />
+					<img src={img2} alt="logo" className={classes.image2} />
+				</div>
+			)}
 		</div>
 	);
 }
