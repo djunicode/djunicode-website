@@ -1,22 +1,22 @@
 [
 	{
 		"title": "Django",
-		"image": "src/data/about/django.svg"
+		"image": "src/images/about/django.svg"
 	},
 	{
 		"title": "React",
-		"image": "src/data/about/React-icon.svg"
+		"image": "src/images/about/React-icon.svg"
 	},
 	{
 		"title": "React Native",
-		"image": "src/data/about/React-icon.svg"
+		"image": "src/images/about/React-icon.svg"
 	},
 	{
 		"title": "Node",
-		"image": "src/data/about/nodejs-1-logo.svg"
+		"image": "src/images/about/nodejs-1-logo.svg"
 	},
 	{
 		"title": "Flutter",
-		"image": "src/data/about/Flutter.svg"
+		"image": "src/images/about/Flutter.svg"
 	}
 ]
