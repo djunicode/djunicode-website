@@ -5,10 +5,12 @@ import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
+import { theme } from "../theme";
 
 const useStyles = makeStyles({
 	root: {
-		maxWidth: 345,
+		width: theme.spacing(38),
+		height: theme.spacing(29),
 		boxShadow: " -1px 3px 6px 1px rgba(61,61,63,0.09);",
 	},
 	media: {

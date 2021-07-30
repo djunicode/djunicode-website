@@ -1,54 +1,42 @@
 [
-    {
-        "title": "Carte",
-        "description": "about the project",
-        "stack": [
-            "Django",
-            "ReactJs"
-        ],
-        "links": [
-            "www.google.com",
-            "www.abcd.com"
-        ],
-        "contributors": {
-            "TEmentors": [
-                {
-                    "name": "Mentors name",
-                    "profile_img": "url"
-                }
-            ],
-            "SEmentees": [
-                {
-                    "name": "Jinay",
-                    "profile_img": "url"
-                }
-            ]
-        }
-    },
-    {
-        "title":"test",
-        "description": "about the project",
-        "stack": [
-            "Django",
-            "ReactJs"
-        ],
-        "links": [
-            "www.google.com",
-            "www.abcd.com"
-        ],
-        "contributors": {
-            "TEmentors": [
-                {
-                    "name": "Mentors name",
-                    "profile_img": "url"
-                }
-            ],
-            "SEmentees": [
-                {
-                    "name": "Jinay",
-                    "profile_img": "url"
-                }
-            ]
-        }
-    }
+	{
+		"title": "Carte",
+		"description": "Ullamco duis dolore nulla velit adipisicing exercitation amet.adipisicing exercitation amet.",
+		"stack": ["Django", "ReactJs"],
+		"links": ["www.google.com", "www.abcd.com"],
+		"contributors": {
+			"TEmentors": [
+				{
+					"name": "Mentors name",
+					"profile_img": "url"
+				}
+			],
+			"SEmentees": [
+				{
+					"name": "Jinay",
+					"profile_img": "url"
+				}
+			]
+		}
+	},
+	{
+		"title": "test",
+		"description": "Ullamco duis dolore nulla velit adipisicing exercitation amet.adipisicing exercitation amet.",
+		"stack": ["Django", "ReactJs"],
+		"links": ["www.google.com", "www.abcd.com"],
+		"contributors": {
+			"TEmentors": [
+				{
+					"name": "Mentors name",
+					"profile_img": "url"
+				}
+			],
+			"SEmentees": [
+				{
+					"name": "Jinay",
+					"profile_img": "url"
+				}
+			]
+		}
+	}
 ]

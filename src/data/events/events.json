@@ -1,16 +1,13 @@
 [
 	{
-		"title":"event1-name",
-		"description": "about the event",
-		"links": [
-			"www.google.com",
-			"www.abcd.com"
-		],
+		"title": "event1-name",
+		"description": "Ullamco duis dolore nulla velit adipisicing exercitation amet.adipisicing exercitation amet.",
+		"links": ["www.google.com", "www.abcd.com"],
 		"contributors": {
 			"Externals": [
-				{"name": "xyz", "profile_img": "url"},
-				{"name": "xyz", "profile_img": "url"},
-				{"name": "xyz", "profile_img": "url"}
+				{ "name": "xyz", "profile_img": "url" },
+				{ "name": "xyz", "profile_img": "url" },
+				{ "name": "xyz", "profile_img": "url" }
 			],
 			"TEmentors": [
 				{
@@ -28,17 +25,14 @@
 	},
 
 	{
-		"title":"event2-name",
-		"description": "about the event",
-		"links": [
-			"www.google.com",
-			"www.abcd.com"
-		],
+		"title": "event2-name",
+		"description": "Ullamco duis dolore nulla velit adipisicing exercitation amet.adipisicing exercitation amet.",
+		"links": ["www.google.com", "www.abcd.com"],
 		"contributors": {
 			"Externals": [
-				{"name": "xyz", "profile_img": "url"},
-				{"name": "xyz", "profile_img": "url"},
-				{"name": "xyz", "profile_img": "url"}
+				{ "name": "xyz", "profile_img": "url" },
+				{ "name": "xyz", "profile_img": "url" },
+				{ "name": "xyz", "profile_img": "url" }
 			],
 			"TEmentors": [
 				{
