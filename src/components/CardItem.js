@@ -10,7 +10,7 @@ import { theme } from "../theme";
 const useStyles = makeStyles({
 	root: {
 		width: theme.spacing(38),
-		height: theme.spacing(29),
+		height: theme.spacing(30),
 		boxShadow: " -1px 3px 6px 1px rgba(61,61,63,0.09);",
 	},
 	media: {
@@ -18,6 +18,12 @@ const useStyles = makeStyles({
 	},
 	content: {
 		height: 130,
+	},
+
+	description: {
+		whiteSpace: "nowrap",
+		overflow: "hidden",
+		textOverflow: "ellipsis",
 	},
 });
 
@@ -37,7 +43,12 @@ export default function CardItem({ data }) {
 					<Typography gutterBottom variant="h5" component="h3">
 						{title}
 					</Typography>
-					<Typography variant="body2" color="textSecondary" component="p">
+					<Typography
+						variant="body2"
+						color="textSecondary"
+						component="p"
+						className={classes.description}
+					>
 						{description}
 					</Typography>
 				</CardContent>
