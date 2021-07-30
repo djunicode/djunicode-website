@@ -1,6 +1,6 @@
 [
 	{
-		"title":"event1-name",
+		"title": "event1-name",
 		"description": "about the event",
 		"links": [
 			"www.google.com",
@@ -8,9 +8,18 @@
 		],
 		"contributors": {
 			"Externals": [
-				{"name": "xyz", "profile_img": "url"},
-				{"name": "xyz", "profile_img": "url"},
-				{"name": "xyz", "profile_img": "url"}
+				{
+					"name": "xyz",
+					"profile_img": "url"
+				},
+				{
+					"name": "xyz",
+					"profile_img": "url"
+				},
+				{
+					"name": "xyz",
+					"profile_img": "url"
+				}
 			],
 			"TEmentors": [
 				{
@@ -26,9 +35,8 @@
 			]
 		}
 	},
-
 	{
-		"title":"event2-name",
+		"title": "event2-name",
 		"description": "about the event",
 		"links": [
 			"www.google.com",
@@ -36,9 +44,18 @@
 		],
 		"contributors": {
 			"Externals": [
-				{"name": "xyz", "profile_img": "url"},
-				{"name": "xyz", "profile_img": "url"},
-				{"name": "xyz", "profile_img": "url"}
+				{
+					"name": "xyz",
+					"profile_img": "url"
+				},
+				{
+					"name": "xyz",
+					"profile_img": "url"
+				},
+				{
+					"name": "xyz",
+					"profile_img": "url"
+				}
 			],
 			"TEmentors": [
 				{

@@ -1,32 +1,71 @@
 [
     {
-        "title": "Carte",
-        "description": "about the project",
+        "title": "Canteen Automation Web",
+        "description": "DJ Canteen is a zomato-like application for DJSCE which allows users to place orders using an android app and the canteen manager gets real-time updates about orders in the queue. The motivation of the app was to reduce the queues at the canteen and allow people to order from anywhere in college.",
         "stack": [
-            "Django",
-            "ReactJs"
+            "ReactJs",
+            "DjangoRestFramework"
         ],
         "links": [
-            "www.google.com",
-            "www.abcd.com"
+            "https://github.com/djunicode/canteen-automation-web"
         ],
         "contributors": {
             "TEmentors": [
                 {
-                    "name": "Mentors name",
+                    "name": "Krisha Mehta",
+                    "profile_img": "url"
+                },
+                {
+                    "name": "Mudra Nagda",
+                    "profile_img": "url"
+                },
+                {
+                    "name": "Sahil Jajodia",
+                    "profile_img": "url"
+                },
+                {
+                    "name": "Parth Doshi",
+                    "profile_img": "url"
+                },
+                {
+                    "name": "Fenil",
+                    "profile_img": "url"
+                },
+                {
+                    "name": "Aayush Kothari",
                     "profile_img": "url"
                 }
             ],
             "SEmentees": [
                 {
-                    "name": "Jinay",
+                    "name": "Jay Gala",
                     "profile_img": "url"
-                }
+                },
+                {
+                    "name": "Chinmay Khamkar",
+                    "profile_img": "url"
+                },
+                {
+                    "name": "Amogh Parab",
+                    "profile_img": "url"
+                },
+                {
+                    "name": "Preet",
+                    "profile_img": "url"
+                },
+                {
+                    "name": "Shreya Desai",
+                    "profile_img": "url"
+                },
+                {
+                    "name": "Vikrant Gajria",
+                    "profile_img": "url"
+                },
             ]
         }
     },
     {
-        "title":"test",
+        "title": "test",
         "description": "about the project",
         "stack": [
             "Django",
