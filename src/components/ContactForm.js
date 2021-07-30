@@ -1,4 +1,7 @@
 import React from "react";
+import FormData from "form-data";
+
+import axios from "axios";
 
 // Material UI
 import Grid from "@material-ui/core/Grid";
@@ -43,66 +46,96 @@ function ContactForm() {
 
 				return errors;
 			}}
-			onSubmit={(values) => {}}
+			onSubmit={async (values, actions) => {
+				try {
+					const data = new FormData();
+
+					data.append("name", values.name);
+					data.append("email", values.email);
+					data.append("message", values.message);
+
+					const config = {
+						method: "post",
+						url: "https://script.google.com/macros/s/AKfycbxBapfYrRk1VqNonUD6-1_l_XNE-gNUThmEkEHxVNTVL0Q5nDsEd-kCxLPPsYSsqGD7Ng/exec",
+						data: data,
+					};
+
+					await axios(config);
+
+					actions.setSubmitting(false);
+					actions.resetForm();
+				} catch (err) {}
+			}}
 		>
 			{({
 				values,
 				isSubmitting,
+				isValid,
 				handleChange,
 				handleBlur,
 				touched,
 				errors,
 			}) => (
-				<Form autoComplete="no">
-					<div style={{ flexGrow: 1 }}>
-						<Grid container spacing={3}>
-							<Grid item xs={12} sm={6}>
-								<TextField
-									name="name"
-									label="Your Name"
-									fullWidth
-									value={values.name}
-									onChange={handleChange}
-									onBlur={handleBlur}
-									helperText={touched.name ? errors.name : ""}
-									error={!!errors.name && touched.name}
-									variant="outlined"
-									size="small"
-								/>
-							</Grid>
-							<Grid item xs={12} sm={6}>
-								<TextField
-									name="email"
-									label="Your E-Mail Address"
-									fullWidth
-									value={values.email}
-									onChange={handleChange}
-									onBlur={handleBlur}
-									helperText={touched.email ? errors.email : ""}
-									error={!!errors.email && touched.email}
-									variant="outlined"
-									size="small"
-								/>
-							</Grid>
-							<Grid item xs={12}>
-								<TextField
-									name="message"
-									label="Your message here"
-									fullWidth
-									multiline
-									minRows={3}
-									maxRows={8}
-									value={values.message}
-									onChange={handleChange}
-									onBlur={handleBlur}
-									helperText={touched.message ? errors.message : ""}
-									error={!!errors.message && touched.message}
-									variant="outlined"
-									size="small"
-								/>
-							</Grid>
+				<Form>
+					<Grid container spacing={3}>
+						<Grid item xs={12} sm={6}>
+							<TextField
+								name="name"
+								label={
+									<div>
+										Your Name <span style={{ color: "red" }}>*</span>
+									</div>
+								}
+								fullWidth
+								value={values.name}
+								onChange={handleChange}
+								onBlur={handleBlur}
+								helperText={touched.name ? errors.name : ""}
+								error={!!errors.name && touched.name}
+								variant="outlined"
+								size="small"
+							/>
 						</Grid>
-					</div>
+						<Grid item xs={12} sm={6}>
+							<TextField
+								name="email"
+								label={
+									<div>
+										Your E-mail <span style={{ color: "red" }}>*</span>
+									</div>
+								}
+								fullWidth
+								value={values.email}
+								onChange={handleChange}
+								onBlur={handleBlur}
+								helperText={touched.email ? errors.email : ""}
+								error={!!errors.email && touched.email}
+								variant="outlined"
+								size="small"
+							/>
+						</Grid>
+						<Grid item xs={12}>
+							<TextField
+								name="message"
+								label={
+									<div>
+										Your message here <span style={{ color: "red" }}>*</span>
+									</div>
+								}
+								fullWidth
+								multiline
+								minRows={3}
+								maxRows={8}
+								value={values.message}
+								onChange={handleChange}
+								onBlur={handleBlur}
+								helperText={touched.message ? errors.message : ""}
+								error={!!errors.message && touched.message}
+								variant="outlined"
+								size="small"
+							/>
+						</Grid>
+					</Grid>
 					<br />
 					<div align="right">
 						<Button
@@ -111,6 +144,7 @@ function ContactForm() {
 							variant="contained"
 							color="secondary"
 							className={styles.button}
+							disabled={isSubmitting || !isValid}
 						>
 							Send Message
 						</Button>
