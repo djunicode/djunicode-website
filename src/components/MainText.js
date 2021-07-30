@@ -4,6 +4,9 @@ import * as styles from "../styles/components/text.module.scss";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import img2 from "../images/django.svg";
+import QuoteCard from "./QuoteCard";
+import defaultAvatar from "../images/avatar.png";
+import { Grid } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -12,32 +15,30 @@ const useStyles = makeStyles((theme) => ({
 			width: theme.spacing(32),
 			height: theme.spacing(16),
 		},
+		flexGrow: 1,
 	},
 	bluePaper: {
-		backgroundColor: "#09c1d7",
-		width: theme.spacing(36),
+		width: theme.spacing(32),
 		height: theme.spacing(20),
-		color: "#ffffff",
-		borderRadius: "8px",
 		position: "absolute",
-		top: "20%",
-		left: "8%",
+		top: "30%",
+		right: "12%",
 		transform: "rotate(7deg)",
-		boxShadow: "-1px 3px 24px 14px rgba(9, 193, 215, 0.12)",
+		boxShadow: "-1px 3px 24px 16px rgba(75, 75, 75, 0.07)",
 		animation: `$mover 1000ms  ${theme.transitions.easing.easeInOut}`,
 	},
 
 	greensmallPaper: {
-		backgroundColor: "#77ce90",
-		width: theme.spacing(30),
+		backgroundColor: "#09c1d7",
+		width: theme.spacing(24),
 		height: theme.spacing(14),
 		color: "#ffffff",
 		borderRadius: "6px",
 		position: "absolute",
-		top: "70%",
+		top: "60%",
 		left: "6%",
-		transform: "rotate(-4deg)",
-		boxShadow: "-1px 3px 24px 14px rgba(119, 206, 144, 0.19)",
+		transform: "rotate(-10deg)",
+		boxShadow: "-1px 3px 24px 19px rgba(75, 75, 75, 0.10)",
 		animation: `$mover 1000ms  ${theme.transitions.easing.easeInOut}`,
 	},
 
@@ -48,8 +49,8 @@ const useStyles = makeStyles((theme) => ({
 		color: "#ffffff",
 		borderRadius: "8px",
 		position: "absolute",
-		top: "40%",
-		right: "8%",
+		top: "13%",
+		right: "40%",
 		transform: "rotate(-6deg)",
 	},
 
@@ -60,8 +61,8 @@ const useStyles = makeStyles((theme) => ({
 		color: "#ffffff",
 		borderRadius: "8px",
 		position: "absolute",
-		top: "45%",
-		right: "12%",
+		top: "18%",
+		right: "42%",
 		opacity: "20%",
 	},
 
@@ -69,8 +70,20 @@ const useStyles = makeStyles((theme) => ({
 		position: "absolute",
 		top: "70%",
 		right: "9%",
-		width: "5%",
+		width: "6%",
 		transform: "rotate(-3deg)",
+	},
+
+	image2: {
+		position: "absolute",
+		top: "30%",
+		left: "9%",
+		width: "6%",
+		transform: "rotate(3deg)",
+	},
+
+	grid: {
+		marginTop: "20px",
 	},
 
 	"@keyframes mover": {
@@ -110,21 +123,41 @@ export default function MainText() {
 				crafted Gatsby JS pages and modular components.
 			</p>
 
-			<div>
-				<Paper elevation={0} className={classes.bluePaper}>
-					Hello
-				</Paper>
-				<Paper elevation={0} className={classes.greenbgPaper} />
-				<Paper elevation={0} className={classes.greenPaper}>
-					Hello
-				</Paper>
+			{window.innerWidth > 968 && (
+				<div className={classes.root}>
+					<Paper elevation={0} className={classes.bluePaper}>
+						<Grid xs={12} spacing={3}>
+							<Grid>Hello</Grid>
+							<Grid>heelo</Grid>
+							<Grid>hello</Grid>
+						</Grid>
+					</Paper>
+					<Paper elevation={0} className={classes.greenbgPaper} />
+					<Paper elevation={0} className={classes.greenPaper}>
+						<Grid
+							className={classes.grid}
+							container
+							direction="row"
+							alignContent="center"
+							alignItems="center"
+							justifyContent="center"
+							wrap="wrap"
+							spacing={1}
+						>
+							<Grid xs={4}>hello</Grid>
+							<Grid xs={4}>hello</Grid>
+							<Grid xs={4}>hello</Grid>
+						</Grid>
+					</Paper>
 
-				<Paper elevation={0} className={classes.greensmallPaper}>
-					Hello
-				</Paper>
+					<Paper elevation={0} className={classes.greensmallPaper}>
+						Hello
+					</Paper>
 
-				<img src={img2} alt="logo" className={classes.image} />
-			</div>
+					<img src={img2} alt="logo" className={classes.image} />
+					<img src={img2} alt="logo" className={classes.image2} />
+				</div>
+			)}
 		</div>
 	);
 }

@@ -48,15 +48,15 @@ export default function GridItem({ data }) {
 							{location.includes("projects") ? "Projects" : "Events"}
 						</Typography>
 					</Grid>
-					{data.map((item) => (
+					{data.map((item, index) => (
 						<Grid
 							item
 							spacing={5}
-							key={item.key}
+							key={index}
 							justifyContent="center"
 							alignItems="center"
 						>
-							<CardItem data={item} key={item.key} />
+							<CardItem data={item} key={index} />
 						</Grid>
 					))}
 

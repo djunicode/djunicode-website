@@ -9,18 +9,9 @@
 		"images": ["img1", "img2"],
 		"contributors": {
 			"Externals": [
-				{
-					"name": "xyz",
-					"profile_img": "url"
-				},
-				{
-					"name": "xyz",
-					"profile_img": "url"
-				},
-				{
-					"name": "xyz",
-					"profile_img": "url"
-				}
+				{ "name": "xyz", "profile_img": "url" },
+				{ "name": "xyz", "profile_img": "url" },
+				{ "name": "xyz", "profile_img": "url" }
 			],
 			"TEmentors": [
 				{
@@ -46,18 +37,9 @@
 		"images": ["img1", "img2"],
 		"contributors": {
 			"Externals": [
-				{
-					"name": "xyz",
-					"profile_img": "url"
-				},
-				{
-					"name": "xyz",
-					"profile_img": "url"
-				},
-				{
-					"name": "xyz",
-					"profile_img": "url"
-				}
+				{ "name": "xyz", "profile_img": "url" },
+				{ "name": "xyz", "profile_img": "url" },
+				{ "name": "xyz", "profile_img": "url" }
 			],
 			"TEmentors": [
 				{
