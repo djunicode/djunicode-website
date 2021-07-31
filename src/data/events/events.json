@@ -1,58 +1,73 @@
 [
 	{
-		"title": "event1-name",
-		"description": "about the event",
+		"title": "Hackprep 2.0",
+		"description": "HackPrep 2.0 returned in 2021 again to get the FEs into development. The aim this year was to provide freshers a head-start to their journey of hackathons. This was done by holding interactive lectures that spanned 4 days, covering all important topics from programming fundamentals to app, front and back end development. Even the basics of git and version control were introduced to the freshers. Via Hackprep, Unicode ensures that freshers get a clear idea on how to go about exploring the vast world of development, navigate through a plethora of resources, and eventually start building their own projects.",
 		"links": [
-			"www.google.com",
-			"www.abcd.com"
+			"https://www.youtube.com/watch?v=HZfSajAzIEI"
 		],
-		"images": ["img1", "img2"],
+		"images": [
+			"src/images/events/Hackprep2.svg"
+		],
 		"contributors": {
-			"Externals": [
-				{ "name": "xyz", "profile_img": "url" },
-				{ "name": "xyz", "profile_img": "url" },
-				{ "name": "xyz", "profile_img": "url" }
-			],
+			"Externals": [],
 			"TEmentors": [
 				{
-					"name": "Mentors name",
+					"name": "Govind Thakur",
+					"profile_img": "url"
+				},
+				{
+					"name": "Harsh Vartak",
+					"profile_img": "url"
+				},
+				{
+					"name": "Hrishikesh",
+					"profile_img": "url"
+				},
+				{
+					"name": "Manav Jain",
 					"profile_img": "url"
 				}
 			],
 			"SEmentees": [
 				{
-					"name": "Jinay",
+					"name": "Jinay Parekh",
+					"profile_img": "url"
+				},
+				{
+					"name": "Akshath Mahajan",
+					"profile_img": "url"
+				},
+				{
+					"name": "Aditya Thaker",
+					"profile_img": "url"
+				},
+				{
+					"name": "Junaid Girkar",
+					"profile_img": "url"
+				},
+				{
+					"name": "Kartik Suvarana",
 					"profile_img": "url"
 				}
 			]
 		}
 	},
 	{
-		"title": "event2-name",
-		"description": "about the event",
-		"links": [
-			"www.google.com",
-			"www.abcd.com"
+		"title": "Experimenting: Functional programming ",
+		"description": "Vikrant, a graduate of the class of 2017, conducted the first session on Functional Programming. The session covered concepts like functional programming and clean coding. These concepts were introduced in the context of Python, Java, JS and Haskell.",
+		"links": [],
+		"images": [
+			"src/images/events/Exp-Functional_prog.svg"
 		],
-		"images": ["img1", "img2"],
 		"contributors": {
-			"Externals": [
-				{ "name": "xyz", "profile_img": "url" },
-				{ "name": "xyz", "profile_img": "url" },
-				{ "name": "xyz", "profile_img": "url" }
-			],
+			"Externals": [],
 			"TEmentors": [
 				{
-					"name": "Mentors name",
+					"name": "Vikrant Gajria",
 					"profile_img": "url"
 				}
 			],
-			"SEmentees": [
-				{
-					"name": "Jinay",
-					"profile_img": "url"
-				}
-			]
+			"SEmentees": []
 		}
 	}
 ]
