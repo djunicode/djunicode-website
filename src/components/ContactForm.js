@@ -64,7 +64,7 @@ function ContactForm() {
 
 						const config = {
 							method: "post",
-							url: "https://script.google.com/macros/s/AKfycbxBapfYrRk1VqNonUD6-1_l_XNE-gNUThmEkEHxVNTVL0Q5nDsEd-kCxLPPsYSsqGD7Ng/exec",
+							url: process.env.GATSBY_CONTACT_SUBMISSION_ENDPOINT,
 							data: data,
 						};
 
