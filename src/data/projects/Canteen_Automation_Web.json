@@ -1,0 +1,112 @@
+{
+    "title": "Canteen Automation Web",
+    "description": "DJ Canteen is a zomato-like application for DJSCE which allows users to place orders using an android app and the canteen manager gets real-time updates about orders in the queue. The motivation of the app was to reduce the queues at the canteen and allow people to order from anywhere in college.",
+    "stack": [
+        [
+            "Django Rest Framework",
+            "src/images/about/django.svg"
+        ],
+        [
+            "ReactJs",
+            "src/images/about/React-icon.svg"
+        ]
+    ],
+    "images": [
+        "src/images/projects/Canteen_Automation_Web/event.jpeg",
+        "src/images/projects/Canteen_Automation_Web/event1.jpeg",
+        "src/images/projects/Canteen_Automation_Web/event2.jpeg",
+    ],
+    "links": [
+        "https://github.com/djunicode/canteen-automation-web"
+    ],
+    "contributors": {
+        "TEmentors": [
+            {
+                "name": "Krisha Mehta",
+                "profile_img": "url",
+                "desc": "I am a computer science graduate student at Arizona State University. I am interested in Computer Vision and its applications in indoor scene generations. When I am not studying or completing assignments, I spend my time reading and writing.",
+                "GitHub": "https://github.com/krishamehta",
+                "LinkedIn": "https://www.linkedin.com/in/krishamehta/"
+            },
+            {
+                "name": "Mudra Nagda",
+                "profile_img": "url",
+                "desc": "UX/UI Design Mentor. Loves writing about life, personality quizzes and a good argument.",
+                "GitHub": "https://github.com/MudraNagda",
+                "LinkedIn": "https://www.linkedin.com/in/mudranagda/ "
+            },
+            {
+                "name": "Sahil Jajodia",
+                "profile_img": "url",
+                "desc": "Sahil is a senior year computer engineering student with some experience in programming languages like Python, Javascript, Java, etc. Currently he is doing an internship as a Google Summer of Code Student Developer at CERN. He likes software engineering and",
+                "GitHub": "https://github.com/sahiljajodia01",
+                "LinkedIn": "https://www.linkedin.com/in/sahiljajodia01/ "
+            },
+            {
+                "name": "Parth Doshi",
+                "profile_img": "url",
+                "desc": "Final year Computer student. Interested in computer vision, and  ML in general.",
+                "GitHub": "",
+                "LinkedIn": "https://www.linkedin.com/in/parth-doshi-38a67456/"
+            },
+            {
+                "name": "Fenil",
+                "profile_img": "url",
+                "desc": "Love Math, Coding, Chess, Movies and Reading.",
+                "GitHub": "https://github.com/fenil25 ",
+                "LinkedIn": "https://www.linkedin.com/in/fenil-doshi-96595914b/"
+            },
+            {
+                "name": "Aayush Kothari",
+                "profile_img": "url",
+                "desc": "Barca fanboy with side interests in programming.",
+                "GitHub": "https://github.com/pujanm/",
+                "LinkedIn": ""
+            }
+        ],
+        "SEmentees": [
+            {
+                "name": "Jay Gala",
+                "profile_img": "url",
+                "desc": "Passionate Web Developer and interested in Data Science, AI",
+                "GitHub": "https://github.com/jaygala24",
+                "LinkedIn": "https://www.linkedin.com/in/jaygala24/"
+            },
+            {
+                "name": "Chinmay Khamkar",
+                "profile_img": "url",
+                "desc": "Web developer",
+                "GitHub": "https://github.com/chinmaykhamkar",
+                "LinkedIn": "https://www.linkedin.com/in/chinmay-khamkar-403532173/"
+            },
+            {
+                "name": "Amogh Parab",
+                "profile_img": "url",
+                "desc": "A passionate and an enthusiastic Web Developer.",
+                "GitHub": "https://github.com/amoghparab1805",
+                "LinkedIn": "https://www.linkedin.com/in/amogh-parab-0850b1168/"
+            },
+            {
+                "name": "Preet",
+                "profile_img": "url",
+                "desc": "Web Development (Backend)",
+                "GitHub": "https://github.com/preet4737",
+                "LinkedIn": "https://www.linkedin.com/in/preet-shah-b69712152/"
+            },
+            {
+                "name": "Shreya Desai",
+                "profile_img": "url",
+                "desc": "Self driven",
+                "GitHub": "https://github.com/shreya-desai12",
+                "LinkedIn": "https://www.linkedin.com/in/shreya-desai-318727184/"
+            },
+            {
+                "name": "Vikrant Gajria",
+                "profile_img": "url",
+                "desc": "Nick-name: Jesus Christ 🌚",
+                "GitHub": "https://github.com/vixrant",
+                "LinkedIn": "https://www.linkedin.com/in/vikrantgajria/"
+            }
+        ]
+    }
+}
