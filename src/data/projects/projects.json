@@ -5,11 +5,11 @@
         "stack": [
             [
                 "Django Rest Framework",
-                "django-rest-img"
+                "src/images/about/django.svg"
             ],
             [
                 "ReactJs",
-                "react-img"
+                "src/images/about/React-icon.svg"
             ]
         ],
         "images": [
