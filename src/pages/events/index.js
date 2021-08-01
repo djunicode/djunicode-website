@@ -1,7 +1,7 @@
 import React from "react";
 import GridItem from "../../components/GridItem";
 import Layout from "../../components/Layout";
-import SEO from "../../components/SEO";
+import Seo from "../../components/SEO";
 import data from "../../data/events/events.json";
 
 // const data = [
@@ -46,7 +46,7 @@ import data from "../../data/events/events.json";
 export default function Project() {
 	return (
 		<Layout>
-			<SEO title="Events" />
+			<Seo title="Events" />
 			<GridItem data={data} />
 		</Layout>
 	);
