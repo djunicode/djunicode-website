@@ -1,0 +1,39 @@
+{
+	"title": "Attendance Web",
+	"desc": "Teachers need to formulate multiple reports recording attendance, and since most of it is manual entry, an automated system makes it easy for teachers to minimize the effort in making defaulters records.\r\n\r\n> We use Multiple teachers for each subject, an automated entry based system that checks the time and day, a class teacher who has have higher permission than a subject teacher, in all other classes where she is merely a subject teacher, she should not have the elevated privileges.\r\n\r\n## Features\r\nIn this application we have included three types of users a superuser, teachers and class teachers,view and edit attendance wherein view - The attendance subject wise can be viewed and edit which based on time and day of lecture can be edited. The CSVs of the attendance can be downloaded from the web-app. A Defaulters list of the concerning students is also generated.The subject wise overall attendance for class teacher is also displayed.",
+	"slug": "attendance-web",
+	"img_cover": "src/images/projects/2019/09/25/Why-attendance-marks-are-unfair_Khyati-667x400.jpg",
+	"img": [
+		"src/images/projects/2019/09/23/edit.png",
+		"src/images/projects/2019/09/23/view_atten.png"
+	],
+	"stack": [
+		"React",
+		" Django",
+		" DjangoRestFramework",
+		" MySQL"
+	],
+	"tech": [
+		"web"
+	],
+	"contributors": {
+		"BEmentors": [
+			6
+		],
+		"TEmentors": [
+			7,
+			32
+		],
+		"SEmentees": [
+			9,
+			14,
+			35,
+			39,
+			46
+		]
+	},
+	"year": "2018-10-01",
+	"links": [
+		"https://github.com/djunicode/Attendance-System-Web"
+	]
+}
