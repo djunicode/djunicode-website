@@ -14,7 +14,7 @@
     "images": [
         "src/images/projects/Canteen_Automation_Web/event.jpeg",
         "src/images/projects/Canteen_Automation_Web/event1.jpeg",
-        "src/images/projects/Canteen_Automation_Web/event2.jpeg",
+        "src/images/projects/Canteen_Automation_Web/event2.jpeg"
     ],
     "links": [
         "https://github.com/djunicode/canteen-automation-web"
@@ -33,14 +33,14 @@
                 "profile_img": "url",
                 "desc": "UX/UI Design Mentor. Loves writing about life, personality quizzes and a good argument.",
                 "GitHub": "https://github.com/MudraNagda",
-                "LinkedIn": "https://www.linkedin.com/in/mudranagda/ "
+                "LinkedIn": "https://www.linkedin.com/in/mudranagda/"
             },
             {
                 "name": "Sahil Jajodia",
                 "profile_img": "url",
                 "desc": "Sahil is a senior year computer engineering student with some experience in programming languages like Python, Javascript, Java, etc. Currently he is doing an internship as a Google Summer of Code Student Developer at CERN. He likes software engineering and",
                 "GitHub": "https://github.com/sahiljajodia01",
-                "LinkedIn": "https://www.linkedin.com/in/sahiljajodia01/ "
+                "LinkedIn": "https://www.linkedin.com/in/sahiljajodia01/"
             },
             {
                 "name": "Parth Doshi",
