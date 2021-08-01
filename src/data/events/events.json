@@ -2,14 +2,15 @@
 	{
 		"title": "Hackprep 2.0",
 		"description": "HackPrep 2.0 returned in 2021 again to get the FEs into development. The aim this year was to provide freshers a head-start to their journey of hackathons. This was done by holding interactive lectures that spanned 4 days, covering all important topics from programming fundamentals to app, front and back end development. Even the basics of git and version control were introduced to the freshers. Via Hackprep, Unicode ensures that freshers get a clear idea on how to go about exploring the vast world of development, navigate through a plethora of resources, and eventually start building their own projects.",
-		"links": [
-			"https://www.youtube.com/watch?v=HZfSajAzIEI"
-		],
-		"images": [
-			"src/images/events/Hackprep2.svg"
-		],
+		"links": ["https://www.youtube.com/watch?v=HZfSajAzIEI"],
+		"images": ["src/images/events/Hackprep2.svg"],
 		"contributors": {
-			"Externals": [],
+			"Externals": [
+				{
+					"name": "",
+					"profile_img": ""
+				}
+			],
 			"TEmentors": [
 				{
 					"name": "Govind Thakur",
@@ -56,18 +57,26 @@
 		"title": "Experimenting: Functional programming",
 		"description": "Vikrant, a graduate of the class of 2017, conducted the first session on Functional Programming. The session covered concepts like functional programming and clean coding. These concepts were introduced in the context of Python, Java, JS and Haskell.",
 		"links": [],
-		"images": [
-			"src/images/events/Exp-Functional_prog.svg"
-		],
+		"images": ["src/images/events/Exp-Functional_prog.svg"],
 		"contributors": {
-			"Externals": [],
+			"Externals": [
+				{
+					"name": "",
+					"profile_img": ""
+				}
+			],
 			"TEmentors": [
 				{
 					"name": "Vikrant Gajria",
 					"profile_img": "url"
 				}
 			],
-			"SEmentees": []
+			"SEmentees": [
+				{
+					"name": "",
+					"profile_img": ""
+				}
+			]
 		}
 	}
 ]
