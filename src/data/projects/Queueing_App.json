@@ -1,0 +1,28 @@
+{
+	"title": "Queueing App",
+	"desc": "To simplify and assist the teacher as well as a student during the\r\nsubmissions thereby overcoming the need for physical queues (physically\r\nbeing present in the queue) and forming virtual ones.\r\n* The app allows teachers to create future submission queues and also\r\nnotifies the student of a particular batch about the same.\r\n* Whenever a submission is started by a teacher, the students can then\r\njoin the Queue through the app and he/she is shown his/her position the\r\nQueue. This enables the student to invest that time productively until\r\nthe time is his/her turn arrives.\r\n* Students can subscribe to various teachers he/she wants to get notified\r\nabout and then whenever the teacher updates their location or creates a\r\nsubmission Queue, the student will be notified about the same.\r\n\r\n## Motivation\r\n\r\n1. The submission week tends to be tiring for both the teachers as well as\r\nstudents.\r\n2. Due to various submissions at different locations confusion is created\r\namongst the students and the teachers. Also, corridors become crowded and\r\nchaotic.\r\n3. It becomes inconvenient for the teacher to maintain discipline in the\r\nQueue and carry out submissions at the same time.\r\n4. There is wastage of time of the students who have to stand in Queue for\r\nsubmissions.\r\nTo overcome all these problems and make the submission process less tiring\r\nwe have come up with this app.",
+	"slug": "queueing-app-1",
+	"img_cover": "src/images/projects/2020/05/14/queue1.png",
+	"img": [
+		"src/images/projects/2020/05/14/queue2.png",
+		"src/images/projects/2020/05/14/queue3.png"
+	],
+	"stack": [
+		"Android Java"
+	],
+	"tech": [
+		"app"
+	],
+	"contributors": {
+		"BEmentors": [],
+		"TEmentors": [],
+		"SEmentees": [
+			18,
+			33
+		]
+	},
+	"year": "2017-07-01",
+	"links": [
+		"https://github.com/djunicode/QueueingApp"
+	]
+}

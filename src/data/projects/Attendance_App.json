@@ -1,0 +1,35 @@
+{
+	"title": "Attendance App",
+	"desc": "Teachers need to formulate multiple reports recording attendance, and since most of it is manual entry, an automated system makes it easy for teachers to minimize the effort in making defaulters records.\r\n\r\n> We use Multiple teachers for each subject, an automated entry based system that checks the time and day, a class teacher who has have higher permission than a subject teacher, in all other classes where she is merely a subject teacher, she should not have the elevated privileges.\r\n\r\n## Features\r\nIn this application we have included three types of users a superuser, teachers and class teachers,view and edit attendance wherein view - The attendance subject wise can be viewed and edit which based on time and day of lecture can be edited. The CSVs of the attendance can be downloaded from the web-app. A Defaulters list of the concerning students is also generated.The subject wise overall attendance for class teacher is also displayed.",
+	"slug": "attendance-app",
+	"img_cover": "src/images/projects/2020/05/26/Login.png",
+	"img": [
+		"src/images/projects/2020/05/26/StudentHome.jpg",
+		"src/images/projects/2020/05/26/StudentList.jpg",
+		"src/images/projects/2020/05/26/TeacherForm.png",
+		"src/images/projects/2020/05/26/TeacherHome.png",
+		"src/images/projects/2020/05/26/UserPage.png"
+	],
+	"stack": [
+		"Android Java"
+	],
+	"tech": [
+		"app"
+	],
+	"contributors": {
+		"BEmentors": [],
+		"TEmentors": [
+			10,
+			37
+		],
+		"SEmentees": [
+			13,
+			23,
+			25
+		]
+	},
+	"year": "2018-10-01",
+	"links": [
+		"https://github.com/djunicode/attendance-android-app"
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"title": "Student Information Portal",
+	"desc": "The Student Information Portal acts as a centralized information system which seeks to fix the constant state of information void that the department is in.\r\n\r\n> We with this application, seek to offer a one-stop-shop for all the information needs of the teachers, recruiters and the department as a whole. This application seeks to circumvent the disparate sources through which information is usually sourced in the department.\r\n\r\n The application also offers several features which allow teachers and recruiters to analyze student\u2019s performance, skills, projects etc and search/filter for students according to their own needs. \r\n\r\n## FEATURES\r\n\r\nWe have achieved a web portal containing information of all students for use primarily by teachers, staff\r\nand potential recruiters, a response mobile-ready web interface to allow seamless action to student information, comprehensive information about Internships, Grades, Skills and Extracurricular\r\nActivities,a \u201cWhat You See is What You Get\u201d intuitive form interface to ease the updation of\r\nprofile and addition of information by students, an intelligent notifications system to allow teachers actively monitor student progress with real-time SMS notifications, option allowing students to submit proof of their achievements/internships in form of images/other files. \r\n\r\n##FUTURE SCOPE\r\nIn the future we aim to create an auto-generation of the student\u2019s resume in pdf format based on all his academic details, achievements, internships, etc. The progress monitoring graphs could be used further to recommend students what are their strengths and weaknesses, a comparative analysis of a particular student\u2019s academic records can be done with that\r\nof his peers and linking of students to teachers based on the subjects they teach.",
+	"slug": "student-information-portal",
+	"img_cover": "src/images/projects/2019/09/25/45575846-9804fd80-b892-11e8-8900-614a0fca018d.png",
+	"img": [
+		"src/images/projects/2019/09/25/45575871-a7844680-b892-11e8-9930-e73d21bc4aff.png",
+		"src/images/projects/2019/09/25/45575849-9b988480-b892-11e8-90e7-f8ba9a3c51d9.png",
+		"src/images/projects/2019/09/25/45575853-9e937500-b892-11e8-8ebb-ea0af950a127.png"
+	],
+	"stack": [
+		"Stack 1"
+	],
+	"tech": [
+		"web"
+	],
+	"contributors": {
+		"BEmentors": [],
+		"TEmentors": [
+			6
+		],
+		"SEmentees": [
+			38,
+			57
+		]
+	},
+	"year": "2017-12-12",
+	"links": [
+		"https://github.com/djunicode/DJ-Comps-Student-Info-Portal"
+	]
+}

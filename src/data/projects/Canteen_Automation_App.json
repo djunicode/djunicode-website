@@ -1,0 +1,26 @@
+{
+	"title": "Canteen Automation App",
+	"desc": "DJ Canteen is a zomato-like application for DJSCE which allows users to place orders using an android app and the canteen manager gets real-time updates about orders in queue. The motivation of the app was to reduce the queues at the canteen and allow people to order from anywhere in college.\r\n\r\nThe app is made using Java. The backend is built with Django, REST framework, and Graphene.",
+	"slug": "canteen-automation-app",
+	"img": [],
+	"stack": [
+		"Android Java"
+	],
+	"tech": [
+		"app"
+	],
+	"contributors": {
+		"BEmentors": [],
+		"TEmentors": [],
+		"SEmentees": [
+			18,
+			22,
+			25,
+			33
+		]
+	},
+	"year": "2018-07-01",
+	"links": [
+		"https://github.com/djunicode/canteen-android-app"
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"title": "Project Finder",
+	"desc": "Often there are situations in any institution where the medium of communication between the students regarding their extra-curricular activities like open-source projects, hackathons, etc. is not strong enough. To bridge this gap, Project Finder is an application that comes in handy. It aims to help juniors identify seniors who can mentor them for a particular skill. If the senior students need help, they can work with interested junior students. The main aim of the web app is to increase the interaction between juniors and seniors. Apart from this,  This will enable the juniors to grow at a much faster rate and help them scale new heights\r\n\r\nThe need of this project is to proliferate the interaction between the juniors and seniors and get students in touch with other students sharing similar set of skills and interests.A user can upload details about a particular project and form a team regarding the same. The same goes for Hackathons, users can upload the details about the upcoming hackathon and create his/her team. The web app allows students to look for teammates for hackathons as well as their own personal projects. Using the app, junior students can know what projects their seniors are working on. A user can approach another user for various purposes. He/She can be asked by a fellow user for being his/her mentor to learn a new skill.There is a provision for professors to post their projects as well. Anyone who wishes to work on projects posted by professors can do so by creating a team for it.",
+	"slug": "project-finder",
+	"img": [],
+	"stack": [
+		"React",
+		" Django",
+		" DjangoRestFramework"
+	],
+	"tech": [
+		"web"
+	],
+	"contributors": {
+		"BEmentors": [
+			55
+		],
+		"TEmentors": [
+			28,
+			37,
+			57
+		],
+		"SEmentees": [
+			8,
+			56
+		]
+	},
+	"year": "2018-08-01",
+	"links": [
+		"https://github.com/djunicode/Project-Finder"
+	]
+}

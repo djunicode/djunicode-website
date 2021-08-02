@@ -1,0 +1,38 @@
+{
+	"title": "Event Management System",
+	"desc": "Teachers need to formulate multiple reports for events, and since most of it is paper work and there is no safety of records, an automated system makes it easy for teachers.\r\n\r\n> We have creates a system that allows event report generation, automatic report emailing to concerned authorities and editing of the report with limited access\r\n\r\n## Features\r\nIn this web app we have included three types of users - Superuser, Teachers and Vice-Principal who have different levels of access depending upon the usage. View and edit report where in view, the event report generated can be viewed and edit which is based on change in venue or date and time. We have also allowed a provision to download CSVs from the web-app. The web app also generates a monthly event list.",
+	"slug": "event-management-system",
+	"img_cover": "src/images/projects/2019/09/25/Event_cover.png",
+	"img": [
+		"src/images/projects/2019/09/24/Screenshot_2019-09-17_at_12.47.12_PM.png",
+		"src/images/projects/2019/09/24/Screenshot_2019-09-17_at_12.48.12_PM.png",
+		"src/images/projects/2019/09/24/Screenshot_2019-09-17_at_12.48.54_PM.png"
+	],
+	"stack": [
+		"React",
+		" Django",
+		" DjangoRestFramework",
+		" MySQL"
+	],
+	"tech": [
+		"web"
+	],
+	"contributors": {
+		"BEmentors": [],
+		"TEmentors": [],
+		"SEmentees": [
+			8,
+			15,
+			39,
+			40,
+			42,
+			45,
+			49,
+			56
+		]
+	},
+	"year": "2018-10-01",
+	"links": [
+		"https://github.com/squirtle-skwad/college-event-manager"
+	]
+}
