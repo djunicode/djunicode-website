@@ -2,13 +2,13 @@
 	"title": "SPA Project",
 	"desc": "Computer Programming Exam Portal is a centralized system designed for teachers to assuage the wearisome task of evaluating C programs manually\r\n\r\n> This portal is the panacea for all the tedious tasks involved in paper\r\n> correction. It offers all the facilities required for creation of\r\n> test, testing taking and evaluation of the tests. This application\r\n> seeks to circumvent the traditional process of manual evaluation of C\r\n> programs.\r\n\r\nThe several features offered by the portal are listed below\r\n\r\n**Features**\r\n\r\n - Real time code compilation\r\n - Automatic generation of student reports\r\n - Easy test creation methods\r\n - Automatic evaluation for MCQs\r\n\r\nWe have created a user-level authentication and registration that allows teachers to conduct SPA examinations online. It allows the teachers to create customized tests consisting of coding problems and multiple-choice questions. It allows the students to compile their coding responses in real time during the test and thus, enabling the teachers to see the compiled version of the student\u2019s code.\r\n\r\nThen the teachers can review the responses and grade the student based on the output generated without having to check for any syntax errors or logical errors made by the student. Moreover, the mcq section is evaluated automatically. The portal also generates and sends a report for each student via email and maintains a record of all students in an excel sheet.\r\n\r\n[Demo](https://www.youtube.com/watch?v=kn7lwJoYfuU)",
 	"slug": "spa-project",
-	"img_cover": "src/images/projects/2020/05/13/CreateTest.png",
+	"img_cover": "../../images/projects/2020/05/13/CreateTest.png",
 	"img": [
-		"src/images/projects/2020/05/13/evaluate.png",
-		"src/images/projects/2020/05/13/teacherLogin.png",
-		"src/images/projects/2020/05/13/Test_CODE.png",
-		"src/images/projects/2020/05/13/Test_MCQ.png",
-		"src/images/projects/2020/05/13/ViewTest.png"
+		"../../images/projects/2020/05/13/evaluate.png",
+		"../../images/projects/2020/05/13/teacherLogin.png",
+		"../../images/projects/2020/05/13/Test_CODE.png",
+		"../../images/projects/2020/05/13/Test_MCQ.png",
+		"../../images/projects/2020/05/13/ViewTest.png"
 	],
 	"stack": [
 		"MongoDB",

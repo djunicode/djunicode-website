@@ -2,12 +2,12 @@
 	"title": "Unicode Website",
 	"desc": "The unicode website is the official website of the student community of DJ Unicode. It is a one stop portal to learn about all the projects, the people, the events and the organization. The website is aimed at driving and attracting visibility towards the organization to add to the great work that is put in by the students. \r\n\r\nThe website has many features such as the blog page, project pages, event schedules, and student information. The blog pages feature the blogs written by the students about the various resources and experiences available as a student developer. The project page is a collection of all the projects that are undertaken at Unicode every year. The event page is used to inform the users for all the events that Unicode hosts and they can book and confirm their spot right here. In order to increase the visibility, Unicode Website also features all the member students of the team who work on various projects. One can contact the organization using the Contact Us page and also subscribe to the newsletters.",
 	"slug": "unicode-website",
-	"img_cover": "src/images/projects/2020/05/13/1.png",
+	"img_cover": "../../images/projects/2020/05/13/1.png",
 	"img": [
-		"src/images/projects/2020/05/13/2.png",
-		"src/images/projects/2020/05/13/3.png",
-		"src/images/projects/2020/05/13/5.png",
-		"src/images/projects/2020/05/13/7.png"
+		"../../images/projects/2020/05/13/2.png",
+		"../../images/projects/2020/05/13/3.png",
+		"../../images/projects/2020/05/13/5.png",
+		"../../images/projects/2020/05/13/7.png"
 	],
 	"stack": [
 		"React",

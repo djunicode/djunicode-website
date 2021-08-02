@@ -2,13 +2,13 @@
 	"title": "BookX",
 	"desc": "Students buy books for reference or for semester exams and do not have a use for the books after a certain time duration. These books could prove to be useful for others who may have a requirement for the book.\r\n\r\n> Keeping this aim in mind we have created a book exchange web-app for the transfer and\r\nexchange of books between students within the Computer Engineering department.\r\n\r\n## FEATURES\r\nWe have created a user-level authentication and registration that allows the user to log on to the portal, book listing that allows the user to view the books that are currently available and also search for any specific book, if needed, a forum that allows easy communication between seniors and juniors, a chat portal that facilitates person to person chat and have also enabled features that resemble e-commerce sites for easy search, intuitive navigation, and swift selection of product(s).\r\n\r\n## FUTURE SCOPE\r\nWhile this platform is currently limited only to our Computer department we wish to extend it to all other departments, use of an image recognition algorithm to see whether the book image is not inappropriate, a language checker to block offensive words, integration with the Computer Department Library to open up access to a broader range of books than would otherwise be available online.",
 	"slug": "bookx",
-	"img_cover": "src/images/projects/2019/09/25/bx_cover_I787r5q.png",
+	"img_cover": "../../images/projects/2019/09/25/bx_cover_I787r5q.png",
 	"img": [
-		"src/images/projects/2019/09/25/bx_cover.png",
-		"src/images/projects/2019/09/24/image5.png",
-		"src/images/projects/2019/09/24/image6.png",
-		"src/images/projects/2019/09/24/image7.png",
-		"src/images/projects/2019/09/24/image8.png"
+		"../../images/projects/2019/09/25/bx_cover.png",
+		"../../images/projects/2019/09/24/image5.png",
+		"../../images/projects/2019/09/24/image6.png",
+		"../../images/projects/2019/09/24/image7.png",
+		"../../images/projects/2019/09/24/image8.png"
 	],
 	"stack": [
 		"React",

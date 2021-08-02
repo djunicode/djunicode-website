@@ -2,13 +2,13 @@
 	"title": "DJ Comps Android App",
 	"desc": "The need for an organized cloud storage platform for DJ Comps was what\r\ngot us started.\r\nWe hence decided to create an app solution for the same.\r\nSharing and downloading resources could not have been made any easier.\r\nWe have used Android Studio and a Django Rest Framework for this\r\nproject.\r\n\r\n## Motivation\r\n\r\n* To provide a platform for students and teachers to seamlessly share documents and important notifications\r\n* For a student it\u2019s a one stop portal for sharing all your notes, assignments & study material\r\n* For a teacher it\u2019s a very convenient mode of communicating announcements and validating submission dates.\r\n* Avoids the clutter and confusion of a social messaging site like Whatsapp but at the same time is very fast and intuitive",
 	"slug": "dj-comps-android-app-1",
-	"img_cover": "src/images/projects/2020/05/14/djcomps1.jpg",
+	"img_cover": "../../images/projects/2020/05/14/djcomps1.jpg",
 	"img": [
-		"src/images/projects/2020/05/14/djcomps2.jpg",
-		"src/images/projects/2020/05/14/djcomps3.jpg",
-		"src/images/projects/2020/05/14/djcomps4.jpg",
-		"src/images/projects/2020/05/14/djcomps5.jpg",
-		"src/images/projects/2020/05/14/djcomps6.jpg"
+		"../../images/projects/2020/05/14/djcomps2.jpg",
+		"../../images/projects/2020/05/14/djcomps3.jpg",
+		"../../images/projects/2020/05/14/djcomps4.jpg",
+		"../../images/projects/2020/05/14/djcomps5.jpg",
+		"../../images/projects/2020/05/14/djcomps6.jpg"
 	],
 	"stack": [
 		"Android Java"
