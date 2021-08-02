@@ -1,12 +1,17 @@
 import React from "react";
+
 import Typewriter from "typewriter-effect";
-import * as styles from "../styles/components/text.module.scss";
+
+// Material UI
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
+import Grid from "@material-ui/core/Grid";
+
+// Styling
+import * as styles from "../styles/components/text.module.scss";
+
+// Static Assests
 import img2 from "../images/django.svg";
-import QuoteCard from "./QuoteCard";
-import defaultAvatar from "../images/avatar.png";
-import { Grid } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -83,7 +88,7 @@ const useStyles = makeStyles((theme) => ({
 	},
 
 	grid: {
-		marginTop: "20px",
+		height: "inherit",
 	},
 
 	"@keyframes mover": {
@@ -97,39 +102,46 @@ export default function MainText() {
 	return (
 		<div className={styles?.textContainer}>
 			<p className={styles?.textMain}>
-				Build blazing fast <br />
-				landing pages for
-				<br />
+				A club <br />
+				where students
 				<span className={styles?.textAnimated}>
 					<Typewriter
 						options={{
 							strings: [
-								'<span style="color: #09c1d7">APP</span>',
-								'<span style="color: #09c1d7">SEO</span>',
-								'<span style="color: #09c1d7">BLA</span>',
+								'<span style="color: #09c1d7">Code.</span>',
+								'<span style="color: #09c1d7">Create.</span>',
+								'<span style="color: #09c1d7">Collaborate.</span>',
 							],
 							autoStart: true,
 							loop: true,
 							pauseFor: 1000,
 							deleteSpeed: "natural",
 						}}
-					/>{" "}
-					service
+					/>
 				</span>
 			</p>
 
 			<p className={styles?.textSub}>
-				Launch your site in style with Fastland, a modern collection of <br />
-				crafted Gatsby JS pages and modular components.
+				Unicode is not just a student chapter it's a student community
 			</p>
 
 			{window.innerWidth > 968 && (
 				<div className={classes.root}>
 					<Paper elevation={0} className={classes.bluePaper}>
-						<Grid xs={12} spacing={3}>
-							<Grid>Hello</Grid>
-							<Grid>heelo</Grid>
-							<Grid>hello</Grid>
+						<Grid
+							className={classes.grid}
+							container
+							direction="row"
+							alignContent="center"
+							alignItems="center"
+							justifyContent="center"
+							wrap="wrap"
+							spacing={1}
+						>
+							<Grid xs={4}>
+								<b>15</b>
+								<br /> Projects
+							</Grid>
 						</Grid>
 					</Paper>
 					<Paper elevation={0} className={classes.greenbgPaper} />
@@ -144,14 +156,29 @@ export default function MainText() {
 							wrap="wrap"
 							spacing={1}
 						>
-							<Grid xs={4}>hello</Grid>
-							<Grid xs={4}>hello</Grid>
-							<Grid xs={4}>hello</Grid>
+							<Grid xs={4}>
+								<b>210+</b>
+								<br /> members
+							</Grid>
 						</Grid>
 					</Paper>
 
 					<Paper elevation={0} className={classes.greensmallPaper}>
-						Hello
+						<Grid
+							className={classes.grid}
+							container
+							direction="row"
+							alignContent="center"
+							alignItems="center"
+							justifyContent="center"
+							wrap="wrap"
+							spacing={1}
+						>
+							<Grid xs={4}>
+								<b>550+</b>
+								<br /> pull requests
+							</Grid>
+						</Grid>
 					</Paper>
 
 					<img src={img2} alt="logo" className={classes.image} />
