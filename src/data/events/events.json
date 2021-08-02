@@ -2,17 +2,12 @@
 	{
 		"title": "Hackprep 2.0",
 		"description": "HackPrep 2.0 returned in 2021 again to get the FEs into development. The aim this year was to provide freshers a head-start to their journey of hackathons. This was done by holding interactive lectures that spanned 4 days, covering all important topics from programming fundamentals to app, front and back end development. Even the basics of git and version control were introduced to the freshers. Via Hackprep, Unicode ensures that freshers get a clear idea on how to go about exploring the vast world of development, navigate through a plethora of resources, and eventually start building their own projects.",
-<<<<<<< HEAD
 		"links": [
 			"https://www.youtube.com/watch?v=HZfSajAzIEI"
 		],
 		"images": [
 			"../../images/events/Hackprep2.svg"
 		],
-=======
-		"links": ["https://www.youtube.com/watch?v=HZfSajAzIEI"],
-		"images": ["src/images/events/Hackprep2.svg"],
->>>>>>> 893e605db782b96b712c7ae6bd3a032dee7a8486
 		"contributors": {
 			"Externals": [
 				{
@@ -66,13 +61,9 @@
 		"title": "Experimenting: Functional programming",
 		"description": "Vikrant, a graduate of the class of 2017, conducted the first session on Functional Programming. The session covered concepts like functional programming and clean coding. These concepts were introduced in the context of Python, Java, JS and Haskell.",
 		"links": [],
-<<<<<<< HEAD
 		"images": [
 			"../../images/events/Exp-Functional_prog.svg"
 		],
-=======
-		"images": ["src/images/events/Exp-Functional_prog.svg"],
->>>>>>> 893e605db782b96b712c7ae6bd3a032dee7a8486
 		"contributors": {
 			"Externals": [
 				{
