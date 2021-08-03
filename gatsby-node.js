@@ -5,7 +5,12 @@ exports.createPages = async ({graphql, actions}) => {
         query AllProjects { 
             allProjectsJson {
                 nodes {
-                    title
+                    slug
+                    contributors {
+                        TEmentors
+                        SEmentees
+                        BEmentors
+                    }
                 }
             }
         }
@@ -14,9 +19,9 @@ exports.createPages = async ({graphql, actions}) => {
 
     pData.data.allProjectsJson.nodes.forEach(node => {
         actions.createPage({
-            path: '/projects/'+node.title,
+            path: '/projects/'+node.slug,
             component: path.resolve('./src/templates/ProjectDetails.js'),
-            context: {title: node.title}
+            context: {slug: node.slug, TEmentors: node.contributors.TEmentors, BEmentors: node.contributors.BEmentors, SEmentees: node.contributors.SEmentees}
         })
     })
 

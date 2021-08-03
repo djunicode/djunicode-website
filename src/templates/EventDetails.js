@@ -5,11 +5,13 @@ import * as styles from '../styles/templates/itemDetail.module.scss'
 import Layout from "../components/Layout";
 import { graphql } from 'gatsby'
 import AvatarHelper from '../components/AvatarHelper'
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 function EventDetails({data}) {
-    const {title, description, links, images} = data.eventsJson
-    const {Externals, TEmentors, SEmentees} = data.eventsJson.contributors
-    //event images map
+    console.log(data)
+    const { title, description, links, images } = data.eventsJson
+    const {Externals, SEmentees, TEmentors} = data.eventsJson.contributors
+    // Avatars img fix
     return (
         <Layout>
         <Grid container className={styles.rootContainer}  component={Paper}>
@@ -21,9 +23,7 @@ function EventDetails({data}) {
                         {/* load event images */}
                         {
                             images.map((item, idx) => 
-                                <div key={idx} className={styles.imgContainer}>
-                                    <img src={item} className={styles.img}/>
-                                </div>
+                                <GatsbyImage key={idx} image={item.childImageSharp.gatsbyImageData} alt="Event Image" className={styles.imgContainer} imgClassName={styles.img}/>
                             )
                         }
                     </Carousel>
@@ -53,12 +53,16 @@ function EventDetails({data}) {
 
 export default EventDetails
 export const query = graphql`
-query EventDetail($title:String) {
+query EventDetail($title: String) {
     eventsJson(title: {eq: $title}) {
       title
       links
-      images
       description
+      images {
+        childImageSharp {
+            gatsbyImageData
+        }
+      }
       contributors {
         Externals {
           name
@@ -74,6 +78,5 @@ query EventDetail($title:String) {
         }
       }
     }
-  }
-  
+  }  
 `

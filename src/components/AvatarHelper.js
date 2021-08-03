@@ -8,7 +8,7 @@ function AvatarHelper({header, data}) {
         <Grid item xs={12}><h3>{header}</h3></Grid>
         <Grid item container xs={12} justifyContent="space-around">
             {
-                data.map(item => <TechStack xs={4} sm={3} md={2} imgUrl={item.profile_img} title={item.name}/>)
+                data.map((item, idx) => <TechStack key={idx} xs={4} sm={3} md={2} imgUrl={item.profile_img} title={item.name}/>)
             }
         </Grid>
     </>)
