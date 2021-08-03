@@ -21,7 +21,12 @@ exports.createPages = async ({graphql, actions}) => {
         actions.createPage({
             path: '/projects/'+node.slug,
             component: path.resolve('./src/templates/ProjectDetails.js'),
-            context: {slug: node.slug, TEmentors: node.contributors.TEmentors, BEmentors: node.contributors.BEmentors, SEmentees: node.contributors.SEmentees}
+            context: {
+                slug: node.slug, 
+                TEmentors: node.contributors.TEmentors, 
+                BEmentors: node.contributors.BEmentors, 
+                SEmentees: node.contributors.SEmentees
+            }
         })
     })
 
@@ -29,16 +34,26 @@ exports.createPages = async ({graphql, actions}) => {
         query AllEvents { 
             allEventsJson {
                 nodes {
-                    title
+                    slug
+                    contributors {
+                        TEmentors
+                        SEmentees
+                        Externals
+                    }
                 }
             }
         }
     `)
     eData.data.allEventsJson.nodes.forEach(node => {
         actions.createPage({
-            path: '/events/'+node.title,
+            path: '/events/'+node.slug,
             component: path.resolve('./src/templates/EventDetails.js'),
-            context: {title: node.title}
+            context: {
+                slug: node.slug, 
+                TEmentors: node.contributors.TEmentors, 
+                Externals: node.contributors.Externals, 
+                SEmentees: node.contributors.SEmentees
+            }
         })
     })
 

@@ -98,7 +98,7 @@ query ProjectDetail($slug: String, $TEmentors: [Int], $BEmentors: [Int], $SEment
           GitHub
         }
       }
-    TEmentors:allProfileJson(filter: {key: {in: $TEmentors}}) {
+    TEmentors: allProfileJson(filter: {key: {in: $TEmentors}}) {
         nodes {
           key
           name

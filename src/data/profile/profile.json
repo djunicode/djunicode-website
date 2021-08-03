@@ -511,5 +511,86 @@
 		"desc": "I am a computer science graduate student at Arizona State University. I am interested in Computer Vision and it's applications in indoor scene generations. When I am not studying or completing assignments, I spend my time reading and writing.",
 		"GitHub": "https://github.com/krishamehta",
 		"LinkedIn": "https://www.linkedin.com/in/krishamehta/"
+	},
+	{
+		"key": 59,
+		"name": "Govind Thakur",
+		"email": "",
+		"profile_pic": "../../images/avatar.png",
+		"desc": "",
+		"GitHub":"",
+		"LinkedIn":""
+	},
+	{
+		"key": 60,
+		"name": "Harsh Vartak",
+		"email": "",
+		"profile_pic": "../../images/avatar.png",
+		"desc": "",
+		"GitHub":"",
+		"LinkedIn":""
+	},
+	{
+		"key": 61,
+		"name": "Hrishikesh Avanoor",
+		"email": "",
+		"profile_pic": "../../images/avatar.png",
+		"desc": "",
+		"GitHub":"",
+		"LinkedIn":""
+	},
+	{
+		"key": 62,
+		"name": "Manav Jain",
+		"email": "",
+		"profile_pic": "../../images/avatar.png",
+		"desc": "",
+		"GitHub":"",
+		"LinkedIn":""
+	},
+	{
+		"key": 63,
+		"name": "Jinay Parekh",
+		"email": "",
+		"profile_pic": "../../images/avatar.png",
+		"desc": "",
+		"GitHub":"",
+		"LinkedIn":""
+	},
+	{
+		"key": 64,
+		"name": "Akshath Mahajan",
+		"email": "",
+		"profile_pic": "../../images/avatar.png",
+		"desc": "",
+		"GitHub":"",
+		"LinkedIn":""
+	},
+	{
+		"key": 65,
+		"name": "Aditya Thaker",
+		"email": "",
+		"profile_pic": "../../images/avatar.png",
+		"desc": "",
+		"GitHub":"",
+		"LinkedIn":""
+	},
+	{
+		"key": 66,
+		"name": "Junaid Girkar",
+		"email": "",
+		"profile_pic": "../../images/avatar.png",
+		"desc": "",
+		"GitHub":"",
+		"LinkedIn":""
+	},
+	{
+		"key": 67,
+		"name": "Kartik Suvarana",
+		"email": "",
+		"profile_pic": "../../images/avatar.png",
+		"desc": "",
+		"GitHub":"",
+		"LinkedIn":""
 	}
 ]
