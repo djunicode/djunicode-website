@@ -61,7 +61,7 @@ export const query = graphql`
 
 		allProjectsJson {
 			nodes {
-				images
+				img
 				title
 			}
 		}

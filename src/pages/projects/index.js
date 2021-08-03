@@ -19,7 +19,7 @@ export const query = graphql`
 	query ProjectDetails {
 		allProjectsJson {
 			nodes {
-				images
+				img
 				title
 				stack
 				links
