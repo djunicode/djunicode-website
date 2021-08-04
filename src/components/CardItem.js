@@ -24,17 +24,23 @@ const useStyles = makeStyles({
 });
 
 export default function CardItem({ data }) {
-	const { title, desc, img_cover, slug } = data;
+	const { title, desc, description, img_cover, images, slug } = data;
 
 	const classes = useStyles();
 	return (
 		<Card className={classes.root}>
-			<Link to={`/projects/${slug}`} className={styles.link}>
+			<Link
+				to={(desc ? "/projects" : "/events") + `/${slug}`}
+				className={styles.link}
+			>
 				<CardActionArea>
 					<CardMedia
 						className={classes.media}
-						image={img_cover?.childImageSharp?.fluid?.src}
-						title="Contemplative Reptile"
+						image={
+							desc
+								? img_cover?.childImageSharp?.fluid?.src
+								: images[0]?.childImageSharp?.fluid?.src
+						}
 					/>
 					<CardContent className={classes.content}>
 						<Typography gutterBottom variant="h5" component="h3">
@@ -46,7 +52,7 @@ export default function CardItem({ data }) {
 							component="p"
 							className={styles.description}
 						>
-							{desc}
+							{desc || description}
 						</Typography>
 					</CardContent>
 				</CardActionArea>
