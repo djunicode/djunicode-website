@@ -1,0 +1,63 @@
+@import "../variables.scss";
+
+.footer {
+	&-container {
+		color: rgba(255, 255, 255, 0.692);
+		width: 100%;
+		// background-color: $primary;
+		background: linear-gradient(
+			to bottom,
+			rgba(119, 206, 144, 25) 0%,
+			rgba(63, 199, 180, 60) 50%,
+			rgba(9, 193, 215) 80%
+		);
+		height: 300px;
+		text-align: center;
+		vertical-align: middle;
+		padding-top: 25px;
+	}
+
+	&-link {
+		color: #fff;
+		margin-right: 2px;
+		font-weight: 600;
+		font-style: italic;
+		text-decoration: none;
+	}
+
+	&-quote {
+		color: rgba(255, 255, 255, 0.9);
+		font-weight: 800;
+	}
+
+	&-copy {
+		font-weight: 100;
+	}
+
+	&-nav {
+		text-decoration: none;
+		color: rgba(255, 255, 255, 0.692);
+	}
+
+	&-nav:hover {
+		text-decoration: none;
+		color: rgba(255, 255, 255, 0.993);
+		font-weight: 700;
+	}
+
+	&-icon {
+		display: block;
+		border-radius: 50%;
+		box-shadow: $boxShadowCard;
+		height: 100%;
+		width: 2.2rem;
+	}
+
+	&-icon:hover {
+		display: block;
+		border-radius: 60%;
+		box-shadow: $boxShadowButton;
+		height: 100%;
+		width: 2.3rem;
+	}
+}

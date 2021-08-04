@@ -16,6 +16,7 @@ function Layout({ children }) {
 		<ThemeProvider theme={theme}>
 			<NavBar />
 			<div className="fixedcontainer">{children}</div>
+			<Footer />
 		</ThemeProvider>
 	);
 }
