@@ -27,6 +27,7 @@ const IndexPage = ({ data }) => {
 	return (
 		<Layout>
 			<Seo title="Home" />
+
 			<MainText />
 
 			{/* Alumni Section */}
