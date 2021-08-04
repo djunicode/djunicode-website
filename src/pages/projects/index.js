@@ -15,32 +15,22 @@ export default function Project({ data }) {
 	);
 }
 
-// export const query = graphql`
-// 	query ProjectDetails {
-// 		allProjectsJson {
-// 			nodes {
-// 				images
-// 				title
-// 				stack
-// 				links
-// 				description
-// 				contributors {
-// 					SEmentees {
-// 						GitHub
-// 						LinkedIn
-// 						desc
-// 						name
-// 						profile_img
-// 					}
-// 					TEmentors {
-// 						GitHub
-// 						LinkedIn
-// 						desc
-// 						name
-// 						profile_img
-// 					}
-// 				}
-// 			}
-// 		}
-// 	}
-// `;
+export const query = graphql`
+	query ProjectDetails {
+		allProjectsJson {
+			nodes {
+				desc
+				slug
+				title
+				year
+				img_cover {
+					childImageSharp {
+						fluid {
+							src
+						}
+					}
+				}
+			}
+		}
+	}
+`;
