@@ -10,7 +10,9 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 function EventDetails({data}) {
     console.log(data)
     const { title, description, links, images } = data.eventsJson
-    const {Externals, SEmentees, TEmentors} = data.eventsJson.contributors
+    const TEmentors = data.TEmentors.nodes
+    const Externals = data.Externals.nodes
+    const SEmentees = data.SEmentees.nodes
     // Avatars img fix
     return (
         <Layout>
@@ -41,9 +43,9 @@ function EventDetails({data}) {
                         </ul>
                     </Grid>
                     {/* Avatars */}
-                    <AvatarHelper header="Guests" data={Externals} />
-                    <AvatarHelper header="TE Mentors" data={TEmentors} />
-                    <AvatarHelper header="SE Mentees" data={SEmentees} />
+                    {Externals.length?<AvatarHelper header="Guests" data={Externals} />:null}
+                    {TEmentors.length?<AvatarHelper header="TE Mentors" data={TEmentors} />:null}
+                    {SEmentees.length?<AvatarHelper header="SE Mentees" data={SEmentees} />:null}
                 </Grid>
             </Grid>
         </Grid>
@@ -53,8 +55,8 @@ function EventDetails({data}) {
 
 export default EventDetails
 export const query = graphql`
-query EventDetail($title: String) {
-    eventsJson(title: {eq: $title}) {
+query EventDetail($slug: String, $Externals: [Int], $TEmentors: [Int], $SEmentees: [Int]) {
+    eventsJson(slug: {eq: $slug}) {
       title
       links
       description
@@ -64,19 +66,55 @@ query EventDetail($title: String) {
         }
       }
       contributors {
-        Externals {
-          name
-          profile_img
-        }
-        SEmentees {
-          name
-          profile_img
-        }
-        TEmentors {
-          name
-          profile_img
-        }
+        Externals
+        SEmentees
+        TEmentors
       }
     }
+  	Externals: allProfileJson(filter: {key: {in: $Externals}}) {
+        nodes {
+          key
+          name
+          profile_pic {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+          email
+          desc
+          LinkedIn
+          GitHub
+        }
+      }
+    TEmentors:allProfileJson(filter: {key: {in: $TEmentors}}) {
+        nodes {
+          key
+          name
+          profile_pic {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+          email
+          desc
+          LinkedIn
+          GitHub
+        }
+      }
+      SEmentees: allProfileJson(filter: {key: {in: $SEmentees}}) {
+        nodes {
+          key
+          name
+          profile_pic {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+          email
+          desc
+          LinkedIn
+          GitHub
+        }
+      }
   }  
 `

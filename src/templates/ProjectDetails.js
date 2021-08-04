@@ -87,18 +87,26 @@ query ProjectDetail($slug: String, $TEmentors: [Int], $BEmentors: [Int], $SEment
         nodes {
           key
           name
-          profile_pic
+          profile_pic {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
           email
           desc
           LinkedIn
           GitHub
         }
       }
-    TEmentors:allProfileJson(filter: {key: {in: $TEmentors}}) {
+    TEmentors: allProfileJson(filter: {key: {in: $TEmentors}}) {
         nodes {
           key
           name
-          profile_pic
+          profile_pic {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
           email
           desc
           LinkedIn
@@ -109,7 +117,11 @@ query ProjectDetail($slug: String, $TEmentors: [Int], $BEmentors: [Int], $SEment
         nodes {
           key
           name
-          profile_pic
+          profile_pic {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
           email
           desc
           LinkedIn

@@ -1,6 +1,7 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
 import * as styles from "../styles/components/techstack.module.scss";
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 /*
 ____________________
@@ -15,11 +16,11 @@ ____________________
 
 */
 
-function TechStack({ imgUrl, title, xs, sm, md, lg, xl }) {
+function TechStack({ img, title, xs, sm, md, lg, xl }) {
 	return (
-		<Grid item container xs={xs || 5} sm={sm || 3} md={md || 3} lg={lg || 2} className={styles.container}>
+		<Grid item container xs={xs || 5} sm={sm || 3} md={md || 3} lg={lg || 1} className={styles.container}>
 			<Grid item xs={12}>
-				<img src={imgUrl} alt={title + " logo"} className={styles.img} />
+				<GatsbyImage image={img} alt={title + " logo"} imgClassName={styles.img} />
 				<h4> {title} </h4>
 			</Grid>
 		</Grid>

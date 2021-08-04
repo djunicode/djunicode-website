@@ -1,0 +1,16 @@
+{
+    "title": "Hackprep 2.0",
+    "description": "HackPrep 2.0 returned in 2021 again to get the FEs into development. The aim this year was to provide freshers a head-start to their journey of hackathons. This was done by holding interactive lectures that spanned 4 days, covering all important topics from programming fundamentals to app, front and back end development. Even the basics of git and version control were introduced to the freshers. Via Hackprep, Unicode ensures that freshers get a clear idea on how to go about exploring the vast world of development, navigate through a plethora of resources, and eventually start building their own projects.",
+    "slug": "hackprep-2-0",
+    "links": [
+        "https://www.youtube.com/watch?v=HZfSajAzIEI"
+    ],
+    "images": [
+        "../../images/events/Hackprep2.png"
+    ],
+    "contributors": {
+        "Externals": [0],
+        "TEmentors": [59, 60, 61, 62],
+        "SEmentees": [63, 64, 65, 66, 67]
+    }
+}
