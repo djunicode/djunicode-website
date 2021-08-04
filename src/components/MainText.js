@@ -97,6 +97,8 @@ const useStyles = makeStyles((theme) => ({
 	},
 }));
 
+let width = window.innerWidth;
+
 export default function MainText() {
 	const classes = useStyles();
 	return (
@@ -125,7 +127,7 @@ export default function MainText() {
 				Unicode is not just a student chapter it's a student community
 			</p>
 
-			{window.innerWidth > 968 && (
+			{width > 1024 ? (
 				<div className={classes.root}>
 					<Paper elevation={0} className={classes.bluePaper}>
 						<Grid
@@ -184,7 +186,7 @@ export default function MainText() {
 					<img src={img2} alt="logo" className={classes.image} />
 					<img src={img2} alt="logo" className={classes.image2} />
 				</div>
-			)}
+			) : null}
 		</div>
 	);
 }
