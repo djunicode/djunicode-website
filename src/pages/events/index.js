@@ -15,29 +15,29 @@ export default function Project({ data }) {
 	);
 }
 
-export const query = graphql`
-	query EventDetails {
-		allEventsJson {
-			nodes {
-				description
-				images
-				links
-				title
-				contributors {
-					Externals {
-						name
-						profile_img
-					}
-					SEmentees {
-						name
-						profile_img
-					}
-					TEmentors {
-						name
-						profile_img
-					}
-				}
-			}
-		}
-	}
-`;
+// export const query = graphql`
+// 	query EventDetails {
+// 		allEventsJson {
+// 			nodes {
+// 				description
+// 				images
+// 				links
+// 				title
+// 				contributors {
+// 					Externals {
+// 						name
+// 						profile_img
+// 					}
+// 					SEmentees {
+// 						name
+// 						profile_img
+// 					}
+// 					TEmentors {
+// 						name
+// 						profile_img
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// `;

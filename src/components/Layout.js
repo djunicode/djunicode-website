@@ -9,6 +9,7 @@ import NavBar from "./NavBar";
 // Global Styles
 import "../styles/global.scss";
 import { theme } from "../theme";
+import Footer from "./Footer";
 
 function Layout({ children }) {
 	return (

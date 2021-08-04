@@ -50,7 +50,6 @@ export const query = graphql`
 		allAlumniJson {
 			nodes {
 				name
-				pic
 				text
 			}
 		}
@@ -61,7 +60,6 @@ export const query = graphql`
 
 		allProjectsJson {
 			nodes {
-				img
 				title
 			}
 		}

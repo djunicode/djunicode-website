@@ -6,7 +6,7 @@
 			"https://www.youtube.com/watch?v=HZfSajAzIEI"
 		],
 		"images": [
-			"../../images/events/Hackprep2.svg"
+			"../../images/events/Hackprep2.png"
 		],
 		"contributors": {
 			"Externals": [
@@ -62,7 +62,7 @@
 		"description": "Vikrant, a graduate of the class of 2017, conducted the first session on Functional Programming. The session covered concepts like functional programming and clean coding. These concepts were introduced in the context of Python, Java, JS and Haskell.",
 		"links": [],
 		"images": [
-			"../../images/events/Exp-Functional_prog.svg"
+			"../../images/events/Exp-Functional_prog.png"
 		],
 		"contributors": {
 			"Externals": [
