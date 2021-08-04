@@ -8,8 +8,22 @@ import Seo from "../components/SEO";
 import QuoteCard from "../components/QuoteCard";
 import StandardGrid from "../components/StandardGrid";
 import Carousel from "../components/Carousel";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 const IndexPage = ({ data }) => {
+	const featureProjectImages = data.allProjectsJson.nodes
+		.map((project, index) => {
+			if (data.featuredProjectsJson.index?.includes(project.title)) {
+				return (
+					<GatsbyImage
+						key={index}
+						image={project.img_cover?.childImageSharp?.gatsbyImageData}
+					/>
+				);
+			}
+		})
+		.filter((value) => !!value);
+
 	return (
 		<Layout>
 			<Seo title="Home" />
@@ -25,19 +39,7 @@ const IndexPage = ({ data }) => {
 			<br />
 
 			{/* Featured Projects Carousel */}
-			{/* <Carousel>
-				{data.allProjectsJson.nodes.map((project, index) => {
-					if (data.featuredProjectsJson.index?.includes(project.title)) {
-						return (
-							<div key={index}>
-								<img key={index} src={project.images[0]} />
-							</div>
-						);
-					} else {
-						return null;
-					}
-				})}
-			</Carousel> */}
+			<Carousel>{featureProjectImages}</Carousel>
 			<br />
 		</Layout>
 	);
@@ -61,6 +63,11 @@ export const query = graphql`
 		allProjectsJson {
 			nodes {
 				title
+				img_cover {
+					childImageSharp {
+						gatsbyImageData
+					}
+				}
 			}
 		}
 	}
