@@ -26,7 +26,7 @@ export default function Footer() {
 				</span>{" "}
 				&quot;
 			</p>
-			<div>
+			<div style={{ overflow: "hidden" }}>
 				<Grid
 					container
 					className={classes.root}
@@ -85,7 +85,7 @@ export default function Footer() {
 				{"   "}
 				and subscribe to our newsletter.
 			</p>
-			<div>
+			<div style={{ overflow: "hidden" }}>
 				<Grid
 					container
 					className={classes.root}
@@ -120,7 +120,7 @@ export default function Footer() {
 			<br />
 
 			<div>
-				<p>
+				<p style={{ marginBottom: "0" }}>
 					{" "}
 					&copy;{" "}
 					<span className={styles.footerCopy}>

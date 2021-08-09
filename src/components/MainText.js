@@ -11,7 +11,9 @@ import Grid from "@material-ui/core/Grid";
 import * as styles from "../styles/components/text.module.scss";
 
 // Static Assests
-import img2 from "../images/django.svg";
+import djangoImage from "../images/techStacks/django.svg";
+import nodeJsImage from "../images/techStacks/nodejs.svg";
+import reactImage from "../images/techStacks/react.svg";
 import avatar from "../images/avatar.png";
 
 const useStyles = makeStyles((theme) => ({
@@ -24,21 +26,26 @@ const useStyles = makeStyles((theme) => ({
 		flexGrow: 1,
 	},
 	bluePaper: {
+		zIndex: "-1",
+		fontSize: "1.8rem",
 		backgroundImage:
 			"linear-gradient(to right top, #77ce90, #57cda4, #35cab8, #0ec6c9, #09c1d7)",
-		width: theme.spacing(32),
-		height: theme.spacing(20),
+		width: theme.spacing(36),
+		height: theme.spacing(26),
+		color: "#ffffff",
 		position: "absolute",
 		top: "30%",
-		right: "12%",
+		right: "10%",
 		transform: "rotate(7deg)",
 		boxShadow: "-1px 3px 24px 16px rgba(75, 75, 75, 0.16)",
 	},
 
 	greensmallPaper: {
+		zIndex: "-1",
+		fontSize: "1.5rem",
 		backgroundColor: "#09c1d7",
-		width: theme.spacing(24),
-		height: theme.spacing(14),
+		width: theme.spacing(28),
+		height: theme.spacing(22),
 		color: "#ffffff",
 		borderRadius: "6px",
 		position: "absolute",
@@ -50,18 +57,22 @@ const useStyles = makeStyles((theme) => ({
 	},
 
 	greenPaper: {
+		zIndex: "-1",
+		fontSize: "1.2rem",
 		backgroundColor: "#77ce90",
 		width: theme.spacing(42),
-		height: theme.spacing(8),
+		height: theme.spacing(12),
 		color: "#ffffff",
 		borderRadius: "8px",
 		position: "absolute",
 		top: "13%",
 		right: "40%",
 		transform: "rotate(-6deg)",
+		boxShadow: "-1px 3px 24px 16px rgba(75, 75, 75, 0.16)",
 	},
 
 	greenbgPaper: {
+		zIndex: "-1",
 		backgroundColor: "#77ce90",
 		width: theme.spacing(42),
 		height: theme.spacing(8),
@@ -78,6 +89,7 @@ const useStyles = makeStyles((theme) => ({
 		top: "70%",
 		right: "9%",
 		width: "6%",
+		minWidth: "100px",
 		transform: "rotate(-3deg)",
 	},
 
@@ -86,6 +98,7 @@ const useStyles = makeStyles((theme) => ({
 		top: "30%",
 		left: "9%",
 		width: "6%",
+		minWidth: "100px",
 		transform: "rotate(3deg)",
 	},
 
@@ -94,6 +107,7 @@ const useStyles = makeStyles((theme) => ({
 		bottom: "5%",
 		left: "30%",
 		width: "6%",
+		minWidth: "100px",
 		transform: "rotate(15deg)",
 	},
 
@@ -134,7 +148,7 @@ export default function MainText() {
 			</p>
 
 			<p className={styles?.textSub}>
-				Unicode is not just a student chapter it's a student community
+				Unicode is not just a student chapter it's a student community.
 			</p>
 
 			{width > 1024 ? (
@@ -193,8 +207,8 @@ export default function MainText() {
 						</Grid>
 					</Paper>
 
-					<img src={img2} alt="logo" className={classes.image} />
-					<img src={img2} alt="logo" className={classes.image2} />
+					<img src={djangoImage} alt="logo" className={classes.image} />
+					<img src={nodeJsImage} alt="logo" className={classes.image2} />
 					<div className={styles.textImage}>
 						<img src={avatar} alt="logo" className={styles.textImage3} />
 					</div>
@@ -202,7 +216,7 @@ export default function MainText() {
 						<img src={avatar} alt="logo" className={styles.textImage4} />
 					</div>
 
-					<img src={img2} alt="logo" className={classes.image5} />
+					<img src={reactImage} alt="logo" className={classes.image5} />
 				</div>
 			) : null}
 		</div>
