@@ -1,6 +1,9 @@
 import * as React from "react";
 
 import { graphql } from "gatsby";
+import { GatsbyImage } from "gatsby-plugin-image";
+
+import Divider from "@material-ui/core/Divider";
 
 import Layout from "../components/Layout";
 import MainText from "../components/MainText";
@@ -8,7 +11,8 @@ import Seo from "../components/SEO";
 import QuoteCard from "../components/QuoteCard";
 import StandardGrid from "../components/StandardGrid";
 import Carousel from "../components/Carousel";
-import { GatsbyImage } from "gatsby-plugin-image";
+
+import * as styles from "../styles/pages/home.module.scss";
 
 const IndexPage = ({ data }) => {
 	const featureProjectImages = data.allProjectsJson.nodes
@@ -31,6 +35,8 @@ const IndexPage = ({ data }) => {
 			<MainText />
 
 			{/* Alumni Section */}
+			<Divider />
+			<h2 className={styles.homeTitle}>Word from our Founders</h2>
 			<StandardGrid>
 				{data.allAlumniJson.nodes.map((alumni, index) => (
 					<QuoteCard
@@ -44,8 +50,29 @@ const IndexPage = ({ data }) => {
 			</StandardGrid>
 			<br />
 			<br />
+			<br />
+
+			{/* Faculty Section */}
+			<Divider />
+			<h2 className={styles.homeTitleAlt}>Word from Faculty</h2>
+			<StandardGrid>
+				{data.allFacultyJson.nodes.map((faculty, index) => (
+					<QuoteCard
+						key={index}
+						dynamicImage
+						name={faculty.name}
+						quote={faculty.text}
+						avatar={faculty.pic.childImageSharp.gatsbyImageData}
+					/>
+				))}
+			</StandardGrid>
+			<br />
+			<br />
+			<br />
 
 			{/* Featured Projects Carousel */}
+			<Divider />
+			<h2 className={styles.homeTitle}>Featured Projects</h2>
 			<Carousel>{featureProjectImages}</Carousel>
 			<br />
 		</Layout>
@@ -57,6 +84,18 @@ export default IndexPage;
 export const query = graphql`
 	query LandingPageDetail {
 		allAlumniJson {
+			nodes {
+				name
+				text
+				pic {
+					childImageSharp {
+						gatsbyImageData
+					}
+				}
+			}
+		}
+
+		allFacultyJson {
 			nodes {
 				name
 				text
