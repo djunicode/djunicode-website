@@ -12,6 +12,7 @@ import * as styles from "../styles/components/text.module.scss";
 
 // Static Assests
 import img2 from "../images/django.svg";
+import avatar from "../images/avatar.png";
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -23,14 +24,15 @@ const useStyles = makeStyles((theme) => ({
 		flexGrow: 1,
 	},
 	bluePaper: {
+		backgroundImage:
+			"linear-gradient(to right top, #77ce90, #57cda4, #35cab8, #0ec6c9, #09c1d7)",
 		width: theme.spacing(32),
 		height: theme.spacing(20),
 		position: "absolute",
 		top: "30%",
 		right: "12%",
 		transform: "rotate(7deg)",
-		boxShadow: "-1px 3px 24px 16px rgba(75, 75, 75, 0.07)",
-		animation: `$mover 1000ms  ${theme.transitions.easing.easeInOut}`,
+		boxShadow: "-1px 3px 24px 16px rgba(75, 75, 75, 0.16)",
 	},
 
 	greensmallPaper: {
@@ -85,6 +87,14 @@ const useStyles = makeStyles((theme) => ({
 		left: "9%",
 		width: "6%",
 		transform: "rotate(3deg)",
+	},
+
+	image5: {
+		position: "absolute",
+		bottom: "5%",
+		left: "30%",
+		width: "6%",
+		transform: "rotate(15deg)",
 	},
 
 	grid: {
@@ -185,6 +195,14 @@ export default function MainText() {
 
 					<img src={img2} alt="logo" className={classes.image} />
 					<img src={img2} alt="logo" className={classes.image2} />
+					<div className={styles.textImage}>
+						<img src={avatar} alt="logo" className={styles.textImage3} />
+					</div>
+					<div className={styles.textImage}>
+						<img src={avatar} alt="logo" className={styles.textImage4} />
+					</div>
+
+					<img src={img2} alt="logo" className={classes.image5} />
 				</div>
 			) : null}
 		</div>
