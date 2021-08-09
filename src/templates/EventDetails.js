@@ -36,12 +36,18 @@ function EventDetails({data}) {
                         <p>{description}</p>
                     </Grid>
                     {/* Links */}
-                    <Grid item xs={12}><h3>Related Links</h3></Grid>
-                    <Grid item container xs={8} sm={5}>
-                        <ul>
-                            {links.map((item, idx) => <li key={idx}><a href={item} target="_blank">{item}</a></li>)}
-                        </ul>
-                    </Grid>
+					{
+						links.length? 
+						<>
+							<Grid item xs={12}><h3>Related Links</h3></Grid>
+							<Grid item container xs={8} sm={5}>
+								<ul>
+									{links.map((item, idx) => <li key={idx}><a href={item} target="_blank">{item}</a></li>)}
+								</ul>
+							</Grid>
+						</>
+						: null
+					}
                     {/* Avatars */}
                     {Externals.length?<AvatarHelper header="Guests" data={Externals} />:null}
                     {TEmentors.length?<AvatarHelper header="TE Mentors" data={TEmentors} />:null}

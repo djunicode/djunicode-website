@@ -42,7 +42,7 @@ function ProjectDetails({ data }) {
 							<h3>About the project</h3>
 							<p>{desc}</p>
 						</Grid>
-						{/* Stacks and links */}
+						{/* Stacks and links: Stacks cannot be empty*/}
 						<Grid item xs={12}>
 							<h3>Tech stacks used</h3>
 						</Grid>
@@ -54,20 +54,27 @@ function ProjectDetails({ data }) {
 							</ul>
 							{/* {stack.map((item, idx)=> <TechStack key={idx} xs={4} sm={3} md={2} imgUrl={item[1]} title={item[0]}/>)} */}
 						</Grid>
-						<Grid item xs={12}>
-							<h3>Related Links</h3>
-						</Grid>
-						<Grid item container xs={8} sm={5}>
-							<ul>
-								{links.map((item, idx) => (
-									<li key={idx}>
-										<a href={item} target="_blank">
-											{item}
-										</a>
-									</li>
-								))}
-							</ul>
-						</Grid>
+						{
+							links.length?
+							<>
+								<Grid item xs={12}>
+									<h3>Related Links</h3>
+								</Grid>
+								<Grid item container xs={8} sm={5}>
+									<ul>
+										{links.map((item, idx) => (
+											<li key={idx}>
+												<a href={item} target="_blank">
+													{item}
+												</a>
+											</li>
+										))}
+									</ul>
+								</Grid>
+							</>
+							:
+							null
+						}
 						{/* Avatars */}
 						{BEmentors.length ? (
 							<AvatarHelper header="BE Mentors" data={BEmentors} />
