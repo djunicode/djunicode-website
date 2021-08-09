@@ -33,7 +33,13 @@ const IndexPage = ({ data }) => {
 			{/* Alumni Section */}
 			<StandardGrid>
 				{data.allAlumniJson.nodes.map((alumni, index) => (
-					<QuoteCard key={index} name={alumni.name} quote={alumni.text} />
+					<QuoteCard
+						key={index}
+						dynamicImage
+						name={alumni.name}
+						quote={alumni.text}
+						avatar={alumni.pic.childImageSharp.gatsbyImageData}
+					/>
 				))}
 			</StandardGrid>
 			<br />
@@ -54,6 +60,11 @@ export const query = graphql`
 			nodes {
 				name
 				text
+				pic {
+					childImageSharp {
+						gatsbyImageData
+					}
+				}
 			}
 		}
 
