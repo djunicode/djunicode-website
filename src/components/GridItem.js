@@ -51,7 +51,7 @@ export default function GridItem({ data }) {
 					{data.map((item, index) => (
 						<Grid
 							item
-							spacing={5}
+							spacing={15}
 							key={index}
 							justifyContent="center"
 							alignItems="center"

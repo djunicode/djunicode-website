@@ -216,7 +216,7 @@ export default function MainText() {
 						<img src={avatar} alt="logo" className={styles.textImage4} />
 					</div>
 
-					<img src={reactImage} alt="logo" className={classes.image5} />
+					<img src={reactImage} alt="logo" className={styles.textImage5} />
 				</div>
 			) : null}
 		</div>
