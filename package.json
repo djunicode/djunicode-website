@@ -21,6 +21,7 @@
     "@material-ui/icons": "^4.11.2",
     "@material-ui/lab": "^4.0.0-alpha.60",
     "@splidejs/react-splide": "^0.4.4",
+    "aos": "^2.3.4",
     "axios": "^0.21.1",
     "form-data": "^4.0.0",
     "formik": "^2.2.9",

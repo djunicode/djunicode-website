@@ -28,7 +28,7 @@ export default function CardItem({ data }) {
 
 	const classes = useStyles();
 	return (
-		<Card className={classes.root}>
+		<Card className={classes.root} data-aos="fade-up" data-aos-duration="1000">
 			<Link
 				to={(desc ? "/projects" : "/events") + `/${slug}`}
 				className={styles.link}
