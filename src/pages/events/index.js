@@ -11,6 +11,9 @@ export default function Project({ data }) {
 		<Layout>
 			<Seo title="Events" />
 			<GridItem data={data.allEventsJson.nodes} />
+			<br />
+			<br />
+			<br />
 		</Layout>
 	);
 }
