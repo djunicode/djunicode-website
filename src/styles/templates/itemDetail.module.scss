@@ -2,31 +2,32 @@
 $bigSpace: 20px;
 
 .rootContainer {
-    margin: auto !important;
-    margin-top: $bigSpace !important;
-    margin-bottom: $bigSpace !important;
+	margin: auto !important;
+	margin-top: $bigSpace !important;
+	margin-bottom: $bigSpace !important;
 }
 .bgP {
-    background-color: $primary;
+	background-color: $primary;
 }
 .header {
-    color: $primary;
-    text-align: center;
-    padding: $extraspacing;
-    margin-bottom: $extraspacing !important;
+	color: $primary;
+	text-align: center;
+	padding: $extraspacing;
+	margin-bottom: $extraspacing !important;
 }
 .content {
-    margin-bottom: $extraspacing !important;
-    padding: $extraspacing;
+	margin-bottom: $extraspacing !important;
+	padding: $extraspacing;
 }
 .img {
-    max-width: 100%;
-    max-height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain !important;
 }
 .imgContainer {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }

@@ -13,6 +13,7 @@ import StandardGrid from "../components/StandardGrid";
 import Carousel from "../components/Carousel";
 
 import * as styles from "../styles/pages/home.module.scss";
+import * as itemDetailsStyles from "../styles/templates/itemDetail.module.scss";
 
 const IndexPage = ({ data }) => {
 	const featureProjectImages = data.allProjectsJson.nodes
@@ -22,6 +23,7 @@ const IndexPage = ({ data }) => {
 					<GatsbyImage
 						key={index}
 						image={project.img_cover?.childImageSharp?.gatsbyImageData}
+						imgClassName={itemDetailsStyles.img}
 					/>
 				);
 			}
