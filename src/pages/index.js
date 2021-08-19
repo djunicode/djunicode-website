@@ -77,6 +77,24 @@ const IndexPage = ({ data }) => {
 			<h2 className={styles.homeTitle}>Featured Projects</h2>
 			<Carousel>{featureProjectImages}</Carousel>
 			<br />
+			<br />
+			<br />
+
+			{/* Tech Stacks Sections */}
+			<Divider />
+			<h2 className={styles.homeTitle}>Tech Stacks</h2>
+			<StandardGrid>
+				{data.allAboutJson.nodes.map((about, index) => (
+					<QuoteCard
+						key={index}
+						name={about.title}
+						avatar={about.image.publicURL}
+					/>
+				))}
+			</StandardGrid>
+			<br />
+			<br />
+			<br />
 		</Layout>
 	);
 };
@@ -85,6 +103,15 @@ export default IndexPage;
 
 export const query = graphql`
 	query LandingPageDetail {
+		allAboutJson {
+			nodes {
+				title
+				image {
+					publicURL
+				}
+			}
+		}
+
 		allAlumniJson {
 			nodes {
 				name

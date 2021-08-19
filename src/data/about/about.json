@@ -5,15 +5,15 @@
 	},
 	{
 		"title": "React",
-		"image": "../../images/about/React-icon.svg"
+		"image": "../../images/about/react.svg"
 	},
 	{
 		"title": "React Native",
-		"image": "../../images/about/React-icon.svg"
+		"image": "../../images/about/react.svg"
 	},
 	{
-		"title": "Node",
-		"image": "../../images/about/nodejs-1-logo.svg"
+		"title": "Node.js",
+		"image": "../../images/about/nodejs.svg"
 	},
 	{
 		"title": "Flutter",
