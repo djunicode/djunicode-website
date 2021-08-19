@@ -116,11 +116,6 @@ const useStyles = makeStyles((theme) => ({
 	grid: {
 		height: "inherit",
 	},
-
-	"@keyframes mover": {
-		"0%": "transform: translateY(0) ",
-		"100%": "transform: translateY(-10px)",
-	},
 }));
 
 let width = window.innerWidth;

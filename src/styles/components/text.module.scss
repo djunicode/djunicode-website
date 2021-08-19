@@ -110,7 +110,7 @@ $imgWidth: 10px;
 		transform: rotate(15deg);
 		width: 4%;
 		min-width: 60px;
-		animation: rotation 8s infinite linear;
+		animation: rotation 20s infinite linear;
 	}
 
 	@keyframes rotation {
@@ -124,37 +124,37 @@ $imgWidth: 10px;
 
 	@keyframes mover {
 		0% {
-			-webkit-transform: rotate(20deg);
+			-webkit-transform: rotate(20deg) translateX(0);
 		}
 		25% {
-			-webkit-transform: rotate(-20deg);
+			-webkit-transform: rotate(-20deg) translateX(-20px);
 		}
 		50% {
-			-webkit-transform: rotate(20deg);
+			-webkit-transform: rotate(20deg) translateX(0);
 		}
 		75% {
-			-webkit-transform: rotate(-20deg);
+			-webkit-transform: rotate(-20deg) translateX(20px);
 		}
 		100% {
-			-webkit-transform: rotate(20deg);
+			-webkit-transform: rotate(20deg) translateX(0);
 		}
 	}
 
 	@keyframes mover2 {
 		0% {
-			-webkit-transform: rotate(-20deg);
+			-webkit-transform: rotate(-20deg) translateX(0);
 		}
 		25% {
-			-webkit-transform: rotate(20deg);
+			-webkit-transform: rotate(20deg) translateX(20px);
 		}
 		50% {
-			-webkit-transform: rotate(-20deg);
+			-webkit-transform: rotate(-20deg) translateX(0);
 		}
 		75% {
-			-webkit-transform: rotate(20deg);
+			-webkit-transform: rotate(20deg) translateX(-20px);
 		}
 		100% {
-			-webkit-transform: rotate(-20deg);
+			-webkit-transform: rotate(-20deg) translateX(0);
 		}
 	}
 }
