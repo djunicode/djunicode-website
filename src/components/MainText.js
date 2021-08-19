@@ -91,6 +91,7 @@ const useStyles = makeStyles((theme) => ({
 		width: "6%",
 		minWidth: "100px",
 		transform: "rotate(-3deg)",
+		animation: styles.mover2 + " 12s infinite",
 	},
 
 	image2: {
@@ -100,6 +101,7 @@ const useStyles = makeStyles((theme) => ({
 		width: "6%",
 		minWidth: "100px",
 		transform: "rotate(3deg)",
+		animation: styles.mover + " 15s infinite",
 	},
 
 	image5: {
