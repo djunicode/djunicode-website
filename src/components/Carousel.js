@@ -1,6 +1,10 @@
 import React from "react";
+import loadable from "@loadable/component";
 
-import { Splide, SplideSlide } from "@splidejs/react-splide";
+const { Splide, SplideSlide } = loadable(() =>
+	import("@splidejs/react-splide")
+);
+
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import "../styles/components/carousel.scss";
 
