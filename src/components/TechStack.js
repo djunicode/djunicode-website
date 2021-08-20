@@ -3,7 +3,7 @@ import { Grid } from "@material-ui/core";
 import * as styles from "../styles/components/techstack.module.scss";
 import { GatsbyImage } from "gatsby-plugin-image";
 
-function TechStack({ img, title, dynamicImage, xs, sm, md, lg, xl }) {
+function TechStack({ img, title, staticImage, techStack, xs, sm, md, lg, xl }) {
 	return (
 		<Grid
 			item
@@ -15,14 +15,18 @@ function TechStack({ img, title, dynamicImage, xs, sm, md, lg, xl }) {
 			className={styles.container}
 		>
 			<Grid item xs={12} data-aos="fade-up" data-aos-duration="1000">
-				{dynamicImage ? (
+				{staticImage ? (
+					<img
+						src={img}
+						alt={title + " logo"}
+						className={techStack ? styles.img2 : styles.img}
+					/>
+				) : (
 					<GatsbyImage
 						image={img}
 						alt={title + " logo"}
-						imgClassName={styles.img}
+						imgClassName={techStack ? styles.img2 : styles.img}
 					/>
-				) : (
-					<img src={img} alt={title + " logo"} className={styles.img} />
 				)}
 				<h4> {title} </h4>
 			</Grid>
