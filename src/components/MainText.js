@@ -114,8 +114,6 @@ const useStyles = makeStyles((theme) => ({
 	},
 }));
 
-let width = window.innerWidth;
-
 export default function MainText() {
 	const classes = useStyles();
 	return (
@@ -144,85 +142,83 @@ export default function MainText() {
 				Unicode is not just a student chapter it's a student community.
 			</p>
 
-			{width > 1024 ? (
-				<div className={classes.root}>
-					<Paper elevation={0} className={classes.bluePaper}>
-						<Grid
-							className={classes.grid}
-							container
-							direction="row"
-							alignContent="center"
-							alignItems="center"
-							justifyContent="center"
-							wrap="wrap"
-							spacing={1}
-						>
-							<Grid xs={4}>
-								<div className={styles.textAnimated}>
-									<ComputerIcon />
-									&nbsp;
-									<b>15</b>
-								</div>
-								Projects
-							</Grid>
+			<div className={classes.root}>
+				<Paper elevation={0} className={classes.bluePaper}>
+					<Grid
+						className={classes.grid}
+						container
+						direction="row"
+						alignContent="center"
+						alignItems="center"
+						justifyContent="center"
+						wrap="wrap"
+						spacing={1}
+					>
+						<Grid xs={4}>
+							<div className={styles.textAnimated}>
+								<ComputerIcon />
+								&nbsp;
+								<b>15</b>
+							</div>
+							Projects
 						</Grid>
-					</Paper>
-					<Paper elevation={0} className={classes.greenbgPaper} />
-					<Paper elevation={0} className={classes.greenPaper}>
-						<Grid
-							className={classes.grid}
-							container
-							direction="row"
-							alignContent="center"
-							alignItems="center"
-							justifyContent="center"
-							wrap="wrap"
-							spacing={1}
-						>
-							<Grid xs={4}>
-								<div className={styles.textAnimated}>
-									<UserCircleIcon />
-									&nbsp;
-									<b>210+</b>
-								</div>
-								members
-							</Grid>
+					</Grid>
+				</Paper>
+				<Paper elevation={0} className={classes.greenbgPaper} />
+				<Paper elevation={0} className={classes.greenPaper}>
+					<Grid
+						className={classes.grid}
+						container
+						direction="row"
+						alignContent="center"
+						alignItems="center"
+						justifyContent="center"
+						wrap="wrap"
+						spacing={1}
+					>
+						<Grid xs={4}>
+							<div className={styles.textAnimated}>
+								<UserCircleIcon />
+								&nbsp;
+								<b>210+</b>
+							</div>
+							members
 						</Grid>
-					</Paper>
+					</Grid>
+				</Paper>
 
-					<Paper elevation={0} className={classes.greensmallPaper}>
-						<Grid
-							className={classes.grid}
-							container
-							direction="row"
-							alignContent="center"
-							alignItems="center"
-							justifyContent="center"
-							wrap="wrap"
-							spacing={1}
-						>
-							<Grid xs={4}>
-								<div className={styles.textAnimated}>
-									<GitHubIcon />
-									&nbsp;
-									<b>550+</b>
-								</div>
-								pull requests
-							</Grid>
+				<Paper elevation={0} className={classes.greensmallPaper}>
+					<Grid
+						className={classes.grid}
+						container
+						direction="row"
+						alignContent="center"
+						alignItems="center"
+						justifyContent="center"
+						wrap="wrap"
+						spacing={1}
+					>
+						<Grid xs={4}>
+							<div className={styles.textAnimated}>
+								<GitHubIcon />
+								&nbsp;
+								<b>550+</b>
+							</div>
+							pull requests
 						</Grid>
-					</Paper>
+					</Grid>
+				</Paper>
 
-					<img src={djangoImage} alt="logo" className={classes.image} />
-					<img src={nodeJsImage} alt="logo" className={classes.image2} />
-					<div className={styles.textImage}>
-						<img src={gitImage} alt="logo" className={styles.textImage3} />
-					</div>
-					<div className={styles.textImage}>
-						<img src={flutterImage} alt="logo" className={styles.textImage4} />
-					</div>
-					<img src={reactImage} alt="logo" className={styles.textImage5} />
+				<img src={djangoImage} alt="logo" className={classes.image} />
+				<img src={nodeJsImage} alt="logo" className={classes.image2} />
+				<div className={styles.textImage}>
+					<img src={gitImage} alt="logo" className={styles.textImage3} />
 				</div>
-			) : null}
+				<div className={styles.textImage}>
+					<img src={flutterImage} alt="logo" className={styles.textImage4} />
+				</div>
+				<img src={reactImage} alt="logo" className={styles.textImage5} />
+			</div>
 		</div>
 	);
 }

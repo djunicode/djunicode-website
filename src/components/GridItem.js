@@ -25,7 +25,8 @@ const useStyles = makeStyles((theme) => ({
 export default function GridItem({ data }) {
 	const classes = useStyles();
 
-	const location = window.location.href;
+	const location =
+		typeof window !== `undefined` && window ? window.location.href : "";
 	return (
 		<div className={classes.root}>
 			<Container fixed>

@@ -40,7 +40,10 @@ function ElevationScroll(props) {
 }
 
 function NavBar(props) {
-	const iOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+	const iOS =
+		typeof navigator !== `undefined` && navigator
+			? /iPad|iPhone|iPod/.test(navigator.userAgent)
+			: null;
 	const navbarBreakpoint = useMediaQuery("(min-width:657px)");
 
 	const [openDrawer, setOpenDrawer] = useState(false);
