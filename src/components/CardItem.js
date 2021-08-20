@@ -43,7 +43,7 @@ export default function CardItem({ data }) {
 						}
 					/>
 					<CardContent className={classes.content}>
-						<Typography gutterBottom variant="h5" component="h3">
+						<Typography noWrap gutterBottom variant="h5" component="h3">
 							{title}
 						</Typography>
 						<Typography
