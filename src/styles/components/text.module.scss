@@ -81,24 +81,21 @@ $imgWidth: 10px;
 
 	&-image3 {
 		display: block;
-		border-radius: 50%;
-		box-shadow: $boxShadowCard;
 		position: absolute;
 		top: 20%;
 		left: 15%;
 		transform: rotate(3deg);
-		width: 5%;
+		width: 7%;
+		animation: mover2 20s infinite linear;
 	}
 
 	&-image4 {
 		display: block;
-		border-radius: 50%;
-		box-shadow: $boxShadowCard;
 		position: absolute;
 		top: 80%;
-		right: 30%;
-		transform: rotate(3deg);
-		width: 5%;
+		right: 35%;
+		width: 4%;
+		animation: mover 18s infinite linear;
 	}
 
 	&-image5 {

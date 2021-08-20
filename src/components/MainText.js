@@ -14,7 +14,8 @@ import * as styles from "../styles/components/text.module.scss";
 import djangoImage from "../images/techStacks/django.svg";
 import nodeJsImage from "../images/techStacks/nodejs.svg";
 import reactImage from "../images/techStacks/react.svg";
-import avatar from "../images/avatar.png";
+import flutterImage from "../images/about/Flutter.svg";
+import gitImage from "../images/techStacks/git.svg";
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -88,7 +89,7 @@ const useStyles = makeStyles((theme) => ({
 		position: "absolute",
 		top: "70%",
 		right: "9%",
-		width: "6%",
+		width: "8%",
 		minWidth: "100px",
 		transform: "rotate(-3deg)",
 		animation: styles.mover2 + " 12s infinite",
@@ -96,21 +97,12 @@ const useStyles = makeStyles((theme) => ({
 
 	image2: {
 		position: "absolute",
-		top: "30%",
+		top: "39%",
 		left: "9%",
-		width: "6%",
+		width: "8%",
 		minWidth: "100px",
 		transform: "rotate(3deg)",
 		animation: styles.mover + " 15s infinite",
-	},
-
-	image5: {
-		position: "absolute",
-		bottom: "5%",
-		left: "30%",
-		width: "6%",
-		minWidth: "100px",
-		transform: "rotate(15deg)",
 	},
 
 	grid: {
@@ -207,12 +199,11 @@ export default function MainText() {
 					<img src={djangoImage} alt="logo" className={classes.image} />
 					<img src={nodeJsImage} alt="logo" className={classes.image2} />
 					<div className={styles.textImage}>
-						<img src={avatar} alt="logo" className={styles.textImage3} />
+						<img src={gitImage} alt="logo" className={styles.textImage3} />
 					</div>
 					<div className={styles.textImage}>
-						<img src={avatar} alt="logo" className={styles.textImage4} />
+						<img src={flutterImage} alt="logo" className={styles.textImage4} />
 					</div>
-
 					<img src={reactImage} alt="logo" className={styles.textImage5} />
 				</div>
 			) : null}
