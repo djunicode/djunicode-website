@@ -40,9 +40,15 @@ function EventDetails({data}) {
 						links.length? 
 						<>
 							<Grid item xs={12}><h3>Related Links</h3></Grid>
-							<Grid item container xs={8} sm={5}>
-								<ul>
-									{links.map((item, idx) => <li key={idx}><a href={item} target="_blank">{item}</a></li>)}
+							<Grid item container xs={12}>
+								<ul className={styles.ul}>
+									{links.map((item, idx) => (
+										<li key={idx} className={styles.li}>
+											<a href={item} target="_blank" className={styles.textOverflow}>{item}</a>
+										</li>
+										)
+									)
+									}
 								</ul>
 							</Grid>
 						</>

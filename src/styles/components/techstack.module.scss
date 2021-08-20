@@ -1,5 +1,15 @@
+@import "../variables.scss";
+
 .container {
 	text-align: center;
+}
+
+.avatarContainer{
+	text-align: center;
+	padding: $extraspacing;
+}
+.textOverflow{
+	overflow-wrap: break-word;
 }
 
 .img {

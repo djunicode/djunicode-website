@@ -12,7 +12,7 @@ function TechStack({ img, title, staticImage, techStack, xs, sm, md, lg, xl }) {
 			sm={sm || 3}
 			md={md || 3}
 			lg={lg || 1}
-			className={styles.container}
+			className={techStack?styles.container:styles.avatarContainer}
 		>
 			<Grid item xs={12} data-aos="fade-up" data-aos-duration="1000">
 				{staticImage ? (
@@ -28,7 +28,7 @@ function TechStack({ img, title, staticImage, techStack, xs, sm, md, lg, xl }) {
 						imgClassName={techStack ? styles.img2 : styles.img}
 					/>
 				)}
-				<h4> {title} </h4>
+				<h4 className={styles.textOverflow}> {title} </h4>
 			</Grid>
 		</Grid>
 	);
