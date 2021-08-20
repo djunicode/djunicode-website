@@ -14,7 +14,7 @@ function TechStack({ img, title, dynamicImage, xs, sm, md, lg, xl }) {
 			lg={lg || 1}
 			className={styles.container}
 		>
-			<Grid item xs={12}>
+			<Grid item xs={12} data-aos="fade-up" data-aos-duration="1000">
 				{dynamicImage ? (
 					<GatsbyImage
 						image={img}
