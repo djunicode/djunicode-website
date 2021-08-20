@@ -7,6 +7,10 @@ import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 
+import UserCircleIcon from "@material-ui/icons/SupervisedUserCircle";
+import ComputerIcon from "@material-ui/icons/Computer";
+import GitHubIcon from "@material-ui/icons/GitHub";
+
 // Styling
 import * as styles from "../styles/components/text.module.scss";
 
@@ -154,8 +158,12 @@ export default function MainText() {
 							spacing={1}
 						>
 							<Grid xs={4}>
-								<b>15</b>
-								<br /> Projects
+								<div className={styles.textAnimated}>
+									<ComputerIcon />
+									&nbsp;
+									<b>15</b>
+								</div>
+								Projects
 							</Grid>
 						</Grid>
 					</Paper>
@@ -172,8 +180,12 @@ export default function MainText() {
 							spacing={1}
 						>
 							<Grid xs={4}>
-								<b>210+</b>
-								<br /> members
+								<div className={styles.textAnimated}>
+									<UserCircleIcon />
+									&nbsp;
+									<b>210+</b>
+								</div>
+								members
 							</Grid>
 						</Grid>
 					</Paper>
@@ -190,8 +202,12 @@ export default function MainText() {
 							spacing={1}
 						>
 							<Grid xs={4}>
-								<b>550+</b>
-								<br /> pull requests
+								<div className={styles.textAnimated}>
+									<GitHubIcon />
+									&nbsp;
+									<b>550+</b>
+								</div>
+								pull requests
 							</Grid>
 						</Grid>
 					</Paper>
