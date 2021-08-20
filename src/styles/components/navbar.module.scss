@@ -2,6 +2,7 @@
 
 .navbar {
 	background-color: $white !important;
+	padding: 6px 0;
 
 	&-container {
 		width: 100%;
@@ -9,8 +10,12 @@
 	}
 
 	&-logo {
-		max-width: 200px;
+		max-width: 250px;
 		margin-bottom: -5px;
+
+		@media screen and (max-width: 546px) {
+			max-width: 200px;
+		}
 	}
 
 	&-navigations {
