@@ -17,7 +17,9 @@ function QuoteCard({ quote, name, dynamicImage, avatar }) {
 						)}
 					</div>
 					<h3 className={styles.header}>{name}</h3>
-					<div className={styles.content}>{quote}</div>
+					<div className={styles.content}>
+						<div className={styles.description}>{quote}</div>
+					</div>
 				</div>
 			</div>
 		</Grid>

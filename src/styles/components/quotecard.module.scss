@@ -31,9 +31,16 @@ $topMargin: 60px;
 }
 
 .content {
-	padding: $extraspacing;
-	text-align: center;
+	padding: 0 2 * $extraspacing;
 }
+
+.description {
+	display: -webkit-box;
+	-webkit-line-clamp: 6;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
 .header {
 	text-align: center;
 }
