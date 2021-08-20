@@ -2,14 +2,16 @@
 
 .home {
 	&-title {
-		font-size: 1.75rem;
+		font-size: 2rem;
 		text-align: center;
 		color: $secondary;
 
-		&-alt {
-			font-size: 1.75rem;
-			text-align: center;
+		&.alt {
 			color: $primary;
+		}
+
+		@media screen and (max-width: 567px) {
+			font-size: 1.5rem;
 		}
 	}
 }

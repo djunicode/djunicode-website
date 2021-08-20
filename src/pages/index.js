@@ -57,7 +57,7 @@ const IndexPage = ({ data }) => {
 
 			{/* Faculty Section */}
 			<Divider />
-			<h2 className={styles.homeTitleAlt}>Word from Faculty</h2>
+			<h2 className={styles.homeTitle + " " + styles.alt}>Word from Faculty</h2>
 			<StandardGrid>
 				{data.allFacultyJson.nodes.map((faculty, index) => (
 					<QuoteCard
@@ -83,7 +83,7 @@ const IndexPage = ({ data }) => {
 
 			{/* Tech Stacks Sections */}
 			<Divider />
-			<h2 className={styles.homeTitle}>Tech Stacks</h2>
+			<h2 className={styles.homeTitle + " " + styles.alt}>Tech Stacks</h2>
 			<StandardGrid>
 				{data.allAboutJson.nodes.map((about, index) => (
 					<TechStack
