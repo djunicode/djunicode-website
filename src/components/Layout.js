@@ -15,7 +15,7 @@ import Footer from "./Footer";
 import "../styles/global.scss";
 import { theme } from "../theme";
 
-function Layout({ children }) {
+function Layout({ children, fullWidth }) {
 	useEffect(() => {
 		AOS.init({
 			once: true,
@@ -25,7 +25,12 @@ function Layout({ children }) {
 	return (
 		<ThemeProvider theme={theme}>
 			<NavBar />
-			<div className="fixedcontainer">{children}</div>
+			{fullWidth ? (
+				<div>{children}</div>
+			) : (
+				<div className="fixedcontainer">{children}</div>
+			)}
+
 			<Footer />
 		</ThemeProvider>
 	);

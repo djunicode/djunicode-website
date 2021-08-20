@@ -32,7 +32,7 @@ const IndexPage = ({ data }) => {
 		.filter((value) => !!value);
 
 	return (
-		<Layout>
+		<Layout fullWidth>
 			<Seo title="Home" />
 
 			<MainText />
@@ -88,6 +88,8 @@ const IndexPage = ({ data }) => {
 				{data.allAboutJson.nodes.map((about, index) => (
 					<TechStack
 						key={index}
+						staticImage
+						techStack
 						title={about.title}
 						img={about.image.publicURL}
 					/>
