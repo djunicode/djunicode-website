@@ -9,6 +9,7 @@ import Layout from "../components/Layout";
 import MainText from "../components/MainText";
 import Seo from "../components/SEO";
 import QuoteCard from "../components/QuoteCard";
+import TechStack from "../components/TechStack";
 import StandardGrid from "../components/StandardGrid";
 import Carousel from "../components/Carousel";
 
@@ -85,10 +86,10 @@ const IndexPage = ({ data }) => {
 			<h2 className={styles.homeTitle}>Tech Stacks</h2>
 			<StandardGrid>
 				{data.allAboutJson.nodes.map((about, index) => (
-					<QuoteCard
+					<TechStack
 						key={index}
-						name={about.title}
-						avatar={about.image.publicURL}
+						title={about.title}
+						img={about.image.publicURL}
 					/>
 				))}
 			</StandardGrid>
