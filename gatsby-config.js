@@ -1,12 +1,13 @@
 module.exports = {
 	siteMetadata: {
 		siteUrl: "https://www.djunicode.in",
-		title: "D. J. Unicode",
+		title: "DJ Unicode",
 		description:
 			"Official site for Unicode, a student coding club of Dwarkadas J. Sanghvi College of Engineering.",
-		author: "D. J. Unicode",
+		author: "DJ Unicode",
 	},
 	plugins: [
+		"gatsby-plugin-material-ui",
 		"gatsby-plugin-sass",
 		"gatsby-plugin-image",
 		"gatsby-plugin-react-helmet",
@@ -14,7 +15,7 @@ module.exports = {
 		{
 			resolve: "gatsby-plugin-manifest",
 			options: {
-				name: `D. J. Unicode`,
+				name: `DJ Unicode`,
 				short_name: `Unicode`,
 				start_url: `/`,
 				icon: "src/images/unicode-icon.svg",
@@ -32,7 +33,7 @@ module.exports = {
 		},
 		`gatsby-transformer-json`,
 		{
-		resolve: `gatsby-source-filesystem`,
+			resolve: `gatsby-source-filesystem`,
 			options: {
 				path: `./src/data/`,
 			},

@@ -158,7 +158,7 @@ export default function MainText() {
 							<div className={styles.textAnimated}>
 								<ComputerIcon />
 								&nbsp;
-								<b>15</b>
+								<b>15+</b>
 							</div>
 							Projects
 						</Grid>
@@ -202,7 +202,7 @@ export default function MainText() {
 							<div className={styles.textAnimated}>
 								<GitHubIcon />
 								&nbsp;
-								<b>550+</b>
+								<b>1k+</b>
 							</div>
 							pull requests
 						</Grid>
