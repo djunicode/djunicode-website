@@ -39,6 +39,7 @@ export default function Footer() {
 						<a
 							href="https://github.com/djunicode"
 							target="_blank"
+							rel="noreferrer"
 							className={styles.footerNav}
 						>
 							<img
@@ -52,6 +53,7 @@ export default function Footer() {
 						<a
 							href="https://www.linkedin.com/company/djunicode/about/"
 							target="_blank"
+							rel="noreferrer"
 							className={styles.footerNav}
 						>
 							<img
@@ -65,6 +67,7 @@ export default function Footer() {
 						<a
 							href="https://twitter.com/djunicode?s=08"
 							target="_blank"
+							rel="noreferrer"
 							className={styles.footerNav}
 						>
 							<img

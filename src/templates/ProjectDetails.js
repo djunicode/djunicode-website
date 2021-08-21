@@ -1,16 +1,18 @@
-import { Grid, Paper } from "@material-ui/core";
 import React from "react";
-import Carousel from "../components/Carousel";
-import TechStack from "../components/TechStack";
-import * as styles from "../styles/templates/itemDetail.module.scss";
-import Layout from "../components/Layout";
 import { graphql } from "gatsby";
+import { GatsbyImage } from "gatsby-plugin-image";
+
+import Grid from "@material-ui/core/Grid";
+import Paper from "@material-ui/core/Paper";
+
+import Carousel from "../components/Carousel";
+import Layout from "../components/Layout";
 import AvatarHelper from "../components/AvatarHelper";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
+
+import * as styles from "../styles/templates/itemDetail.module.scss";
 
 function ProjectDetails({ data }) {
-	const { title, desc, links, stack, tech, year, img, img_cover } =
-		data.projectsJson;
+	const { title, desc, links, stack, img, img_cover } = data.projectsJson;
 	const TEmentors = data.TEmentors.nodes;
 	const BEmentors = data.BEmentors.nodes;
 	const SEmentees = data.SEmentees.nodes;
@@ -24,20 +26,22 @@ function ProjectDetails({ data }) {
 				</Grid>
 				{/* Carousel */}
 				<Grid item container className={styles.content}>
-					<Grid item xs={12} className={styles.mb}>
-						<Carousel>
-							{images.map((item, idx) => (
-								<GatsbyImage
-									key={idx}
-									image={item?.childImageSharp?.gatsbyImageData}
-									alt="Project Image"
-									className={styles.imgContainer}
-									imgClassName={styles.img}
-								/>
-							))}
-						</Carousel>
+					<Grid item xs={12}>
+						{typeof window !== "undefined" && window && (
+							<Carousel>
+								{images.map((item, idx) => (
+									<GatsbyImage
+										key={idx}
+										image={item?.childImageSharp?.gatsbyImageData}
+										alt="Project Image"
+										className={styles.imgContainer}
+										imgClassName={styles.img}
+									/>
+								))}
+							</Carousel>
+						)}
 					</Grid>
-					<Grid item container xs={12} className={styles.pt}>
+					<Grid item container xs={12}>
 						<Grid item xs={12}>
 							<h3>About the project</h3>
 							<p>{desc}</p>
@@ -54,8 +58,7 @@ function ProjectDetails({ data }) {
 							</ul>
 							{/* {stack.map((item, idx)=> <TechStack key={idx} xs={4} sm={3} md={2} imgUrl={item[1]} title={item[0]}/>)} */}
 						</Grid>
-						{
-							links.length?
+						{links.length ? (
 							<>
 								<Grid item xs={12}>
 									<h3>Related Links</h3>
@@ -64,7 +67,12 @@ function ProjectDetails({ data }) {
 									<ul className={styles.ul}>
 										{links.map((item, idx) => (
 											<li key={idx} className={styles.li}>
-												<a href={item} target="_blank" className={styles.textOverflow}>
+												<a
+													href={item}
+													target="_blank"
+													rel="noreferrer"
+													className={styles.textOverflow}
+												>
 													{item}
 												</a>
 											</li>
@@ -72,9 +80,7 @@ function ProjectDetails({ data }) {
 									</ul>
 								</Grid>
 							</>
-							:
-							null
-						}
+						) : null}
 						{/* Avatars */}
 						{BEmentors.length ? (
 							<AvatarHelper header="BE Mentors" data={BEmentors} />

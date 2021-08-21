@@ -27,7 +27,7 @@ const IndexPage = ({ data }) => {
 						imgClassName={itemDetailsStyles.img}
 					/>
 				);
-			}
+			} else return null;
 		})
 		.filter((value) => !!value);
 
@@ -76,7 +76,9 @@ const IndexPage = ({ data }) => {
 			{/* Featured Projects Carousel */}
 			<Divider />
 			<h2 className={styles.homeTitle}>Featured Projects</h2>
-			<Carousel>{featureProjectImages}</Carousel>
+			{typeof window !== "undefined" && window && (
+				<Carousel>{featureProjectImages}</Carousel>
+			)}
 			<br />
 			<br />
 			<br />
