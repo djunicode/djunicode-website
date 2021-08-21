@@ -138,9 +138,11 @@ export default function MainText() {
 				</span>
 			</p>
 
-			<p className={styles?.textSub}>
-				Unicode is not just a student chapter it's a student community.
-			</p>
+			<div>
+				<p className={styles?.textSub}>
+					Unicode is not just a student chapter it's a student community.
+				</p>
+			</div>
 
 			<div className={classes.root}>
 				<Paper elevation={0} className={classes.bluePaper}>
