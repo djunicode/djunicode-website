@@ -514,83 +514,331 @@
 	},
 	{
 		"key": 59,
-		"name": "Govind Thakur",
-		"email": "",
-		"profile_pic": "../../images/avatar.png",
-		"desc": "",
-		"GitHub":"",
-		"LinkedIn":""
+		"name": "Jazib Dawre",
+		"email": "jazib980@gmail.com",
+		"sapId": 60004190054,
+		"profile_pic": "../../images/profile/20k.jpg",
+		"desc": "robot overlords when",
+		"GitHub": "https://github.com/jazibdawre/",
+		"LinkedIn": "https://www.linkedin.com/in/jazibdawre/"
 	},
 	{
 		"key": 60,
-		"name": "Harsh Vartak",
-		"email": "",
-		"profile_pic": "../../images/avatar.png",
-		"desc": "",
-		"GitHub":"",
-		"LinkedIn":""
+		"name": "Adithya Sanyal",
+		"email": "adithyasanyal@gmail.com",
+		"sapId": 60004190003,
+		"profile_pic": "../../images/profile/MyPhoto.jfif",
+		"desc": "App Development Mentor, a Flutter Evangelist, a work in progress MERN Stack web developer, proficient in Machine Learning, Deep Learning, Natural Language Processing and Computer Vision. So basically an individual open to try anything and everything",
+		"GitHub": "https://github.com/AdithyaSanyal/",
+		"LinkedIn": "https://www.linkedin.com/in/adithya-sanyal-9371a8191/"
 	},
 	{
 		"key": 61,
-		"name": "Hrishikesh Avanoor",
-		"email": "",
-		"profile_pic": "../../images/avatar.png",
-		"desc": "",
-		"GitHub":"",
-		"LinkedIn":""
+		"name": "Junaid Girkar",
+		"email": "junaidgirkar@gmail.com",
+		"sapId": 60004190057,
+		"profile_pic": "../../images/profile/J_C_Al_pic.jpg",
+		"desc": "Backend Mentor (Django)",
+		"GitHub": "https://github.com/junaidgirkar",
+		"LinkedIn": "https://www.linkedin.com/in/junaid-girkar-0940911a5/"
 	},
 	{
 		"key": 62,
-		"name": "Manav Jain",
-		"email": "",
-		"profile_pic": "../../images/avatar.png",
-		"desc": "",
-		"GitHub":"",
-		"LinkedIn":""
+		"name": "Jigar Rajendra Shah",
+		"email": "shahjigar185@gmail.com",
+		"sapId": 60004190055,
+		"profile_pic": "../../images/profile/Jigar_Shah.jpg",
+		"desc": "A Third year Computer engineering student having experience in Frontend web development(React)",
+		"GitHub": "https://github.com/shahjigar556",
+		"LinkedIn": "https://www.linkedin.com/in/jigarshah19/"
 	},
 	{
 		"key": 63,
-		"name": "Jinay Parekh",
-		"email": "",
-		"profile_pic": "../../images/avatar.png",
-		"desc": "",
-		"GitHub":"",
-		"LinkedIn":""
+		"name": "Burhanuddin Savliwala",
+		"email": "bhsrampage5253@gmail.com",
+		"sapId": 60004190020,
+		"profile_pic": "../../images/profile/IMG_20210102_015423_755.jpg",
+		"desc": "Second Year computer engineering student proficient in cross platform app development",
+		"GitHub": "https://github.com/bhsrampage",
+		"LinkedIn": "https://www.linkedin.com/in/burhanuddin-savliwala-340878192"
 	},
 	{
 		"key": 64,
-		"name": "Akshath Mahajan",
-		"email": "",
-		"profile_pic": "../../images/avatar.png",
-		"desc": "",
-		"GitHub":"",
-		"LinkedIn":""
+		"name": "Yash Jhaveri",
+		"email": "yashj65@gmail.com",
+		"sapId": 60004190126,
+		"profile_pic": "../../images/profile/IMG-20170606-WA0030__01.jpg",
+		"desc": "Full Stack Web Developer and Data Science Enthusiast",
+		"GitHub": "https://github.com/yashjhaveri05",
+		"LinkedIn": "https://www.linkedin.com/in/yash-jhaveri-3b0882192/"
 	},
 	{
 		"key": 65,
-		"name": "Aditya Thaker",
-		"email": "",
-		"profile_pic": "../../images/avatar.png",
-		"desc": "",
-		"GitHub":"",
-		"LinkedIn":""
+		"name": "Deap Daru",
+		"email": "deapdaru@gmail.com",
+		"sapId": 60004190025,
+		"profile_pic": "../../images/profile/me.jfif",
+		"desc": "Frontend Mentor, recently got into 3D, WebGL and Three.js so it's safe to assume I am a maniac when it comes to making the web page look pleasing and aesthetic. Pivotal role at forging first ever partnership of Unicode with a solar startup, Unergia.",
+		"GitHub": "https://github.com/deapdaru",
+		"LinkedIn": "https://www.linkedin.com/in/deapdaru/"
 	},
 	{
 		"key": 66,
-		"name": "Junaid Girkar",
-		"email": "",
-		"profile_pic": "../../images/avatar.png",
-		"desc": "",
-		"GitHub":"",
-		"LinkedIn":""
+		"name": "Saloni Patel",
+		"email": "saloni.patel01@gmail.com",
+		"sapId": 60004190099,
+		"profile_pic": "../../images/profile/6156AB64-08EF-4AB8-968D-3E1D8C56575C.jpeg",
+		"desc": "If internet explorer is brave enough to ask me to be my default browser then I\u2019m brave enough to consider choosing computer engineering",
+		"GitHub": "https://github.com/saloni3121",
+		"LinkedIn": "https://www.linkedin.com/in/saloni-patel-6ab5101b7"
 	},
 	{
 		"key": 67,
-		"name": "Kartik Suvarana",
-		"email": "",
-		"profile_pic": "../../images/avatar.png",
-		"desc": "",
-		"GitHub":"",
-		"LinkedIn":""
+		"name": "Dhiraj Shah",
+		"email": "dhirajssh@gmail.com",
+		"sapId": 60004190029,
+		"profile_pic": "../../images/profile/profile_pic.jpeg",
+		"desc": "Frontend mentor",
+		"GitHub": "https://github.com/dhirajssh",
+		"LinkedIn": "https://www.linkedin.com/in/dhiraj-shah-b702b1204/"
+	},
+	{
+		"key": 68,
+		"name": "Aditi Kamath",
+		"email": "adikamath3@gmail.com",
+		"sapId": 60004190004,
+		"profile_pic": "../../images/profile/IMG_20191225_181726.jpg",
+		"desc": "Android Developer, passionate meme dealer",
+		"GitHub": "https://github.com/AditiKamath",
+		"LinkedIn": "https://www.linkedin.com/in/aditi-kamath-761104205/"
+	},
+	{
+		"key": 69,
+		"name": "Yatharth Vyas",
+		"email": "yatharth2000.vyas@gmail.com",
+		"sapId": 60004180127,
+		"profile_pic": "../../images/profile/profile-pic.jpg",
+		"desc": "Nerd",
+		"GitHub": "https://github.com/YatharthVyas",
+		"LinkedIn": "https://www.linkedin.com/in/yatharth-vyas-96018319a/"
+	},
+	{
+		"key": 70,
+		"name": "Tanay Naik",
+		"email": "tanayn945@gmail.com",
+		"sapId": 60004190114,
+		"profile_pic": "../../images/profile/tanay.JPG",
+		"desc": "A third year computer engineering student proficient in cross platform mobile app development.",
+		"GitHub": "https://github.com/tanaynaik2001",
+		"LinkedIn": "https://www.linkedin.com/in/tanay-naik-9693831a4/"
+	},
+	{
+		"key": 71,
+		"name": "Aditya Ajmera",
+		"email": "adityaajmera0604@gmail.com",
+		"sapId": 60004190006,
+		"profile_pic": "../../images/profile/Screenshot_20210520-200500__01.jpg",
+		"desc": "Backend. Barca. Battlestar Galactica",
+		"GitHub": "https://github.com/Aditya-06",
+		"LinkedIn": "https://www.linkedin.com/in/aditya-ajmera-341b29192"
+	},
+	{
+		"key": 72,
+		"name": "Aditya Thaker",
+		"email": "adityathaker28@gmail.com",
+		"sapId": 60004190008,
+		"profile_pic": "../../images/profile/WhatsApp_Image_2021-08-16_at_21.52.48.jpeg",
+		"desc": "I'm a Node Fullstack TE Mentor, I'm constantly exploring new fields: deep learning,  systems programming and competitive coding",
+		"GitHub": "https://github.com/ADIthaker",
+		"LinkedIn": "https://www.linkedin.com/in/aditya-thaker-680884192/"
+	},
+	{
+		"key": 73,
+		"name": "Aryan Pathare",
+		"email": "aryanpathare281@gmail.com",
+		"sapId": 60004190014,
+		"profile_pic": "../../images/profile/WhatsApp_Image_2021-08-16_at_10.07.00_PM.jpeg",
+		"desc": "An android/web developer interested in all things coding",
+		"GitHub": "https://github.com/AryanP281",
+		"LinkedIn": "https://www.linkedin.com/in/ aryan-pathare-41962719b/"
+	},
+	{
+		"key": 74,
+		"name": "Vedant Gandhi",
+		"email": "gandhivedant01@gmail.com",
+		"sapId": 60004190121,
+		"profile_pic": "../../images/profile/91_97692_47513_20200725_174202__01.jpg",
+		"desc": null,
+		"GitHub": "vedant-05",
+		"LinkedIn": "@vedantgandhi"
+	},
+	{
+		"key": 75,
+		"name": "delete",
+		"email": "delete@gmail.com",
+		"sapId": 60004190107,
+		"profile_pic": "../../images/profile/WhatsApp_Image_2021-07-23_at_2.41.58_PM.jpeg",
+		"desc": "Frontend <React> Dev </React> | DJSCE 2023 :)",
+		"GitHub": null,
+		"LinkedIn": null
+	},
+	{
+		"key": 76,
+		"name": "Shubh Nisar",
+		"email": "shubhnisar123@gmail.com",
+		"sapId": 60004190107,
+		"profile_pic": "../../images/profile/WhatsApp_Image_2021-07-23_at_2.41.58_PM_8Oio3ew.jpeg",
+		"desc": "https://shubh-nisar.github.io/",
+		"GitHub": "https://github.com/Shubh-Nisar",
+		"LinkedIn": "https://www.linkedin.com/in/shubh-nisar-89a6a31aa/"
+	},
+	{
+		"key": 77,
+		"name": "Parth Pawar",
+		"email": "parth290601@rediffmail.com",
+		"sapId": 60004190080,
+		"profile_pic": "../../images/profile/Bruh.jpeg",
+		"desc": "Back End Developer by passion, Competitive Programmer by heart",
+		"GitHub": "https://github.com/dedsec29",
+		"LinkedIn": "https://www.linkedin.com/in/parth-pawar-a26a941ba/"
+	},
+	{
+		"key": 78,
+		"name": "Aryan Parekh",
+		"email": "aryanparekh2412@gmail.com",
+		"sapId": 60004190013,
+		"profile_pic": "../../images/profile/IMG_20210816_234436.jpg",
+		"desc": "I feel like I\u2019m already tired tomorrow.",
+		"GitHub": "https://github.com/AryanParekh",
+		"LinkedIn": "https://in.linkedin.com/in/aryanparekh12"
+	},
+	{
+		"key": 79,
+		"name": "Palka Dhirawani",
+		"email": "palkadhirawani8@gmail.com",
+		"sapId": 60004190078,
+		"profile_pic": "../../images/profile/IMG-20191218-WA0227-01-02.jpeg",
+		"desc": "5'1 but you can still look up to me",
+		"GitHub": "https://github.com/palkadhirawani",
+		"LinkedIn": "https://www.linkedin.com/in/palka-dhirawani-3619a21b3"
+	},
+	{
+		"key": 80,
+		"name": "Milan Panchal",
+		"email": "mpanchal1310@gmail.com",
+		"sapId": 60004190069,
+		"profile_pic": "../../images/profile/IMG_20210816_213818.jpg",
+		"desc": "NodeJS Mentor | Competitive programmer",
+		"GitHub": "https://github.com/panchalmilan",
+		"LinkedIn": "https://www.linkedin.com/in/milan-panchal-4a2892192"
+	},
+	{
+		"key": 81,
+		"name": "Jash Mehta",
+		"email": "jashmehta3300@gmail.com",
+		"sapId": 60004180037,
+		"profile_pic": "../../images/profile/jash.png",
+		"desc": "Interested in NLP and MLSys | BE Mentor Fullstack Node",
+		"GitHub": "https://github.com/jashmehta3300",
+		"LinkedIn": "https://www.linkedin.com/in/jash-mehta-3300/"
+	},
+	{
+		"key": 82,
+		"name": "Kanishk Shah",
+		"email": "shahkanishk99@gmail.com",
+		"sapId": 60004180042,
+		"desc": "Computer Vision and Reinforcement Learning Enthusiast | BE Mentor Django + HR",
+		"GitHub": "https://github.com/kanishkshah",
+		"LinkedIn": "https://www.linkedin.com/in/kanishk-shah/"
+	},
+	{
+		"key": 83,
+		"name": "Aryan Chouhan",
+		"email": "chouhanaryan@yahoo.com",
+		"sapId": 60004180009,
+		"profile_pic": "../../images/profile/Aryan-1.jpg",
+		"desc": "This is a placeholder... or is it?",
+		"GitHub": "https://github.com/chouhanaryan",
+		"LinkedIn": "https://www.linkedin.com/in/aryan-chouhan"
+	},
+	{
+		"key": 84,
+		"name": "Akshath Mahajan",
+		"email": "akshathmahajan13@gmail.com",
+		"sapId": 60004190011,
+		"profile_pic": "../../images/profile/pp.jpg",
+		"desc": "Just a regular fullstack developer",
+		"GitHub": "https://github.com/Akshath-Mahajan",
+		"LinkedIn": "www.linkedin.com/in/akshath-mahajan-713989192"
+	},
+	{
+		"key": 85,
+		"name": "Govind Thakur",
+		"email": "govind.thakur11@gmail.com",
+		"sapId": 60004180024,
+		"profile_pic": "../../images/profile/GT.jpeg",
+		"desc": "BE Core",
+		"GitHub": "https://github.com/Thakur-Govind",
+		"LinkedIn": "https://www.linkedin.com/in/govind-thakur-494a394a/"
+	},
+	{
+		"key": 86,
+		"name": "Sumedh Vichare",
+		"email": "sumedhuvichare@gmail.com",
+		"sapId": 60004190110,
+		"profile_pic": "../../images/profile/Screenshot_2021-08-16_at_5.48.01_PM.png",
+		"desc": "As a specimen, I'm intimidating",
+		"GitHub": "https://github.com/sumedhuv",
+		"LinkedIn": "https://www.linkedin.com/in/sumedh-vichare/"
+	},
+	{
+		"key": 87,
+		"name": "Punit Lodha",
+		"email": "punitlodha@pm.me",
+		"sapId": 60004180073,
+		"profile_pic": "../../images/profile/Punit.jpg",
+		"desc": "BE Mentor",
+		"GitHub": "https://github.com/PunitLodha",
+		"LinkedIn": "https://www.linkedin.com/in/punitlodha/"
+	},
+	{
+		"key": 88,
+		"name": "Karishni Mehta",
+		"email": "karishni25@gmail.com",
+		"sapId": 60004190059,
+		"profile_pic": "../../images/profile/WhatsApp_Image_2021-08-19_at_11.01.57_PM.jpeg",
+		"desc": "Frontend and Design Mentor at Unicode",
+		"GitHub": "https://github.com/karishni",
+		"LinkedIn": "http://linkedin.com/in/karishni-mehta-70b131193"
+	},
+	{
+		"key": 89,
+		"name": "Harsh Vartak",
+		"email": "vartak.harsh@gmail.com",
+		"sapId": 60004180028,
+		"profile_pic": "../../images/profile/Harsh.jpg",
+		"desc": "BE Mentor Django",
+		"GitHub": "https://github.com/Harshvartak",
+		"LinkedIn": "https://www.linkedin.com/in/harsh-vartak-a56835168/"
+	},
+	{
+		"key": 90,
+		"name": "Tanay Gandhi",
+		"email": "tanaygandhi306@gmail.com",
+		"sapId": 60004190113,
+		"profile_pic": "../../images/profile/Tanay_Image.jpeg",
+		"desc": "Backend Web Developer and Data Science Enthusiast",
+		"GitHub": "https://github.com/tanay306",
+		"LinkedIn": "https://www.linkedin.com/in/tanaygandhi306/"
+	},
+	{
+		"key": 91,
+		"name": "Vidhan Shah",
+		"email": "shahvidhan123@gmail.com",
+		"sapId": 60004190123,
+		"profile_pic": "../../images/profile/CD80244F-1CE8-4A62-9045-636645A32C77.jpeg",
+		"desc": "Full Stack Mentor (Node)",
+		"GitHub": "https://github.com/Vidhan123",
+		"LinkedIn": "https://www.linkedin.com/in/vidhan-s-8461b6104"
 	}
 ]
