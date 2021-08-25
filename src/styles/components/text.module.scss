@@ -12,28 +12,25 @@ $imgWidth: 10px;
 	&-main {
 		position: absolute;
 		top: 30%;
-		left: 38%;
+		width: 100%;
 		font-size: 2.8rem;
 		font-weight: 900;
 		text-align: center;
 
 		@media (max-width: $breakpoint-phone) {
-			top: 27%;
-			left: 20%;
+			top: 35%;
 			font-size: 1.8rem;
 			font-weight: 900;
 		}
 
 		@media (min-width: $breakpoint-phone) and (max-width: $breakpoint-tablet) {
 			top: 30%;
-			left: 30%;
 			font-size: 2.3rem;
 			font-weight: 900;
 		}
 
 		@media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
 			top: 30%;
-			left: 35%;
 			font-size: 2.6rem;
 			font-weight: 900;
 		}
@@ -41,22 +38,20 @@ $imgWidth: 10px;
 	&-sub {
 		position: absolute;
 		top: 65%;
-		left: 35%;
 		font-weight: 400;
+		text-align: center;
+		width: 100%;
 
 		@media (max-width: $breakpoint-phone) {
-			top: 50%;
-			left: 5%;
+			top: 60%;
 		}
 
 		@media (min-width: $breakpoint-phone) and (max-width: $breakpoint-tablet) {
-			top: 60%;
-			left: 20%;
+			top: 50%;
 		}
 
 		@media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
 			top: 60%;
-			left: 28%;
 		}
 	}
 	&-animated {
