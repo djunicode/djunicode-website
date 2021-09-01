@@ -14,14 +14,14 @@ function ContactCard() {
 			<h2 className={styles.cardTitle}>Get In Touch</h2>
 			<Divider light className={styles.cardDivider} />
 			<div className={styles.cardContentContainer}>
-				<a className={styles.cardContent} href="mailto:contact@mail.com">
+				<a className={styles.cardContent} href="mailto:djsceunicode@gmail.com">
 					<div className={styles.cardContentIcon}>
 						<MailIcon />
 					</div>
 					<div className={styles.cardContentDetail}>
 						<b>Mail Us:</b>
 						<br />
-						contact@mail.com
+						djsceunicode@gmail.com
 					</div>
 				</a>
 				<a className={styles.cardContent} href="tel:+919876543210">

@@ -1,4 +1,4 @@
-var TO_ADDRESS = "deapdaru@gmail.com"; // update to Unicode's email
+var TO_ADDRESS = "djsceunicode@gmail.com";
 
 // spit out all the keys/values from the form in HTML for email
 // uses an array of keys if provided or the object to determine field order
