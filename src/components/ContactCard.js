@@ -24,14 +24,14 @@ function ContactCard() {
 						djsceunicode@gmail.com
 					</div>
 				</a>
-				<a className={styles.cardContent} href="tel:+919876543210">
+				<a className={styles.cardContent} href="tel:+917021302112">
 					<div className={styles.cardContentIcon + " " + styles.alternate}>
 						<PhoneIcon />
 					</div>
 					<div className={styles.cardContentDetail}>
 						<b>Call Us:</b>
 						<br />
-						+91 99876543210
+						+91 7021302112
 					</div>
 				</a>
 				<div className={styles.cardContent}>
