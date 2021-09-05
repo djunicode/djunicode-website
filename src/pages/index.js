@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
 
 import Divider from "@material-ui/core/Divider";
@@ -20,12 +20,15 @@ const IndexPage = ({ data }) => {
 	const featureProjectImages = data.allProjectsJson.nodes
 		.map((project, index) => {
 			if (data.featuredProjectsJson.index?.includes(project.title)) {
+				console.log(project)
 				return (
-					<GatsbyImage
-						key={index}
-						image={project.img_cover?.childImageSharp?.gatsbyImageData}
-						imgClassName={itemDetailsStyles.img}
-					/>
+					<Link to={`/projects/${project.slug}`}>
+						<GatsbyImage
+							key={index}
+							image={project.img_cover?.childImageSharp?.gatsbyImageData}
+							imgClassName={itemDetailsStyles.img}
+						/>
+					</Link>
 				);
 			} else return null;
 		})
@@ -153,6 +156,7 @@ export const query = graphql`
 						gatsbyImageData
 					}
 				}
+				slug
 			}
 		}
 	}
