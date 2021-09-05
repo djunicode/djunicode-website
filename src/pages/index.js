@@ -20,7 +20,6 @@ const IndexPage = ({ data }) => {
 	const featureProjectImages = data.allProjectsJson.nodes
 		.map((project, index) => {
 			if (data.featuredProjectsJson.index?.includes(project.title)) {
-				console.log(project)
 				return (
 					<Link to={`/projects/${project.slug}`}>
 						<GatsbyImage
