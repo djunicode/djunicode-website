@@ -25,6 +25,7 @@ const IndexPage = ({ data }) => {
 						<GatsbyImage
 							key={index}
 							image={project.img_cover?.childImageSharp?.gatsbyImageData}
+							className={itemDetailsStyles.imgContainer}
 							imgClassName={itemDetailsStyles.img}
 						/>
 					</Link>
