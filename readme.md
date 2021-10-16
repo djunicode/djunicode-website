@@ -20,3 +20,6 @@
 - Responsive - Home page paddings and card layout needs to be more compact on mobile devices.
 - Members Modal - On clicking a member's avatar or testimonial cards a modal should popup showing details about the member.
 - Wavy Sections - Home page sections could be separated with wavy svgs.
+
+## Contributing
+Look at the [docs](https://github.com/djunicode/djunicode-website/tree/master/docs)
