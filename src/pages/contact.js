@@ -21,7 +21,7 @@ function ContactPage() {
 						<br />
 						<ContactForm />
 					</Grid>
-					<Grid item sm={12} md={5}>
+					<Grid item sm={12} md={5} className={styles.padding}>
 						<ContactCard />
 					</Grid>
 				</Grid>

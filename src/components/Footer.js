@@ -121,7 +121,7 @@ export default function Footer() {
 					{" "}
 					&copy;{" "}
 					<span className={styles.footerCopy}>
-						2021-2023 All Rights Reserved
+						2021 All Rights Reserved
 					</span>
 				</p>
 			</div>

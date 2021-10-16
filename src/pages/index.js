@@ -41,7 +41,7 @@ const IndexPage = ({ data }) => {
 
 			{/* Alumni Section */}
 			<Divider />
-			<h2 className={styles.homeTitle}>Word from our Founders</h2>
+			<h2 className={styles.homeTitle}>Our Founders</h2>
 			<StandardGrid>
 				{data.allAlumniJson.nodes.map((alumni, index) => (
 					<QuoteCard
@@ -59,7 +59,7 @@ const IndexPage = ({ data }) => {
 
 			{/* Faculty Section */}
 			<Divider />
-			<h2 className={styles.homeTitle + " " + styles.alt}>Word from Faculty</h2>
+			<h2 className={styles.homeTitle + " " + styles.alt}>Our Faculty</h2>
 			<StandardGrid>
 				{data.allFacultyJson.nodes.map((faculty, index) => (
 					<QuoteCard

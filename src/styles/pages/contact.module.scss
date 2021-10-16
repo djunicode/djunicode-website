@@ -1,5 +1,9 @@
 @import "../variables.scss";
 
+.padding {
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
 .contact {
 	&-container {
 		margin-top: 5 * $extraspacing;
@@ -19,5 +23,8 @@
 		@media screen and (max-width: 657px) {
 			font-size: 2rem;
 		}
+	}
+	&-card {
+		padding: 0
 	}
 }

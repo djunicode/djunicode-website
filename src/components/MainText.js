@@ -226,9 +226,9 @@ export default function MainText() {
 				</span>
 			</p>
 			<div>
-				<p className={styles?.textSub}>
+				{/* <p className={styles?.textSub}>
 					Unicode is not just a student chapter it's a student community.
-				</p>
+				</p> */}
 			</div>
 			{/* Floating Cards */}
 			<Hidden xsDown>

@@ -5,6 +5,9 @@
 	padding: $extraspacing 3 * $extraspacing;
 	border-radius: 20px;
 	background-color: $primary;
+	@media screen and (min-width: 0px) and (max-width: $breakpoint-tablet) {
+		padding: $extraspacing $extraspacing;
+	}
 
 	&-title {
 		font-size: 2rem;
