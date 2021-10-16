@@ -674,13 +674,13 @@
 	},
 	{
 		"key": 75,
-		"name": "delete",
-		"email": "delete@gmail.com",
-		"sapId": 60004190107,
-		"profile_pic": "../../images/profile/WhatsApp_Image_2021-07-23_at_2.41.58_PM.jpeg",
-		"desc": "Frontend <React> Dev </React> | DJSCE 2023 :)",
-		"GitHub": null,
-		"LinkedIn": null
+		"name": "Jinay Parekh",
+		"email": "jinayparekh2001@gmail.com",
+		"sapId": 60004190056,
+		"profile_pic": "../../images/profile/JinayParekh.jpg",
+		"desc": null,
+		"GitHub": "https://github.com/Jinay01",
+		"LinkedIn": "https://www.linkedin.com/in/jinay-parekh-69880b1b0/"
 	},
 	{
 		"key": 76,
