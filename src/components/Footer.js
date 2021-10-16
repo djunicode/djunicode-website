@@ -18,13 +18,9 @@ export default function Footer() {
 	const classes = useStyles();
 	return (
 		<div className={styles.footerContainer}>
-			<p>
-				&quot; Programming isn't about what you know
-				<br />
-				<span className={styles.footerQuote}>
-					It's about what you can figure out.{" "}
-				</span>{" "}
-				&quot;
+			<p ><strong>
+				Code. Create. Collaborate.
+				</strong>
 			</p>
 			<div style={{ overflow: "hidden" }}>
 				<Grid
@@ -85,8 +81,6 @@ export default function Footer() {
 				<Link to="/contact" className={styles.footerLink}>
 					mail{" "}
 				</Link>
-				{"   "}
-				and subscribe to our newsletter.
 			</p>
 			<div style={{ overflow: "hidden" }}>
 				<Grid

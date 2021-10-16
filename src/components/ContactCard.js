@@ -19,8 +19,6 @@ function ContactCard() {
 						<MailIcon />
 					</div>
 					<div className={styles.cardContentDetail}>
-						<b>Mail Us:</b>
-						<br />
 						djsceunicode@gmail.com
 					</div>
 				</a>
@@ -29,9 +27,7 @@ function ContactCard() {
 						<PhoneIcon />
 					</div>
 					<div className={styles.cardContentDetail}>
-						<b>Call Us:</b>
-						<br />
-						+91 7021302112
+						+91 70213 02112
 					</div>
 				</a>
 				<div className={styles.cardContent}>
@@ -39,8 +35,6 @@ function ContactCard() {
 						<LocationIcon />
 					</div>
 					<div className={styles.cardContentDetail}>
-						<b>Visit Us:</b>
-						<br />
 						D. J. Sanghavi College of Engineering,
 						<br />
 						Vile Parle, Mumbai - 400 055
