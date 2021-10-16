@@ -3,9 +3,10 @@ import { Link } from "gatsby";
 import React from "react";
 import * as styles from "../styles/components/footer.module.scss";
 import { makeStyles } from "@material-ui/core/styles";
-import github from "../images/github-icon.svg";
-import linkedin from "../images/linkdin-icon.svg";
-import twitter from "../images/twitter-icon.svg";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import TwitterIcon from "@material-ui/icons/Twitter";
+import InstagramIcon from "@material-ui/icons/Instagram";
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -18,9 +19,8 @@ export default function Footer() {
 	const classes = useStyles();
 	return (
 		<div className={styles.footerContainer}>
-			<p ><strong>
-				Code. Create. Collaborate.
-				</strong>
+			<p>
+				<strong>Code. Create. Collaborate.</strong>
 			</p>
 			<div style={{ overflow: "hidden" }}>
 				<Grid
@@ -38,11 +38,7 @@ export default function Footer() {
 							rel="noreferrer"
 							className={styles.footerNav}
 						>
-							<img
-								src={github}
-								alt="github icon"
-								className={styles.footerIcon}
-							/>
+							<GitHubIcon fontSize="large" />
 						</a>
 					</Grid>
 					<Grid item>
@@ -52,11 +48,7 @@ export default function Footer() {
 							rel="noreferrer"
 							className={styles.footerNav}
 						>
-							<img
-								src={linkedin}
-								alt="linkedin icon"
-								className={styles.footerIcon}
-							/>
+							<LinkedInIcon fontSize="large" />
 						</a>
 					</Grid>
 					<Grid item>
@@ -66,11 +58,17 @@ export default function Footer() {
 							rel="noreferrer"
 							className={styles.footerNav}
 						>
-							<img
-								src={twitter}
-								alt="twitter icon"
-								className={styles.footerIcon}
-							/>
+							<TwitterIcon fontSize="large" />
+						</a>
+					</Grid>
+					<Grid item>
+						<a
+							href="https://www.instagram.com/djunicode/"
+							target="_blank"
+							rel="noreferrer"
+							className={styles.footerNav}
+						>
+							<InstagramIcon fontSize="large" />
 						</a>
 					</Grid>
 				</Grid>
@@ -120,9 +118,7 @@ export default function Footer() {
 				<p style={{ marginBottom: "0" }}>
 					{" "}
 					&copy;{" "}
-					<span className={styles.footerCopy}>
-						2021 All Rights Reserved
-					</span>
+					<span className={styles.footerCopy}>2021 All Rights Reserved</span>
 				</p>
 			</div>
 		</div>
