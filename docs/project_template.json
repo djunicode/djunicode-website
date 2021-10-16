@@ -1,0 +1,39 @@
+{
+	"title": "Project title",
+	"desc": "Project Description",
+	"slug": "Project slug",
+	"img_cover": "Relative path to the cover image",
+	"img": [
+		"Relative path to the images"
+	],
+	"stack": [
+		"React / others",
+		" Django / others"
+	],
+	"tech": [
+		"web / app"
+	],
+	"contributors": {
+		"BEmentors": [
+			6,
+			"Add BE Mentor's profile number from data/profile/profile.json.  Make sure to remove this line"
+		],
+		"TEmentors": [
+			7,
+			32,
+			"Add TE Mentor's profile number from data/profile/profile.json.  Make sure to remove this line"
+		],
+		"SEmentees": [
+			9,
+			14,
+			35,
+			39,
+			46,
+			"Add SE Mentee's profile number from data/profile/profile.json.  Make sure to remove this line"
+		]
+	},
+	"year": "2018-10-01",
+	"links": [
+		"https://github.com/djunicode/{link to the github repo}"
+	]
+}
