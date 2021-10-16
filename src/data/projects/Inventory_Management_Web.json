@@ -1,0 +1,42 @@
+{
+	"title": "Inventory Management Web",
+	"desc": "In a very real way, how well a business manages its inventory can have a significant impact upon its overall success. Hence, to cater to that we present a store inventory management system which includes a variety of techniques, tools and technologies that a business uses to manage and control their inventory. It is what controls the flow of stock in and out and provides a detailed transaction history. It also maintains the correct inventory levels for all items and stock. We’ve also added a feature that allows a deep insight into the sales data and analytics with graphical representation for the same. In a nutshell, everything that is related to inventory falls under the umbrella of this project. Moreover, compared to the software used by major supermarkets, our application provides a much simpler and cleaner UI so that our target users i.e. Employees of small to medium size businesses do not get intimidated by any complexity. All the data is tabulated, looking similar to an account book making it very easy for them to shift from written to digital management.",
+	"slug": "inventory-web",
+	"img_cover": "../../images/projects/2020/05/10/graphs.png",
+	"img": [
+		"../../images/projects/2020/05/10/login.png",
+		"../../images/projects/2020/05/10/employees.png",
+		"../../images/projects/2020/05/10/expiry.png",
+		"../../images/projects/2020/05/10/transactions.png"
+	],
+	"stack": [
+		"React",
+		" Django",
+		" DjangoRestFramework",
+		" MySQL"
+	],
+	"tech": [
+		"web"
+	],
+	"contributors": {
+		"BEmentors": [
+			5,
+			36
+		],
+		"TEmentors": [
+			1,
+			9,
+			12,
+			19
+		],
+		"SEmentees": [
+			85,
+			83,
+			87
+		]
+	},
+	"year": "2020-01-01",
+	"links": [
+		"https://github.com/djunicode/inventory-management-web"
+	]
+}
