@@ -20,8 +20,15 @@ const IndexPage = ({ data }) => {
 	const featureProjectImages = data.allProjectsJson.nodes
 		.map((project, index) => {
 			if (data.featuredProjectsJson.index?.includes(project.title)) {
+				console.log(project)
 				return (
 					<Link to={`/projects/${project.slug}`}>
+						<div className={styles.overlay}>
+							<h3>{project.title}</h3>
+							<p className={styles.overlayText}>
+								{project.stack.join(', ')}
+							</p>
+						</div>
 						<GatsbyImage
 							key={index}
 							image={project.img_cover?.childImageSharp?.gatsbyImageData}
@@ -157,6 +164,7 @@ export const query = graphql`
 					}
 				}
 				slug
+				stack
 			}
 		}
 	}

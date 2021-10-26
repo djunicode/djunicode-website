@@ -9,7 +9,10 @@
 		"../../images/projects/2019/09/25/45575853-9e937500-b892-11e8-8ebb-ea0af950a127.png"
 	],
 	"stack": [
-		"Stack 1"
+		"HTML", 
+		"CSS", 
+		"JavaScript", 
+		"Django"
 	],
 	"tech": [
 		"web"
