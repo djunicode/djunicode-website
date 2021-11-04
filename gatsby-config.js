@@ -1,5 +1,4 @@
 module.exports = {
-	pathPrefix: "/djunicode-website",
 	siteMetadata: {
 		siteUrl: "https://www.djunicode.in",
 		title: "DJ Unicode",
@@ -18,7 +17,7 @@ module.exports = {
 			options: {
 				name: `DJ Unicode`,
 				short_name: `Unicode`,
-				start_url: `/djunicode-website`,
+				start_url: `/`,
 				icon: "src/images/unicode-icon.svg",
 			},
 		},
