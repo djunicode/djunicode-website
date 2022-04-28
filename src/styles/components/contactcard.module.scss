@@ -46,7 +46,7 @@
 			background-color: rgba($color: $white, $alpha: 0.3);
 			margin-right: $extraspacing;
 			box-shadow: $boxShadowCard;
-
+			color: $white;
 			&.alternate {
 				background-color: $white;
 				color: $primary;
