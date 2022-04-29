@@ -2,7 +2,14 @@
 	"title": "DJ arXiv",
 	"desc": "BE project web aims to digitize the process of storing records of final year projects\r\nwhich are currently stored in the Black book. The web app allows final year students to upload abstracts and details of their projects. Using the app, students can know what projects their seniors have already worked on.This will enable them to select a different topic or extend the idea of the previously created project. \r\n\r\nOur projected audience are newly joined SEs, seeking ideas for mini-projects, TEs/BEs who would help juniors in their area of interest and TEs who are in the ideation phase of their final year project.We have been able to acheive features like Find a project (In-house/Outhouse), Advanced search filtering, Token-based authentication for teachers (credentials will be provided by us for the\r\nteachers), Only approved projects by the teachers will be displayed.",
 	"slug": "DJ-arXiv1",
-	"img": [],
+	"img_cover": "../../images/projects/DJ_arXiv/ar1.PNG",
+	"img": [
+		"../../images/projects/DJ_arXiv/ar2.PNG",
+		"../../images/projects/DJ_arXiv/ar3.PNG",
+		"../../images/projects/DJ_arXiv/ar4.PNG",
+		"../../images/projects/DJ_arXiv/ar5.PNG",
+		"../../images/projects/DJ_arXiv/ar6.PNG"
+	],
 	"stack": [
 		"React",
 		" Django",

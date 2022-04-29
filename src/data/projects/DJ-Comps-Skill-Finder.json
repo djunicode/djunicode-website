@@ -2,7 +2,10 @@
 	"title": "DJ-Comps-Skill-Finder",
 	"desc": "DJ-Comps-Skill-Finder is an application to find people with similar interests as you on the campus. The general approach of finding people with similar interests as you can be time consuming as there is a need to first talk to people and then filter the ones that are interested to work in the same domain as you. This application aims to resolve the time consuming process and rather daunting process of approaching seniors/ peers by automatically matching up people who have interests in similar domains.\r\nOur audience focuses on Newly joined SEs, seeking answers to all kinds of questions, TEs/BEs who would help juniors in their area of interest, Any student seeking team members for a project/hackathon, Any student wishing to contact students whose skills match his/her interests.\r\n\r\nUsing our application a student may request a senior to mentor him/her in a particular programming language/skill, thus finding a mentor. Match a Mentor in which a student may choose to mentor others in whichever skills he is proficient in. The student can find a team for Hackathons/Project, find team members based on skills and also post new Hackathons all on the same portal",
 	"slug": "dj-comps-skill-finder",
-	"img": [],
+	"img_cover": "../../images/projects/DJ_Comps_Skill_Finder/DjSkill.PNG",
+	"img": [
+		"../../images/projects/DJ_Comps_Skill_Finder/DjSkill-2.PNG"
+	],
 	"stack": [
 		"React",
 		" Django",
