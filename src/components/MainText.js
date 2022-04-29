@@ -44,9 +44,10 @@ const useStyles = makeStyles((theme) => ({
 		right: "10%",
 		transform: "rotate(7deg)",
 		boxShadow: "-1px 3px 24px 16px rgba(75, 75, 75, 0.16)",
-		[theme.breakpoints.down('sm')]: {
+		[theme.breakpoints.down("sm")]: {
 			right: "1%",
-			height: theme.spacing(15), width: theme.spacing(25)
+			height: theme.spacing(15),
+			width: theme.spacing(25),
 		},
 	},
 	bluePaperSM: {
@@ -54,7 +55,7 @@ const useStyles = makeStyles((theme) => ({
 		fontSize: "1.8rem",
 		backgroundImage:
 			"linear-gradient(to right top, #77ce90, #57cda4, #35cab8, #0ec6c9, #09c1d7)",
-		width: '100%',
+		width: "100%",
 		height: theme.spacing(20),
 		color: "#ffffff",
 		boxShadow: "-1px 3px 24px 16px rgba(75, 75, 75, 0.16)",
@@ -64,11 +65,11 @@ const useStyles = makeStyles((theme) => ({
 		zIndex: "-1",
 		fontSize: "1.5rem",
 		backgroundColor: "#09c1d7",
-		width: '100%',
+		width: "100%",
 		height: theme.spacing(20),
 		color: "#ffffff",
 		borderRadius: "6px",
-		margin: 'auto',
+		margin: "auto",
 	},
 	greensmallPaper: {
 		zIndex: "-1",
@@ -137,12 +138,12 @@ const useStyles = makeStyles((theme) => ({
 		height: theme.spacing(8),
 		color: "#ffffff",
 		borderRadius: "8px",
-		margin:'auto',
+		margin: "auto",
 		// position: "absolute",
 		// top: "18%",
 		// right: "42%",
 		opacity: "20%",
-		transform: `translateY(${1.3*theme.spacing(12)}px)`,
+		transform: `translateY(${1.3 * theme.spacing(12)}px)`,
 	},
 
 	image: {
@@ -180,10 +181,16 @@ export default function MainText() {
 					<Grid item xs={12}>
 						<Paper elevation={0} className={classes.greenbgPaperSM} />
 						<Paper elevation={0} className={classes.greenPaperSM}>
-							<Grid className={classes.grid}
-							container direction="row"
-							alignContent="center" alignItems="center" justifyContent="center"
-							wrap="wrap" spacing={1}>
+							<Grid
+								className={classes.grid}
+								container
+								direction="row"
+								alignContent="center"
+								alignItems="center"
+								justifyContent="center"
+								wrap="wrap"
+								spacing={1}
+							>
 								<Grid xs={4}>
 									<div className={styles.textAnimated}>
 										<UserCircleIcon />
@@ -232,88 +239,52 @@ export default function MainText() {
 			</div>
 			{/* Floating Cards */}
 			<Hidden xsDown>
-			<div className={classes.root}>
-				<Paper elevation={0} className={classes.bluePaper}>
-					<Grid
-						className={classes.grid}
-						container
-						direction="row"
-						alignContent="center"
-						alignItems="center"
-						justifyContent="center"
-						wrap="wrap"
-						spacing={1}
-					>
-						<Grid xs={4} style={{textAlign:'center'}}>
-							<div className={styles.textAnimated}>
-								<ComputerIcon />
-								&nbsp;
-								<b>15+</b>
-							</div>
-							Projects
+				<div className={classes.root}>
+					<Paper elevation={0} className={classes.bluePaper}>
+						<Grid
+							className={classes.grid}
+							container
+							direction="row"
+							alignContent="center"
+							alignItems="center"
+							justifyContent="center"
+							wrap="wrap"
+							spacing={1}
+						>
+							<Grid xs={4} style={{ textAlign: "center" }}>
+								<div className={styles.textAnimated}>
+									<ComputerIcon />
+									&nbsp;
+									<b>15+</b>
+								</div>
+								Projects
+							</Grid>
 						</Grid>
-					</Grid>
-				</Paper>
-				<Paper elevation={0} className={classes.greenbgPaper} />
-				<Paper elevation={0} className={classes.greenPaper}>
-					<Grid
-						className={classes.grid}
-						container
-						direction="row"
-						alignContent="center"
-						alignItems="center"
-						justifyContent="center"
-						wrap="wrap"
-						spacing={1}
-					>
-						<Grid xs={4}>
-							<div className={styles.textAnimated}>
-								<UserCircleIcon />
-								&nbsp;
-								<b>210+</b>
-							</div>
-							members
+					</Paper>
+					<Paper elevation={0} className={classes.greenbgPaper} />
+					<Paper elevation={0} className={classes.greenPaper}>
+						<Grid
+							className={classes.grid}
+							container
+							direction="row"
+							alignContent="center"
+							alignItems="center"
+							justifyContent="center"
+							wrap="wrap"
+							spacing={1}
+						>
+							<Grid xs={4}>
+								<div className={styles.textAnimated}>
+									<UserCircleIcon />
+									&nbsp;
+									<b>210+</b>
+								</div>
+								members
+							</Grid>
 						</Grid>
-					</Grid>
-				</Paper>
+					</Paper>
 
-				<Paper elevation={0} className={classes.greensmallPaper}>
-					<Grid
-						className={classes.grid}
-						container
-						direction="row"
-						alignContent="center"
-						alignItems="center"
-						justifyContent="center"
-						wrap="wrap"
-						spacing={1}
-					>
-						<Grid xs={4}>
-							<div className={styles.textAnimated}>
-								<GitHubIcon />
-								&nbsp;
-								<b>1k+</b>
-							</div>
-							pull requests
-						</Grid>
-					</Grid>
-				</Paper>
-
-				<img src={djangoImage} alt="logo" className={classes.image} />
-				<img src={nodeJsImage} alt="logo" className={classes.image2} />
-				<div className={styles.textImage}>
-					<img src={gitImage} alt="logo" className={styles.textImage3} />
-				</div>
-				<div className={styles.textImage}>
-					<img src={flutterImage} alt="logo" className={styles.textImage4} />
-				</div>
-				<img src={reactImage} alt="logo" className={styles.textImage5} />
-			</div>
-			</Hidden>
-			<Hidden smUp>
-			<Grid container style={{position:'absolute', bottom: '3%'}} alignItems="center">
-				<Grid item xs={6}>
-					<Paper elevation={0} className={classes.greensmallPaperSM}>
+					<Paper elevation={0} className={classes.greensmallPaper}>
 						<Grid
 							className={classes.grid}
 							container
@@ -334,31 +305,71 @@ export default function MainText() {
 							</Grid>
 						</Grid>
 					</Paper>
-				</Grid>
-				<Grid item xs={6}>
-					<Paper elevation={0} className={classes.bluePaperSM}>
-						<Grid
-							className={classes.grid}
-							container
-							direction="row"
-							alignContent="center"
-							alignItems="center"
-							justifyContent="center"
-							wrap="wrap"
-							spacing={1}
-						>
-							<Grid xs={4} style={{textAlign:'center'}}>
-								<div className={styles.textAnimated}>
-									<ComputerIcon />
-									&nbsp;
-									<b>15+</b>
-								</div>
-								Projects
+
+					<img src={djangoImage} alt="logo" className={classes.image} />
+					<img src={nodeJsImage} alt="logo" className={classes.image2} />
+					<div className={styles.textImage}>
+						<img src={gitImage} alt="logo" className={styles.textImage3} />
+					</div>
+					<div className={styles.textImage}>
+						<img src={flutterImage} alt="logo" className={styles.textImage4} />
+					</div>
+					<img src={reactImage} alt="logo" className={styles.textImage5} />
+				</div>
+			</Hidden>
+			<Hidden smUp>
+				<Grid
+					container
+					style={{ position: "absolute", bottom: "3%" }}
+					alignItems="center"
+				>
+					<Grid item xs={6}>
+						<Paper elevation={0} className={classes.greensmallPaperSM}>
+							<Grid
+								className={classes.grid}
+								container
+								direction="row"
+								alignContent="center"
+								alignItems="center"
+								justifyContent="center"
+								wrap="wrap"
+								spacing={1}
+							>
+								<Grid xs={4}>
+									<div className={styles.textAnimated}>
+										<GitHubIcon />
+										&nbsp;
+										<b>1k+</b>
+									</div>
+									pull requests
+								</Grid>
 							</Grid>
-						</Grid>
-					</Paper>
+						</Paper>
+					</Grid>
+					<Grid item xs={6}>
+						<Paper elevation={0} className={classes.bluePaperSM}>
+							<Grid
+								className={classes.grid}
+								container
+								direction="row"
+								alignContent="center"
+								alignItems="center"
+								justifyContent="center"
+								wrap="wrap"
+								spacing={1}
+							>
+								<Grid xs={4} style={{ textAlign: "center" }}>
+									<div className={styles.textAnimated}>
+										<ComputerIcon />
+										&nbsp;
+										<b>15+</b>
+									</div>
+									Projects
+								</Grid>
+							</Grid>
+						</Paper>
+					</Grid>
 				</Grid>
-			</Grid>
 			</Hidden>
 		</div>
 	);

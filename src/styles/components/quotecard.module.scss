@@ -11,10 +11,23 @@ $topMargin: 60px;
 	margin-top: $topMargin;
 	margin-bottom: 0px;
 }
+.upcomingCard {
+	box-shadow: $boxShadowCard;
+	border-radius: $standardspacing;
+	margin: $standardspacing;
+	// position: relative;
+	// bottom: $bottomOffset;
+	// margin-top: $topMargin;
+	// margin-bottom: 0px;
+}
 
 .cardLayer {
 	position: relative;
 	bottom: $bottomOffset;
+}
+.upcomingCardLayer {
+	position: relative;
+	// bottom: $bottomOffset;
 }
 .imgContainer {
 	width: $imgWidth;
@@ -29,14 +42,29 @@ $topMargin: 60px;
 		width: 100%;
 	}
 }
+.upcomingEvents {
+	// width: $imgWidth;
+	height: 100%;
+	margin: 0 auto;
+	height: 40px;
+}
 
 .content {
 	padding: 0 2 * $extraspacing;
+}
+.upcomingEventsContent {
+	padding: 1 5 * $extraspacing;
 }
 
 .description {
 	display: -webkit-box;
 	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.upcomingEventsDescription {
+	display: -webkit-box;
+	-webkit-line-clamp: 10;
 	-webkit-box-orient: vertical;
 	overflow: hidden;
 }
