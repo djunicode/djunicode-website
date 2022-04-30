@@ -40,3 +40,19 @@ $bigSpace: 20px;
 	align-items: center;
 	justify-content: center;
 }
+.unicodeGrid {
+	height: 100vh;
+    background-color: #3d3d3d;
+}
+
+@media (max-width: 700px) {
+	.unicodeGrid {
+		height: 70vh;
+	}
+}
+
+@media (max-width: 400px) {
+	.unicodeGrid {
+		height: 50vh;
+	}
+}

@@ -44,17 +44,17 @@ function ContactCard() {
 						Vile Parle, Mumbai - 400 055
 					</div>
 				</a>
-				<div className={styles.cardContent} >
-					<a className={styles.cardContentIcon} href="https://instagram.com/djunicode">
+				<div className={styles.cardSocials} >
+					<a className={styles.cardSocialsIcon} href="https://instagram.com/djunicode">
 						<InstagramIcon />
 					</a>
-					<a className={styles.cardContentIcon} href="https://github.com/djunicode">
+					<a className={styles.cardSocialsIcon} href="https://github.com/djunicode">
 						<GitHubIcon />
 					</a>
-					<a className={styles.cardContentIcon} href="https://www.linkedin.com/company/djunicode">
+					<a className={styles.cardSocialsIcon} href="https://www.linkedin.com/company/djunicode">
 						<LinkedInIcon />
 					</a>
-					<a className={styles.cardContentIcon} href="https://twitter.com/djunicode">
+					<a className={styles.cardSocialsIcon} href="https://twitter.com/djunicode">
 						<TwitterIcon />
 					</a>
 				</div>

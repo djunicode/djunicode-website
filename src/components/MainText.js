@@ -299,7 +299,7 @@ export default function MainText() {
 					</Grid>
 				</Paper>
 
-				{/* <img src={djangoImage} alt="logo" className={classes.image} />
+				<img src={djangoImage} alt="logo" className={classes.image} />
 				<img src={nodeJsImage} alt="logo" className={classes.image2} />
 				<div className={styles.textImage}>
 					<img src={gitImage} alt="logo" className={styles.textImage3} />
@@ -307,7 +307,7 @@ export default function MainText() {
 				<div className={styles.textImage}>
 					<img src={flutterImage} alt="logo" className={styles.textImage4} />
 				</div>
-				<img src={reactImage} alt="logo" className={styles.textImage5} /> */}
+				<img src={reactImage} alt="logo" className={styles.textImage5} />
 			</div>
 			</Hidden>
 			<Hidden smUp>
