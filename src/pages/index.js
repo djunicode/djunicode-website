@@ -51,12 +51,12 @@ const IndexPage = ({ data }) => {
 			<Divider />
 			<h2 className={styles.homeTitle + " " + styles.alt}>Upcoming Events</h2>
 			<StandardGrid>
-			{/* <Hackprep3
+				{/* <Hackprep3
 				name="Hackprep 3.0"
 				// 	avatar={logoDataUri}
 				quote={logoDataUri}
 			/> */}
-			<UpcomingEventsCard />
+				<UpcomingEventsCard />
 			</StandardGrid>
 			<br />
 			<br />
