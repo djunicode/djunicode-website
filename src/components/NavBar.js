@@ -75,12 +75,15 @@ function NavBar(props) {
 										<Button tabIndex={-1} size="large" color="inherit">
 											{page.name}
 										</Button>
+										
+										
 									</Link>
 								))}
 							</React.Fragment>
 						) : (
 							<IconButton onClick={toggleDrawer}>
 								<MenuIcon />
+								
 							</IconButton>
 						)}
 					</div>

@@ -15,19 +15,19 @@ import Carousel from "../components/Carousel";
 
 import * as styles from "../styles/pages/home.module.scss";
 import * as itemDetailsStyles from "../styles/templates/itemDetail.module.scss";
+import logoDataUri from "../images/unicode-logo.svg";
+import UpcomingEventsCard from "../components/UpcomingEventsCard";
 
 const IndexPage = ({ data }) => {
 	const featureProjectImages = data.allProjectsJson.nodes
 		.map((project, index) => {
 			if (data.featuredProjectsJson.index?.includes(project.title)) {
-				console.log(project)
+				console.log(project);
 				return (
 					<Link to={`/projects/${project.slug}`}>
 						<div className={styles.overlay}>
 							<h3>{project.title}</h3>
-							<p className={styles.overlayText}>
-								{project.stack.join(', ')}
-							</p>
+							<p className={styles.overlayText}>{project.stack.join(", ")}</p>
 						</div>
 						<GatsbyImage
 							key={index}
@@ -49,6 +49,20 @@ const IndexPage = ({ data }) => {
 
 			{/* Alumni Section */}
 			<Divider />
+			<h2 className={styles.homeTitle + " " + styles.alt}>Upcoming Events</h2>
+			<StandardGrid>
+				{/* <Hackprep3
+				name="Hackprep 3.0"
+				// 	avatar={logoDataUri}
+				quote={logoDataUri}
+			/> */}
+				<UpcomingEventsCard />
+			</StandardGrid>
+			<br />
+			<br />
+			<br />
+
+			<Divider />
 			<h2 className={styles.homeTitle}>Our Founders</h2>
 			<StandardGrid>
 				{data.allAlumniJson.nodes.map((alumni, index) => (
@@ -61,6 +75,7 @@ const IndexPage = ({ data }) => {
 					/>
 				))}
 			</StandardGrid>
+
 			<br />
 			<br />
 			<br />
