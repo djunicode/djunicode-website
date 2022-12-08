@@ -1,0 +1,16 @@
+{
+    "title": "Hackprep 3.0",
+    "description": "HackPrep 3.0 returned in 2022 again to get the FEs into development. The aim this year was to provide freshers a head-start to their journey of hackathons. This was done by holding interactive lectures that spanned 2 days, covering all important topics from programming fundamentals to app, front and back end development. Even the basics of git and version control were introduced to the freshers. Via Hackprep, Unicode ensures that freshers get a clear idea on how to go about exploring the vast world of development, navigate through a plethora of resources, and eventually start building their own projects.",
+    "slug": "hackprep-3-0",
+    "links": [
+        "https://www.youtube.com/watch?v=HZfSajAzIEI"
+    ],
+    "images": [
+        "../../images/events/hackprep3_1_1.png"
+    ],
+    "contributors": {
+        "Externals": [0],
+        "TEmentors": [84, 64, 60, 68, 72, 65],
+        "SEmentees": []
+    }
+}
