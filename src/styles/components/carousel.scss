@@ -1,13 +1,38 @@
-@import "../variables.scss";
 
-.splide {
-	&__pagination__page {
-		&.is-active {
-			background-color: $secondary !important;
-		}
+.carousel {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.carousel-inner {
+	display: flex;
+	transition: transform 0.5s ease;
+}
+
+.carousel-item {
+	min-width: 100%;
+	flex-shrink: 0;
+}
+
+.carousel-control {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background: none;
+	border: none;
+	color: #fff;
+	font-size: 2rem;
+	cursor: pointer;
+
+	&.prev {
+		left: 1rem;
 	}
 
-	&__arrow {
-		background-color: $primary;
+	&.next {
+		right: 1rem;
 	}
 }
+

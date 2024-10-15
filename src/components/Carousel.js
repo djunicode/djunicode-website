@@ -1,46 +1,42 @@
-import React from "react";
-
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-
-import "@splidejs/splide/dist/css/themes/splide-default.min.css";
+import React, { useState } from "react";
 import "../styles/components/carousel.scss";
 
-function Carousel(props) {
-	return props.children ? (
-		<Splide
-			options={{
-				rewind: true,
-				type: props.children?.length > 1 ? "loop" : "slide",
-				cover: true,
-				fixedHeight: props.height || "25rem",
-				arrows: !props.hideArrows && props.children?.length > 1,
-				perPage: 1,
-				gap: "1.5rem",
-				padding: {
-					right: "5rem",
-					left: "5rem",
-				},
-				autoplay: true,
+function Carousel({ children, height = "25rem", hideArrows }) {
+	const [currentIndex, setCurrentIndex] = useState(0);
 
-				breakpoints: {
-					525: {
-						fixedHeight: "12rem",
-						padding: {
-							right: "3rem",
-							left: "3rem",
-						},
-					},
-				},
-			}}
-		>
-			{props.children.length ? (
-				props.children.map((element, index) => {
-					return <SplideSlide key={index}>{element}</SplideSlide>;
-				})
-			) : (
-				<SplideSlide>{props.children}</SplideSlide>
+	const nextSlide = () => {
+		setCurrentIndex((prevIndex) =>
+			prevIndex === children.length - 1 ? 0 : prevIndex + 1
+		);
+	};
+
+	const prevSlide = () => {
+		setCurrentIndex((prevIndex) =>
+			prevIndex === 0 ? children.length - 1 : prevIndex - 1
+		);
+	};
+
+	return children ? (
+		<div className="carousel" style={{ height }}>
+			<div className="carousel-inner" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
+				{React.Children.map(children, (child, index) => (
+					<div className="carousel-item" key={index}>
+						{child}
+					</div>
+				))}
+			</div>
+
+			{!hideArrows && children.length > 1 && (
+				<>
+					<button className="carousel-control prev" onClick={prevSlide}>
+						❮
+					</button>
+					<button className="carousel-control next" onClick={nextSlide}>
+						❯
+					</button>
+				</>
 			)}
-		</Splide>
+		</div>
 	) : null;
 }
 
