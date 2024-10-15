@@ -1,0 +1,16 @@
+{
+    "title": "Git Session - 1",
+    "description": "The team of TE Mentors conducted an online session to go over the basics of using git and github, covering the most relevant commands and features that enable collaborative development",
+    "slug": "git-session-1",
+    "links": [
+        "https://svkmmumbai-my.sharepoint.com/personal/aditi_kamath1_svkmmumbai_onmicrosoft_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Faditi%5Fkamath1%5Fsvkmmumbai%5Fonmicrosoft%5Fcom%2FDocuments%2FRecordings%2FUnicode%20Git%20session%2D20210912%5F151315%2DMeeting%20Recording%2Emp4&ga=1"
+    ],
+    "images": [
+        "../../images/events/gitsession_1_cover.png"
+    ],
+    "contributors": {
+        "Externals": [0],
+        "TEmentors": [84, 60, 75, 68],
+        "SEmentees": []
+    }
+}

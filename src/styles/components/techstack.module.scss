@@ -2,23 +2,48 @@
 
 .container {
 	text-align: center;
+	padding: $spacing-md;
+	transition: transform 0.3s ease;
 }
 
-.avatarContainer{
+.avatarContainer {
 	text-align: center;
 	padding: $extraspacing;
+	transition: transform 0.3s ease;
 }
-.textOverflow{
+h4{
+	color: $black;
+	font-size: 2rem;
+}
+.gridItem {
+	transition: transform 0.3s ease;
+	&:hover {
+		transform: scale(1.1); // Scale effect on hover
+	}
+}
+
+.textOverflow {
 	overflow-wrap: break-word;
+	margin-top: $spacing-xs;
+	transition: color 0.3s ease;
 }
 
 .img {
-	width: 50%;
+	width: 70%;
 	border-radius: 50%;
+	transition: transform 0.3s ease;
 }
 
 .img2 {
 	width: 100%;
-	min-height: 100px;
-	max-height: 100px;
+	min-height: 150px;
+	max-height: 150px;
+	transition: transform 0.3s ease;
 }
+
+.img, .img2 {
+	&:hover {
+		transform: scale(1.1); // Hover effect to grow the image
+	}
+}
+
