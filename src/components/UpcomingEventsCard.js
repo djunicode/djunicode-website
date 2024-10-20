@@ -10,6 +10,7 @@ import HackprepPoster from "../images/hackprep-poster.png";
 import * as styles from "../styles/components/quotecard.module.scss";
 import { Button } from "@mui/material";
 import { Link } from "@material-ui/core";
+import celestiaPoster from "../images/events/CelestiaPoster.jpg";
 
 // import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
 // import PlayArrowIcon from '@mui/icons-material/PlayArrow';
@@ -19,7 +20,7 @@ export default function UpcomingEventsCard() {
 	const theme = useTheme();
 
 	const content =
-		"HackPrep is an annual series of events hosted by DJ Unicode in hopes to introduce the world of development to first-year coders. The aim of the event is to create a one-stop place to head-start their hackathon journeys, and cover important topics related to frontend, backend, and app development. Through HackPrep, we will be ensuring freshers get a clear idea of how to go about exploring the vast world of development, navigate through a plethora of resources, and eventually start building their own projects. ";
+		"Celestia is an annual themed event hosted by DJ Unicode as a means for networking and socializing with other tech enthusiasts. It is a platform for juniors to interact with seniors in a fun environment, with different tech and non-tech games, and a chance to win exciting prizes. Celestia is a great opportunity to meet new people and make friends, and to learn about the tech community at DJSCE.";
 
 	return (
 		<Grid item xs={10} sm={10} lg={6} sx={{ padding: "0 2rem" }}>
@@ -38,7 +39,7 @@ export default function UpcomingEventsCard() {
 								<CardMedia
 									component="img"
 									sx={{ width: "100%" }}
-									image={HackprepPoster}
+									image={celestiaPoster}
 									alt="Live from space album cover"
 								/>
 							</Grid>
@@ -51,15 +52,22 @@ export default function UpcomingEventsCard() {
 									}}
 								>
 									<CardContent sx={{ flex: "1 0 auto" }}>
-										<Typography
-											component="div"
-											variant="h4"
-											paddingBottom={2}
-											display="block"
-											textAlign="center"
-										>
-											HackPrep 3.0
-										</Typography>
+									<Typography
+									component="div"
+									variant="h4"
+									sx={{ 
+									  paddingBottom: 2, 
+									  display: "block", 
+									  textAlign: "center", 
+									  fontWeight: "bold",
+									  background: "linear-gradient(to right, orange,red)",
+									  WebkitBackgroundClip: "text",
+									  color: "transparent"
+									}}
+								  >
+									Celestia 2.0
+								  </Typography>
+								  
 										<div className={styles.upcomingEventsContent}>
 											<Typography
 												variant="subtitle1"
@@ -74,10 +82,22 @@ export default function UpcomingEventsCard() {
 									</CardContent>
 									<Box textAlign="center" marginTop={3} marginBottom={3}>
 										<a
-											href="https://forms.gle/e1jaCAUbTerh2Eyp9"
+											href="https://forms.gle/nKyYBcViGXDiuS7F8"
 											style={{ color: "#09c1d7", textDecoration: "none" }}
 										>
-											<Button variant="filled">Register</Button>
+										<Button 
+										variant="contained" 
+										sx={{ 
+										  backgroundColor: "#FF5733 ", 
+										  color: "#fff", 
+										  '&:hover': {
+											backgroundColor: "#07a1b8"
+										  } 
+										}}
+									  >
+										Register
+									  </Button>
+									  
 										</a>
 										{/* <a href="/" style={{ color: "#09c1d7", textDecoration: "none" }}>
                 <Button variant="filled" >Details</Button>
