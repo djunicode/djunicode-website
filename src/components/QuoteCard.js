@@ -6,7 +6,7 @@ import { GatsbyImage } from "gatsby-plugin-image";
 
 function QuoteCard({ quote, name, dynamicImage, avatar }) {
 	return (
-		<Grid item xs={8} sm={5} lg={4}>
+		<Grid item xs={12} sm={6} lg={4}>
 			<div className={styles.card} data-aos="fade-up" data-aos-duration="1000">
 				<div className={styles.cardLayer}>
 					<div className={styles.imgContainer}>
@@ -18,7 +18,7 @@ function QuoteCard({ quote, name, dynamicImage, avatar }) {
 					</div>
 					<h3 className={styles.header}>{name}</h3>
 					<div className={styles.content}>
-						<div className={styles.description}>{quote}</div>
+						<p className={styles.description}>{quote}</p>
 					</div>
 				</div>
 			</div>
