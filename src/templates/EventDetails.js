@@ -27,17 +27,15 @@ function EventDetails({ data }) {
 				<Grid item container className={styles.content}>
 					<Grid item xs={12}>
 						{typeof window !== "undefined" && window && (
-							<Carousel>
-								{images.map((item, idx) => (
-									<GatsbyImage
-										key={idx}
-										image={item.childImageSharp.gatsbyImageData}
-										alt="Event Image"
-										className={styles.imgContainer}
-										imgClassName={styles.img}
-									/>
-								))}
-							</Carousel>
+							<Carousel height="25rem" objectFit="contain">
+							{images.map((item, idx) => (
+							  <GatsbyImage
+								key={idx}
+								image={item?.childImageSharp?.gatsbyImageData}
+								alt="Event Image"
+							  />
+							))}
+						  </Carousel>
 						)}
 					</Grid>
 					<Grid item container xs={12}>

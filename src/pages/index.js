@@ -19,27 +19,30 @@ import logoDataUri from "../images/unicode-logo.svg";
 import UpcomingEventsCard from "../components/UpcomingEventsCard";
 
 const IndexPage = ({ data }) => {
-	const featureProjectImages = data.allProjectsJson.nodes
-		.map((project, index) => {
-			if (data.featuredProjectsJson.index?.includes(project.title)) {
-				console.log(project);
-				return (
-					<Link to={`/projects/${project.slug}`}>
-						<div className={styles.overlay}>
-							<h3>{project.title}</h3>
-							<p className={styles.overlayText}>{project.stack.join(", ")}</p>
-						</div>
-						<GatsbyImage
-							key={index}
-							image={project.img_cover?.childImageSharp?.gatsbyImageData}
-							className={itemDetailsStyles.imgContainer}
-							imgClassName={itemDetailsStyles.img}
-						/>
-					</Link>
-				);
-			} else return null;
-		})
-		.filter((value) => !!value);
+	const featureProjectImages = data.featuredProjectsJson.index
+	.map((featuredTitle, featuredIndex) => {
+		const project = data.allProjectsJson.nodes.find(
+			(proj) => proj.title === featuredTitle
+		);
+
+		if (project) {
+			return (
+				<Link to={`/projects/${project.slug}`} key={featuredIndex}>
+					<div className={styles.overlay}>
+						<h3>{project?.title}</h3>
+						<p className={styles.overlayText}>{project.stack.join(", ")}</p>
+					</div>
+					<GatsbyImage
+						image={project.img_cover?.childImageSharp?.gatsbyImageData}
+						className={itemDetailsStyles.imgContainer}
+						imgClassName={itemDetailsStyles.img}
+					/>
+				</Link>
+			);
+		}
+		return null;
+	})
+	.filter((value) => !!value);
 
 	return (
 		<Layout fullWidth>
@@ -101,9 +104,11 @@ const IndexPage = ({ data }) => {
 			{/* Featured Projects Carousel */}
 			<Divider />
 			<h2 className={styles.homeTitle}>Featured Projects</h2>
-			{typeof window !== "undefined" && window && (
-				<Carousel>{featureProjectImages}</Carousel>
-			)}
+			<div className={styles.projects}>
+				{typeof window !== "undefined" && window && (
+					<Carousel>{featureProjectImages}</Carousel>
+				)}
+			</div>
 			<br />
 			<br />
 			<br />
