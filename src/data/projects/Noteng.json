@@ -1,0 +1,55 @@
+{
+	"title": "Noteng",
+	"desc": "NOTENG was designed to create a centralized web and app platform that facilitates the exchange of information, notices, study materials, and opportunities such as hackathons and internships. This platform aims to streamline the flow of information, bridging the gap between juniors and seniors, and fostering a community where users can grow and flourish through shared resources and opportunities. The motivation behind NOTENG stemmed from the need to simplify and centralize the distribution of vital academic and professional information within an educational institution. By providing a single, cohesive platform, NOTENG aims to enhance communication, encourage collaboration, and ensure that all students have equal access to important resources.",
+	"slug": "noteng",
+	"img_cover": "../../images/projects/2024/Noteng/image1.png",
+	"img": [
+		"../../images/projects/2024/Noteng/image2.png",
+		"../../images/projects/2024/Noteng/image3.png",
+		"../../images/projects/2024/Noteng/image4.png",
+		"../../images/projects/2024/Noteng/image5.png",
+		"../../images/projects/2024/Noteng/image6.png"
+	],
+	"stack": [
+		"React",
+		" Django",
+		" DjangoRestFramework",
+		" MySQL",
+        " Flutter"
+	],
+	"tech": [
+		"web",
+        "app"
+	],
+	"contributors": {
+		"BEmentors": [],
+		"TEmentors": [
+			100,
+			96,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114
+		],
+		"SEmentees": [
+			136,
+			137,
+			138,
+			139,
+			140,
+			141,
+			142,
+			143,
+			144,
+			145,
+			146,
+			147
+		]
+	},
+	"year": "2024-06-10",
+	"links": [
+        "https://github.com/djunicode/noteng"
+    ]
+}
