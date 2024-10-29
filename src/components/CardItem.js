@@ -16,13 +16,12 @@ const useStyles = makeStyles({
 		boxShadow: " -1px 3px 6px 1px rgba(61,61,63,0.09);",
 	},
 	media: {
-		height: 100,
+		height: 150,
 	},
 	content: {
-		minHeight: 130,
+		minHeight: 160,
 	},
 });
-
 export default function CardItem({ data }) {
 	const { title, desc, description, img_cover, images, slug } = data;
 

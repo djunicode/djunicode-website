@@ -11,14 +11,25 @@ import { Link } from "gatsby";
 const useStyles = makeStyles((theme) => ({
 	root: {
 		flexGrow: 1,
+		paddingTop: theme.spacing(4),
+		paddingBottom: theme.spacing(4),
 	},
 	gridHead: {
-		paddingBottom: "10px",
+		paddingBottom: theme.spacing(2),
 	},
 	heading: {
-		marginTop: 24,
+		marginTop: theme.spacing(3),
 		textAlign: "center",
 		color: "#09c1d7",
+		fontWeight: 700,
+		letterSpacing: "1px",
+	},
+	cardContainer: {
+		animation: `$fadeIn 0.7s ease-out`,
+	},
+	"@keyframes fadeIn": {
+		"0%": { opacity: 0, transform: "translateY(20px)" },
+		"100%": { opacity: 1, transform: "translateY(0)" },
 	},
 }));
 
@@ -27,6 +38,12 @@ export default function GridItem({ data }) {
 
 	const location =
 		typeof window !== `undefined` && window ? window.location.href : "";
+
+	// Sort data by year in descending order
+	const sortedData = data
+		.slice()
+		.sort((a, b) => new Date(b.year) - new Date(a.year));
+
 	return (
 		<div className={classes.root}>
 			<Container fixed>
@@ -37,42 +54,28 @@ export default function GridItem({ data }) {
 					justifyContent="center"
 					alignItems="center"
 				>
-					<Grid
-						item
-						justifyContent="center"
-						alignItems="center"
-						xs={12}
-						sm={12}
-						className={classes.gridHead}
-					>
+					<Grid item xs={12} sm={12} className={classes.gridHead}>
 						<Typography variant="h4" className={classes.heading}>
 							{location.includes("projects") ? "Projects" : "Events"}
 						</Typography>
 					</Grid>
-					{data.map((item, index) => (
+					{sortedData.map((item, index) => (
 						<Grid
 							item
-							spacing={15}
 							key={index}
+							className={classes.cardContainer}
 							justifyContent="center"
 							alignItems="center"
 						>
-							<CardItem data={item} key={index} />
+							<CardItem data={item} />
 						</Grid>
 					))}
-
-					{location.includes("projects") ||
-					location.includes("events") ? null : (
-						<Grid
-							item
-							spacing={2}
-							direction="row"
-							justifyContent="flex-end"
-							xs={12}
-							sm={12}
-						>
-							<Link className={styles?.gridButton}>
-								<Button color="inherit">View all</Button>
+					{location.includes("projects") || location.includes("events") ? null : (
+						<Grid item xs={12} sm={12} justifyContent="flex-end">
+							<Link className={styles.gridButton}>
+								<Button color="inherit" className={styles.gridButton}>
+									View all
+								</Button>
 							</Link>
 						</Grid>
 					)}

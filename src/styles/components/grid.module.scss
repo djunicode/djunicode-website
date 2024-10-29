@@ -6,12 +6,24 @@
 		padding: 12px;
 		background: linear-gradient(
 			to right,
-			rgba(119, 206, 144, 25) 0%,
-			rgba(63, 199, 180, 60) 50%,
-			rgba(9, 193, 215, 50) 80%
+			rgba(119, 206, 144, 0.25) 0%,
+			rgba(63, 199, 180, 0.6) 50%,
+			rgba(9, 193, 215, 0.5) 80%
 		);
 		border-radius: 4px;
 		box-shadow: $boxShadowButton;
 		text-align: end;
+		transition: background 0.3s ease, box-shadow 0.3s ease;
+
+		&:hover {
+			background: linear-gradient(
+				to right,
+				rgba(9, 193, 215, 0.5) 0%,
+				rgba(63, 199, 180, 0.6) 50%,
+				rgba(119, 206, 144, 0.25) 80%
+			);
+			box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+			transform: translateY(-2px);
+		}
 	}
 }
