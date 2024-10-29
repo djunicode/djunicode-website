@@ -840,5 +840,95 @@
 		"desc": "Full Stack Mentor (Node)",
 		"GitHub": "https://github.com/Vidhan123",
 		"LinkedIn": "https://www.linkedin.com/in/vidhan-s-8461b6104"
+	},
+	{
+		"key": 92,
+		"name": "Tirth Nisar",
+		"email": "tirthnisar743@gmail.com",
+		"sapId": 60004210123,
+		"profile_pic": "",
+		"desc": "Events Head | Turning Ideas into epic experiences",
+		"GitHub": "https://www.github.com/tirthnisar193",
+		"LinkedIn": "https://www.linkedin.com/in/tirth-nisar/"
+	},
+	{
+		"key": 93,
+		"name": "Gauri Bhosle",
+		"email": "gaurib49@gmail.com",
+		"sapId": 60004210146,
+		"profile_pic": "",
+		"desc": "Socials Head",
+		"GitHub": "https://www.github.com/Gauri211",
+		"LinkedIn": "https://www.linkedin.com/in/gauri-bhosle/"
+	},
+	{
+		"key": 94,
+		"name": "Jigar Siddhpura",
+		"email": "jigarssiddhpura@gmail.com",
+		"sapId":60004210155,
+		"profile_pic": "",
+		"desc": "Deployments Head | Your go to frontend guy",
+		"GitHub": "https://github.com/jigarsiddhpura",
+		"LinkedIn": "https://www.linkedin.com/in/jigar-siddhpura/"
+	},
+	{
+		"key": 95,
+		"name": "Varun Nair",
+		"email": "varunr.nair@outlook.com",
+		"sapId":60004210197,
+		"profile_pic": "",
+		"desc": "BE-Core",
+		"GitHub": "https://github.com/Varunrnair",
+		"LinkedIn": "https://www.linkedin.com/in/varun-nair-769b35250/"
+	},
+	{
+		"key": 96,
+		"name": "Vaishnavi Padiya",
+		"email": "vaishnavipadiya@gmail.com",
+		"sapId":60004210065,
+		"profile_pic": "",
+		"desc": "Socials Head",
+		"GitHub": "https://github.com/Vaish1809",
+		"LinkedIn": "https://www.linkedin.com/in/vaishnavi-padiya-91468a235"
+	},
+	{
+		"key": 97,
+		"name": "Vatsal Shah",
+		"email": "shahvatsal2003@gmail.com",
+		"sapId":60004210076,
+		"profile_pic": "",
+		"desc": "BE Core",
+		"GitHub": "https://github.com/vatsalshah041",
+		"LinkedIn": "https://www.linkedin.com/in/vatsal-shah-65b1a0231/"
+	},
+	{
+		"key": 98,
+		"name": "Devansh Ashar",
+		"email": "ashar.devansh@gmail.com",
+		"sapId":60004210100,
+		"profile_pic": "",
+		"desc": "BE Core",
+		"GitHub": "https://github.com/devanshAshar",
+		"LinkedIn": "https://www.linkedin.com/in/devansh-ashar/"
+	},
+	{
+		"key": 99,
+		"name": "Neel Gabani",
+		"email": "neelgabani24ng@gmail.com",
+		"sapId":60004210127,
+		"profile_pic": "",
+		"desc": "BE Core",
+		"GitHub": "https://github.com/neelgabani",
+		"LinkedIn": "https://www.linkedin.com/in/neelgabani/"
+	},
+	{
+		"key": 100,
+		"name": "Dev Shah",
+		"email": "devshah0404@gmail.com",
+		"sapId":60004210067,
+		"profile_pic": "",
+		"desc": "Treasurer",
+		"GitHub": "https://github.com/devshaah",
+		"LinkedIn": "https://www.linkedin.com/in/devshaahh"
 	}
 ]
