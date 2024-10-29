@@ -1,0 +1,53 @@
+{
+	"title": "Tailor Trade",
+	"desc": "TailorTrade is a revolutionary platform designed to streamline the process of creating custom garments, empowering both users and tailors with a seamless, user-friendly experience. TailorTrade offers a dedicated division for both users and tailors, providing each with their own tailored set of screens to enhance their experience. Users can create detailed profiles, submit clothing requests with images and descriptions, and even customize their outfits through a series of guided questions on size, fabric, and other preferences. Tailors, on the other hand, can post their designs directly to the user dashboard, showcasing their craftsmanship and attracting potential clients. Tailors can also add new clients, expanding their customer base and building long-term relationships. Both users and tailors can read and leave reviews, ensuring transparency and trust within the TailorTrade community. This comprehensive rating and review system helps maintain high standards and encourages positive interactions.",
+	"slug": "tailor-trade",
+	"img_cover": "../../images/projects/2024/Tailor_Trade/image1.png",
+	"img": [
+		"../../images/projects/2024/Tailor_Trade/image2.png",
+		"../../images/projects/2024/Tailor_Trade/image3.png",
+		"../../images/projects/2024/Tailor_Trade/image4.png",
+		"../../images/projects/2024/Tailor_Trade/image5.png",
+		"../../images/projects/2024/Tailor_Trade/image6.png"
+	],
+	"stack": [
+		"React",
+		" NodeJS",
+		" ExpressJS",
+		" MongoDB",
+        " Flutter"
+	],
+	"tech": [
+		"web",
+        "app"
+	],
+	"contributors": {
+		"BEmentors": [],
+		"TEmentors": [
+			92,
+			99,
+            93,
+            101,
+            106,
+            107,
+            108
+		],
+		"SEmentees": [
+			125,
+			126,
+			127,
+			128,
+			129,
+			130,
+			131,
+			132,
+			133,
+			134,
+			135
+		]
+	},
+	"year": "2024-06-11",
+	"links": [
+        "https://github.com/djunicode/tailor-trade"
+    ]
+}

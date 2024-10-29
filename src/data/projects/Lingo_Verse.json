@@ -1,0 +1,44 @@
+{
+	"title": "Lingo Verse",
+	"desc": "LingoVerse is an innovative project designed to enhance the language learning experience for travelers. The platform offers a unique way for users to learn a new language while immersing themselves in the culture of the places they visit. Understanding the challenges of traditional language learning methods, LingoVerse is created to provide an engaging and practical solution for travelers. LingoVerse's user-friendly interface ensures that the platform is accessible and easy to navigate. It offers tailored learning experiences that adapt to the user's location and progress. By participating in local events and community activities through LingoVerse, users can immerse themselves in the language and culture, making the learning process more effective and enjoyable. Through feedback and continuous improvement, LingoVerse aims to become the go-to platform for language learning on the go. The mission is to make language acquisition a natural part of the travel experience, helping users to communicate confidently and fully enjoy their adventures.",
+	"slug": "lingo-verse",
+	"img_cover": "../../images/projects/2024/Lingo_Verse/image1.png",
+	"img": [
+		"../../images/projects/2024/Lingo_Verse/image2.png",
+		"../../images/projects/2024/Lingo_Verse/image3.png",
+		"../../images/projects/2024/Lingo_Verse/image4.png",
+		"../../images/projects/2024/Lingo_Verse/image5.png",
+		"../../images/projects/2024/Lingo_Verse/image6.png"
+	],
+	"stack": [
+		"React",
+		" Django",
+		" DjangoRestFramework",
+		" MySQL"
+	],
+	"tech": [
+		"web"
+	],
+	"contributors": {
+		"BEmentors": [],
+		"TEmentors": [
+			95,
+			97,
+            102,
+            115,
+            116,
+            117
+		],
+		"SEmentees": [
+			148,
+			149,
+			150,
+			151,
+			152,
+			153,
+			154
+		]
+	},
+	"year": "2024-06-08",
+	"links": []
+}

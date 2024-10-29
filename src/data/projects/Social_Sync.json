@@ -1,0 +1,46 @@
+{
+	"title": "Social Sync",
+	"desc": "Social Sync is a versatile and dynamic platform that seamlessly integrates live streaming and video uploading, offering users the freedom to broadcast live events in real-time and share pre-recorded content. Catering to a diverse audience, Social Sync supports a wide range of demographics, from educational institutions to entertainment enthusiasts, making it a hub for various communities to connect and engage. The platform boasts an array of features designed to enhance the user experience and meet individual preferences. One of the standout features is its personalised video recommendation system. This ensures that users are always presented with videos that are relevant and engaging, enhancing their overall experience on the platform. For content creators, Social Sync offers numerous lucrative opportunities to monetize their content. Creators can earn revenue directly from their audience through features such as live chat donations, which enable viewers to support their favourite creators in real-time. This not only provides a steady income stream for creators but also fosters a supportive and engaged community, encouraging creators to produce high-quality content.",
+	"slug": "social-sync",
+	"img_cover": "../../images/projects/2024/Social_Sync/image1.png",
+	"img": [
+		"../../images/projects/2024/Social_Sync/image2.png",
+		"../../images/projects/2024/Social_Sync/image3.png",
+		"../../images/projects/2024/Social_Sync/image4.png",
+		"../../images/projects/2024/Social_Sync/image5.png",
+		"../../images/projects/2024/Social_Sync/image6.png"
+	],
+	"stack": [
+		"NextJS",
+        " Typescript",
+        " Prisma",
+		" PostgreSQL",
+        " FastAPI"
+	],
+	"tech": [
+		"web"
+	],
+	"contributors": {
+		"BEmentors": [],
+		"TEmentors": [
+			94,
+			98,
+            103,
+            104,
+            105
+		],
+		"SEmentees": [
+			118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124
+		]
+	},
+	"year": "2024-06-07",
+	"links": [
+        "https://github.com/djunicode/Social-Sync"
+    ]
+}
