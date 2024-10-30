@@ -257,7 +257,7 @@ export default function MainText() {
 								<div className={styles.textAnimated}>
 									<ComputerIcon />
 									&nbsp;
-									<b>50+</b>
+									<b>20+</b>
 								</div>
 								Projects
 							</Grid>
