@@ -46,7 +46,7 @@
 			background-color: rgba($color: $white, $alpha: 0.3);
 			margin-right: $extraspacing;
 			box-shadow: $boxShadowCard;
-
+			color: $white;
 			&.alternate {
 				background-color: $white;
 				color: $primary;
@@ -55,6 +55,34 @@
 
 		&-detail {
 			font-size: 0.9rem;
+		}
+	}
+
+	&-socials {
+		color: $white;
+		text-decoration: none;
+		flex: 0 0 100%;
+		margin: $standardspacing;
+		display: flex;
+		align-items:center;
+		justify-content: space-between;
+
+		&-icon {
+			flex-shrink: 0;
+			width: 50px;
+			height: 50px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 50%;
+			background-color: rgba($color: $white, $alpha: 0.3);
+			margin-right: $extraspacing;
+			box-shadow: $boxShadowCard;
+			color: $white;
+			&.alternate {
+				background-color: $white;
+				color: $primary;
+			}
 		}
 	}
 }
