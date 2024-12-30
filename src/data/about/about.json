@@ -18,5 +18,13 @@
 	{
 		"title": "Flutter",
 		"image": "../../images/about/Flutter.svg"
+	},
+	{
+		"title":"UI/UX Design",
+		"image":"../../images/about/Figma.svg"
+	},
+	{
+		"title":"Blockchain",
+		"image":"../../images/about/blockchain.svg"
 	}
 ]

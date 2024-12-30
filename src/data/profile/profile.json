@@ -840,5 +840,636 @@
 		"desc": "Full Stack Mentor (Node)",
 		"GitHub": "https://github.com/Vidhan123",
 		"LinkedIn": "https://www.linkedin.com/in/vidhan-s-8461b6104"
-	}
+	},
+	{
+		"key": 92,
+		"name": "Tirth Nisar",
+		"email": "tirthnisar743@gmail.com",
+		"sapId": 60004210123,
+		"profile_pic": "../../images/profile/Tirth_Nisar.jpg",
+		"desc": "Events Head | Turning Ideas into epic experiences",
+		"GitHub": "https://www.github.com/tirthnisar193",
+		"LinkedIn": "https://www.linkedin.com/in/tirth-nisar/"
+	},
+	{
+		"key": 93,
+		"name": "Gauri Bhosle",
+		"email": "gaurib49@gmail.com",
+		"sapId": 60004210146,
+		"profile_pic": "../../images/profile/Gauri_Bhosle.jpg",
+		"desc": "Socials Head",
+		"GitHub": "https://www.github.com/Gauri211",
+		"LinkedIn": "https://www.linkedin.com/in/gauri-bhosle/"
+	},
+	{
+		"key": 94,
+		"name": "Jigar Siddhpura",
+		"email": "jigarssiddhpura@gmail.com",
+		"sapId":60004210155,
+		"profile_pic": "../../images/profile/Jigar_Siddhpura.png",
+		"desc": "Deployments Head | Your go to frontend guy",
+		"GitHub": "https://github.com/jigarsiddhpura",
+		"LinkedIn": "https://www.linkedin.com/in/jigar-siddhpura/"
+	},
+	{
+		"key": 95,
+		"name": "Varun Nair",
+		"email": "varunr.nair@outlook.com",
+		"sapId":60004210197,
+		"profile_pic": "../../images/profile/Varun_Nair.jpeg",
+		"desc": "BE-Core",
+		"GitHub": "https://github.com/Varunrnair",
+		"LinkedIn": "https://www.linkedin.com/in/varun-nair-769b35250/"
+	},
+	{
+		"key": 96,
+		"name": "Vaishnavi Padiya",
+		"email": "vaishnavipadiya@gmail.com",
+		"sapId":60004210065,
+		"profile_pic": "../../images/profile/Vaishnavi_Padiya.jpeg",
+		"desc": "Socials Head",
+		"GitHub": "https://github.com/Vaish1809",
+		"LinkedIn": "https://www.linkedin.com/in/vaishnavi-padiya-91468a235"
+	},
+	{
+		"key": 97,
+		"name": "Vatsal Shah",
+		"email": "shahvatsal2003@gmail.com",
+		"sapId":60004210076,
+		"profile_pic": "../../images/profile/Vatsal_Shah.png",
+		"desc": "BE Core",
+		"GitHub": "https://github.com/vatsalshah041",
+		"LinkedIn": "https://www.linkedin.com/in/vatsal-shah-65b1a0231/"
+	},
+	{
+		"key": 98,
+		"name": "Devansh Ashar",
+		"email": "ashar.devansh@gmail.com",
+		"sapId":60004210100,
+		"profile_pic": "../../images/profile/Devansh_Ashar.jpg",
+		"desc": "BE Core",
+		"GitHub": "https://github.com/devanshAshar",
+		"LinkedIn": "https://www.linkedin.com/in/devansh-ashar/"
+	},
+	{
+		"key": 99,
+		"name": "Neel Gabani",
+		"email": "neelgabani24ng@gmail.com",
+		"sapId":60004210127,
+		"profile_pic": "../../images/profile/Neel_Gabani.jpg",
+		"desc": "BE Core",
+		"GitHub": "https://github.com/neelgabani",
+		"LinkedIn": "https://www.linkedin.com/in/neelgabani/"
+	},
+	{
+		"key": 100,
+		"name": "Dev Shah",
+		"email": "devshah0404@gmail.com",
+		"sapId":60004210067,
+		"profile_pic": "../../images/profile/Dev_Shah.png",
+		"desc": "Treasurer",
+		"GitHub": "https://github.com/devshaah",
+		"LinkedIn": "https://www.linkedin.com/in/devshaahh"
+	},
+	{
+		"key": 101,
+		"name": "Sahil Kamath",
+		"email": "",
+		"sapId":0,
+		"profile_pic": "../../images/profile/Sahil_Kamath.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 102,
+		"name": "Deepika Muchhala",
+		"email": "",
+		"sapId":0,
+		"profile_pic": "../../images/profile/Deepika_Muchhala.jpeg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 103,
+		"name": "Aman Nambisan",
+		"email": "",
+		"sapId":0,
+		"profile_pic": "../../images/profile/default_m.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 104,
+		"name": "Shubham Mehta",
+		"email": "",
+		"sapId":0,
+		"profile_pic": "../../images/profile/default_m.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 105,
+		"name": "Varun Viswanath",
+		"email": "",
+		"sapId":0,
+		"profile_pic": "../../images/profile/default_m.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 106,
+		"name": "Aasmi Thadhani",
+		"email": "",
+		"sapId":0,
+		"profile_pic": "../../images/profile/default_f.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 107,
+		"name": "Rishab Pendam",
+		"email": "",
+		"sapId":0,
+		"profile_pic": "../../images/profile/default_m.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 108,
+		"name": "Sonia D'Silva",
+		"email": "",
+		"sapId":0,
+		"profile_pic": "../../images/profile/default_f.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 109,
+		"name": "Hemant Singh",
+		"email": "",
+		"sapId":0,
+		"profile_pic": "../../images/profile/default_m.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 110,
+		"name": "Pratham Shah",
+		"email": "",
+		"sapId":0,
+		"profile_pic": "../../images/profile/default_m.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 111,
+		"name": "Niket Shah",
+		"email": "",
+		"sapId":0,
+		"profile_pic": "../../images/profile/default_m.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 112,
+		"name": "Arya Shirgaonkar",
+		"email": "",
+		"sapId":0,
+		"profile_pic": "../../images/profile/default_m.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 113,
+		"name": "Amartya Mishra",
+		"email": "",
+		"sapId":0,
+		"profile_pic": "../../images/profile/default_m.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 114,
+		"name": "Yuvraj Rasal",
+		"email": "",
+		"sapId":0,
+		"profile_pic": "../../images/profile/default_m.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 115,
+		"name": "Rihansh Hingad",
+		"email": "",
+		"sapId":0,
+		"profile_pic": "../../images/profile/default_m.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 116,
+		"name": "Meet Patel",
+		"email": "",
+		"sapId":0,
+		"profile_pic": "../../images/profile/default_m.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 117,
+		"name": "Sayali Chaskar",
+		"email": "",
+		"sapId":0,
+		"profile_pic": "../../images/profile/default_f.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 118,
+		"name": "Varad Prabhu",
+		"email": "",
+		"sapId": 0,
+		"profile_pic": "../../images/profile/Varad_Prabhu.JPG",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 119,
+		"name": "Veer Parikh",
+		"email": "",
+		"sapId": 0,
+		"profile_pic": "../../images/profile/Veer_Parikh.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+    {
+		"key": 120,
+        "name": "Milan Haria",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/Milan_Haria.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+	{
+		"key": 121,
+		"name": "Unnati Hassanandani",
+		"email": "",
+		"sapId": 0,
+		"profile_pic": "../../images/profile/Unnati_Hassanandani.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+    {
+        "key": 122,
+        "name": "Sharan Shetty",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/Sharan_Shetty.JPG",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+    {
+		"key": 123,
+        "name": "Siddhant Uniyal",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/default_m.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+	{
+		"key": 124,
+		"name": "Ali Mehdi Syed",
+		"email": "",
+		"sapId": 0,
+		"profile_pic": "../../images/profile/default_m.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+    {
+		"key": 125,
+        "name": "Nilay Rathod",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/Nilay_Rathod.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+	{
+		"key": 126,
+		"name": "Vanshika Shah",
+		"email": "",
+		"sapId": 0,
+		"profile_pic": "../../images/profile/Vanshika_Shah.jpeg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+    {
+        "key": 127,
+        "name": "Vedant Khade",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/Vedant_Khade.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+    {
+        "key": 128,
+        "name": "Vishwa Jarsaniya",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/Vishwa_Jarsaniya.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+    {
+        "key": 129,
+        "name": "Astu Mehta",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/default_f.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+    {
+        "key": 130,
+        "name": "Devraj Jain",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/default_m.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+    {
+        "key": 131,
+        "name": "Bhumil Shah",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/default_m.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+    {
+        "key": 132,
+        "name": "Prinkal Doshi",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/default_m.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+    {
+        "key": 133,
+        "name": "Sanika Almeida",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/default_f.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+    {
+        "key": 134,
+        "name": "Asvi Shah",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/default_f.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+    {
+        "key": 135,
+        "name": "Rushabh Mehta",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/default_m.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+	{
+		"key": 136,
+		"name": "Monil Mehta",
+		"email": "",
+		"sapId": 0,
+		"profile_pic": "../../images/profile/Monil_Mehta.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 137,
+		"name": "Kshitij Poojary",
+		"email": "",
+		"sapId": 0,
+		"profile_pic": "../../images/profile/Kshitij_Poojary.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 138,
+		"name": "Mehek Mehta",
+		"email": "",
+		"sapId": 0,
+		"profile_pic": "../../images/profile/Mehek_Mehta.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 139,
+		"name": "Meet Chavan",
+		"email": "",
+		"sapId": 0,
+		"profile_pic": "../../images/profile/Meet_Chavan.JPG",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 140,
+		"name": "Vikas Kewat",
+		"email": "",
+		"sapId": 0,
+		"profile_pic": "../../images/profile/Vikas_Kewat.jpeg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 141,
+		"name": "Rishi Shah",
+		"email": "",
+		"sapId": 0,
+		"profile_pic": "../../images/profile/Rishi_Shah.png",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+    {
+        "key": 142,
+        "name": "Divya Gandhi",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/default_f.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+    {
+        "key": 143,
+        "name": "Asmi Savla",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/default_f.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+    {
+        "key": 144,
+        "name": "Ansh Shah",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/default_m.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+    {
+        "key": 145,
+        "name": "Laxmi Prajapati",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/default_f.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+    {
+        "key": 146,
+        "name": "Rudra Shukla",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/default_m.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+    {
+        "key": 147,
+        "name": "Divyam Jain",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/default_m.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+    {
+        "key": 148,
+        "name": "Gaurang Singhania",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/Gaurang_Singhania.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+	{
+		"key": 149,
+		"name": "Neha Tendulkar",
+		"email": "",
+		"sapId": 0,
+		"profile_pic": "../../images/profile/Neha_Tendulkar.jpeg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+	{
+		"key": 150,
+		"name": "Kaumudi Soman",
+		"email": "",
+		"sapId": 0,
+		"profile_pic": "../../images/profile/Kaumudi_Soman.jpg",
+		"desc": "",
+		"GitHub": "",
+		"LinkedIn": ""
+	},
+    {
+        "key": 151,
+        "name": "Parushi Haria",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/default_f.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+    {
+        "key": 152,
+        "name": "Hirali Sangani",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/default_f.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+    {
+        "key": 153,
+        "name": "Saumya Mehta",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/default_f.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    },
+    {
+        "key": 154,
+        "name": "Divij Mehta",
+        "email": "",
+        "sapId": 0,
+        "profile_pic": "../../images/profile/default_m.jpg",
+        "desc": "",
+        "GitHub": "",
+        "LinkedIn": ""
+    }
+
 ]

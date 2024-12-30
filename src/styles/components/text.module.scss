@@ -1,6 +1,6 @@
 @import "../variables.scss";
 
-$imgWidth: 10px;
+$imgWidth: 20px;
 
 .text {
 	&-container {
@@ -16,11 +16,11 @@ $imgWidth: 10px;
 		font-size: 2.8rem;
 		font-weight: 900;
 		text-align: center;
-
 		@media (max-width: $breakpoint-phone) {
-			top: 35%;
+			top: 32%;
 			font-size: 1.8rem;
 			font-weight: 900;
+			margin-bottom: 15vh;
 		}
 
 		@media (min-width: $breakpoint-phone) and (max-width: $breakpoint-tablet) {
@@ -41,7 +41,7 @@ $imgWidth: 10px;
 		font-weight: 400;
 		text-align: center;
 		width: 100%;
-
+		
 		@media (max-width: $breakpoint-phone) {
 			top: 60%;
 		}
@@ -59,6 +59,7 @@ $imgWidth: 10px;
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
+		
 	}
 
 	&-card:first-child {
@@ -75,6 +76,7 @@ $imgWidth: 10px;
 		height: $imgWidth;
 	}
 
+
 	&-image3 {
 		display: block;
 		position: absolute;
@@ -89,22 +91,31 @@ $imgWidth: 10px;
 		display: block;
 		position: absolute;
 		top: 80%;
-		right: 35%;
-		width: 4%;
+		right: 30%;
+		width: 6%;
 		animation: mover 18s infinite linear;
 	}
 
 	&-image5 {
-		display: block;
-		border-radius: 50%;
-		position: absolute;
-		bottom: 5%;
-		left: 30%;
-		transform: rotate(15deg);
-		width: 4%;
-		min-width: 60px;
-		animation: rotation 20s infinite linear;
-	}
+        display: block;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 5%;
+        left: 40%;
+        transform: rotate(15deg);
+        width: 14%; // Increased from 4% to 6%
+        min-width: 80px; // Increased from 60px to 80px
+        animation: rotation 20s infinite linear;
+    }
+    &-image6 {
+        display: block;
+        position: absolute;
+        top: 10%;
+        left: 65%;
+        width: 4%;
+        min-width: 70px;
+        animation: mover 15s infinite linear;
+    }
 
 	@keyframes rotation {
 		from {

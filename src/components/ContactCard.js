@@ -40,9 +40,24 @@ function ContactCard() {
 						Vile Parle, Mumbai - 400 055
 					</div>
 				</div>
+				<div className={styles.cardContent}>
+        <div className={styles.cardContentDetail}>
+          <div style={{ maxWidth: '100%', listStyle: 'none', transition: 'none', overflow: 'hidden', width: '450px', height: '150px' }}>
+            <div id="embed-map-canvas" style={{ height: '100%', width: '100%', maxWidth: '100%' }}>
+              <iframe
+                style={{ height: '100%', width: '100%', border: '0' }}
+                frameBorder="0"
+                src="https://www.google.com/maps/embed/v1/place?q=Dwarkadas+J+Sanghvi&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
 			</div>
 		</div>
 	);
 }
+
 
 export default ContactCard;

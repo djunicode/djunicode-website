@@ -20,6 +20,8 @@ import nodeJsImage from "../images/techStacks/nodejs.svg";
 import reactImage from "../images/techStacks/react.svg";
 import flutterImage from "../images/about/Flutter.svg";
 import gitImage from "../images/techStacks/git.svg";
+import blockchainImage from "../images/techStacks/blockchain.svg";
+import figmaImage from "../images/techStacks/figma.svg";
 import { Hidden } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
@@ -178,7 +180,7 @@ export default function MainText() {
 			<Hidden smUp>
 				{/* 210+ Members on small screen */}
 				<Grid container>
-					<Grid item xs={12}>
+				<Grid item xs={12} sm={4}>
 						<Paper elevation={0} className={classes.greenbgPaperSM} />
 						<Paper elevation={0} className={classes.greenPaperSM}>
 							<Grid
@@ -255,7 +257,7 @@ export default function MainText() {
 								<div className={styles.textAnimated}>
 									<ComputerIcon />
 									&nbsp;
-									<b>15+</b>
+									<b>20+</b>
 								</div>
 								Projects
 							</Grid>
@@ -273,11 +275,11 @@ export default function MainText() {
 							wrap="wrap"
 							spacing={1}
 						>
-							<Grid xs={4}>
+							<Grid xs={4} >
 								<div className={styles.textAnimated}>
 									<UserCircleIcon />
 									&nbsp;
-									<b>210+</b>
+									<b>300+</b>
 								</div>
 								members
 							</Grid>
@@ -294,6 +296,7 @@ export default function MainText() {
 							justifyContent="center"
 							wrap="wrap"
 							spacing={1}
+							
 						>
 							<Grid xs={4}>
 								<div className={styles.textAnimated}>
@@ -307,14 +310,16 @@ export default function MainText() {
 					</Paper>
 
 					<img src={djangoImage} alt="logo" className={classes.image} />
-					<img src={nodeJsImage} alt="logo" className={classes.image2} />
-					<div className={styles.textImage}>
-						<img src={gitImage} alt="logo" className={styles.textImage3} />
-					</div>
-					<div className={styles.textImage}>
-						<img src={flutterImage} alt="logo" className={styles.textImage4} />
-					</div>
-					<img src={reactImage} alt="logo" className={styles.textImage5} />
+                    <img src={nodeJsImage} alt="logo" className={classes.image2} />
+                    <img src={blockchainImage} alt="logo" className={classes.image2} style={{marginTop:'40vh',marginLeft:'15vw'}}/>
+                    <div className={styles.textImage}>
+                        <img src={gitImage} alt="logo" className={styles.textImage3} />
+                    </div>
+                    <div className={styles.textImage}>
+                        <img src={flutterImage} alt="logo" className={styles.textImage4} />
+                    </div>
+                    <img src={reactImage} alt="logo" className={styles.textImage5} />
+                    <img src={figmaImage} alt="logo" className={styles.textImage6} />
 				</div>
 			</Hidden>
 			<Hidden smUp>
@@ -323,7 +328,7 @@ export default function MainText() {
 					style={{ position: "absolute", bottom: "3%" }}
 					alignItems="center"
 				>
-					<Grid item xs={6}>
+					<Grid item xs={12} sm={4}>
 						<Paper elevation={0} className={classes.greensmallPaperSM}>
 							<Grid
 								className={classes.grid}
@@ -346,10 +351,11 @@ export default function MainText() {
 							</Grid>
 						</Paper>
 					</Grid>
-					<Grid item xs={6}>
+					<Grid item xs={12} sm={4}>
 						<Paper elevation={0} className={classes.bluePaperSM}>
 							<Grid
 								className={classes.grid}
+								id="projects"
 								container
 								direction="row"
 								alignContent="center"
@@ -362,7 +368,7 @@ export default function MainText() {
 									<div className={styles.textAnimated}>
 										<ComputerIcon />
 										&nbsp;
-										<b>15+</b>
+										<b>50+</b>
 									</div>
 									Projects
 								</Grid>
