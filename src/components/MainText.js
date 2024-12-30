@@ -21,7 +21,7 @@ import reactImage from "../images/techStacks/react.svg";
 import flutterImage from "../images/about/Flutter.svg";
 import gitImage from "../images/techStacks/git.svg";
 import blockchainImage from "../images/techStacks/blockchain.svg";
-import figmaImage from "../images/techStacks/figma.svg";
+import figmaImage from "../images/techStacks/Figma.svg";
 import { Hidden } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
