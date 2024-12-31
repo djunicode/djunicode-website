@@ -22,13 +22,14 @@ function ContactCard() {
 						djsceunicode@gmail.com
 					</div>
 				</a>
-				<a className={styles.cardContent} href="tel:+917021302112">
+				<a className={styles.cardContent} href="tel:+919920257681">
 					<div className={styles.cardContentIcon + " " + styles.alternate}>
 						<PhoneIcon />
 					</div>
 					<div className={styles.cardContentDetail}>
-						+91 70213 02112
+						+91 99202 57681
 					</div>
+					
 				</a>
 				<div className={styles.cardContent}>
 					<div className={styles.cardContentIcon}>
