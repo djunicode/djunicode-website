@@ -28,6 +28,7 @@
     "aos": "^2.3.4",
     "axios": "^0.21.1",
     "clsx": "^2.1.1",
+    "djunicode-website": "file:",
     "form-data": "^4.0.0",
     "formik": "^2.2.9",
     "gatsby": "^3.10.1",
